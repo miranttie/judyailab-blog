@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Engineering on Judy AI Lab</title>
+    <link>https://judyailab.com/blog/en/categories/ai-engineering/</link>
+    <description>Recent content in AI Engineering on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/blog/en/categories/ai-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an AI Multi-Agent Team from Scratch: Our Real Experience</title>
+      <link>https://judyailab.com/blog/en/posts/building-ai-agent-team/</link>
+      <pubDate>Thu, 05 Mar 2026 11:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/blog/en/posts/building-ai-agent-team/</guid>
+      <description>We run a team of 6 AI agents handling everything from code development to trade execution daily. This isn&amp;rsquo;t a toy demo—it&amp;rsquo;s a real production system. This documents our journey from chaos to stability.</description>
+    </item>
+  </channel>
+</rss>

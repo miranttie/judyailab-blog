@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Announcement on Judy AI Lab</title>
+    <link>https://judyailab.com/blog/en/tags/announcement/</link>
+    <description>Recent content in Announcement on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/blog/en/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World: Judy AI Lab is Live</title>
+      <link>https://judyailab.com/blog/en/posts/hello-world/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/blog/en/posts/hello-world/</guid>
+      <description>Welcome to Judy AI Lab! This is our first post — a brief introduction to what we do.</description>
+    </item>
+  </channel>
+</rss>

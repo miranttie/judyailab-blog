@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://judyailab.com/blog/sitemap.xml

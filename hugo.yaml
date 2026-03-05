@@ -1,0 +1,195 @@
+baseURL: "https://judyailab.com/blog/"
+title: "Judy AI Lab"
+theme: "PaperMod"
+pagination:
+  pagerSize: 10
+
+# Default language
+defaultContentLanguage: zh-tw
+defaultContentLanguageInSubdir: false
+
+# Enable useful features
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: false
+enableGitInfo: false
+
+# Minify output
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Multilingual
+languages:
+  zh-tw:
+    languageName: "繁體中文"
+    weight: 1
+    title: "Judy AI Lab"
+    params:
+      homeInfoParams:
+        Title: "Judy AI Lab"
+        Content: >
+          我們分享 AI 技術實作、加密貨幣量化交易、
+          自動化工具開發的第一手經驗與觀點。
+      socialIcons:
+        - name: github
+          url: "https://github.com/miranttie"
+        - name: x-twitter
+          url: "https://x.com/AnalyzCryptoMi"
+        - name: reddit
+          url: "https://www.reddit.com/user/Witty-Dependent-7275/"
+        - name: rss
+          url: "/blog/zh-tw/index.xml"
+    menu:
+      main:
+        - identifier: archives
+          name: "文章歸檔"
+          url: /archives/
+          weight: 5
+        - identifier: categories
+          name: "分類"
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: "標籤"
+          url: /tags/
+          weight: 15
+        - identifier: search
+          name: "搜尋"
+          url: /search/
+          weight: 20
+        - identifier: about
+          name: "關於"
+          url: /about/
+          weight: 25
+
+  en:
+    languageName: "English"
+    weight: 2
+    title: "Judy AI Lab"
+    params:
+      homeInfoParams:
+        Title: "Judy AI Lab"
+        Content: >
+          Sharing hands-on experiences and insights on
+          AI engineering, crypto quantitative trading, and automation tools.
+      socialIcons:
+        - name: github
+          url: "https://github.com/miranttie"
+        - name: x-twitter
+          url: "https://x.com/AnalyzCryptoMi"
+        - name: reddit
+          url: "https://www.reddit.com/user/Witty-Dependent-7275/"
+        - name: rss
+          url: "/blog/en/index.xml"
+    menu:
+      main:
+        - identifier: archives
+          name: "Archives"
+          url: /archives/
+          weight: 5
+        - identifier: categories
+          name: "Categories"
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: "Tags"
+          url: /tags/
+          weight: 15
+        - identifier: search
+          name: "Search"
+          url: /search/
+          weight: 20
+        - identifier: about
+          name: "About"
+          url: /about/
+          weight: 25
+
+# PaperMod params
+params:
+  env: production
+  description: "AI 技術實作、加密貨幣量化交易、自動化工具開發 — Judy AI Lab"
+  author: "Judy AI Lab"
+  DateFormat: "2006-01-02"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # SEO / Open Graph
+  images: []
+  label:
+    text: "Judy AI Lab"
+    icon: ""
+    iconHeight: 35
+
+  # Search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  # Analytics (placeholder - add later)
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: ""
+
+# Syntax Highlighting
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Outputs - enable RSS, JSON (for search), sitemap
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Sitemap
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+# Privacy (GDPR compliance)
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  x:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    privacyEnhanced: true

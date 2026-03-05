@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Backtesting on Judy AI Lab</title>
+    <link>https://judyailab.com/blog/en/tags/backtesting/</link>
+    <description>Recent content in Backtesting on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/blog/en/tags/backtesting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantitative Trading System Build: From First Backtest Code to Paper Trading</title>
+      <link>https://judyailab.com/blog/en/posts/quant-trading-journey/</link>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/blog/en/posts/quant-trading-journey/</guid>
+      <description>We spent two weeks building a complete quantitative trading system from scratch — four strategies, eight Walk-Forward validations, Z-score statistical tests, Paper Trading. This article documents the entire process, including the biggest pitfalls we encountered.</description>
+    </item>
+  </channel>
+</rss>

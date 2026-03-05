@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>開發者工具 on Judy AI Lab</title>
+    <link>https://judyailab.com/blog/tags/%E9%96%8B%E7%99%BC%E8%80%85%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 開發者工具 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 05 Mar 2026 14:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/blog/tags/%E9%96%8B%E7%99%BC%E8%80%85%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code Skill 終於能測試了！官方 Skill Creator 五大更新解析</title>
+      <link>https://judyailab.com/blog/posts/skill-creator-update/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/blog/posts/skill-creator-update/</guid>
+      <description>Skill Creator 重大更新：Eval 測試、Benchmark、A/B 盲測、多代理平行、觸發優化——從「我覺得沒問題」到「我確定沒問題」。</description>
+    </item>
+  </channel>
+</rss>
