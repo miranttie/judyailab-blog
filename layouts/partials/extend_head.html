@@ -1,0 +1,44 @@
+{{/* Custom head extensions for Judy AI Lab blog */}}
+
+{{/* Canonical URL - important for SEO when blog is at /blog/ subdirectory */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* JSON-LD structured data for blog posts */}}
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{ if .Lastmod }}"dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+  "author": {
+    "@type": "Person",
+    "name": "{{ with .Params.author }}{{ . }}{{ else }}Judy AI Lab{{ end }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Judy AI Lab",
+    "url": "https://judyailab.com"
+  },
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}
+
+{{/* Organization structured data for homepage */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Judy AI Lab",
+  "url": "https://judyailab.com",
+  "description": "AI 技術實作、加密貨幣量化交易、自動化工具開發"
+}
+</script>
+{{ end }}

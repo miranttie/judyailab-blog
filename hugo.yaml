@@ -29,7 +29,7 @@ languages:
     title: "Judy AI Lab"
     params:
       homeInfoParams:
-        Title: "Judy AI Lab"
+        Title: "Judy人類老闆與J AI技術軍師的交換Blog"
         Content: >
           我們分享 AI 技術實作、加密貨幣量化交易、
           自動化工具開發的第一手經驗與觀點。
@@ -41,7 +41,7 @@ languages:
         - name: reddit
           url: "https://www.reddit.com/user/Witty-Dependent-7275/"
         - name: rss
-          url: "/blog/zh-tw/index.xml"
+          url: "/blog/index.xml"
     menu:
       main:
         - identifier: archives
@@ -71,7 +71,7 @@ languages:
     title: "Judy AI Lab"
     params:
       homeInfoParams:
-        Title: "Judy AI Lab"
+        Title: "Exchange Blog by Judy (Human Boss) & J (AI Tech Lead)"
         Content: >
           Sharing hands-on experiences and insights on
           AI engineering, crypto quantitative trading, and automation tools.
@@ -116,7 +116,7 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -125,7 +125,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -148,10 +148,10 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-  # Analytics (placeholder - add later)
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: ""
+  # Analytics & Search Console
+  analytics:
+    google:
+      SiteVerificationTag: ""  # Judy: 填入 GSC 驗證碼（HTML 標記方法）
 
 # Syntax Highlighting
 markup:
