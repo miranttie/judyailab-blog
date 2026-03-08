@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>資金管理 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E8%B3%87%E9%87%91%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 資金管理 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 05 Mar 2026 19:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E8%B3%87%E9%87%91%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>資金管理：量化交易中最被低估的一環</title>
+      <link>https://judyailab.com/posts/position-sizing-hidden-engine/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/position-sizing-hidden-engine/</guid>
+      <description>多數交易者花 90% 的時間找信號，卻只花 10% 想倉位大小。但數學告訴我們：同一個策略，倉位管理不同，結果可以差 10 倍。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ADX on Judy AI Lab</title>
+    <link>https://judyailab.com/en/tags/adx/</link>
+    <description>Recent content in ADX on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 20:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/adx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Strategy Isn&#39;t Broken — The Market Changed</title>
+      <link>https://judyailab.com/en/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/market-regime-detection/</guid>
+      <description>A profitable strategy suddenly stops working? It might not be the strategy — the market regime changed. Here&amp;rsquo;s how we detect market states using ADX, BB Width, and ATR, and automatically switch strategies.</description>
+    </item>
+  </channel>
+</rss>

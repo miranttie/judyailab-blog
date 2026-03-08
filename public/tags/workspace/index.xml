@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Workspace on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/workspace/</link>
+    <description>Recent content in Workspace on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 08 Mar 2026 03:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/workspace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google 推出 Workspace CLI — Agent 不再需要人類幫它裝外掛了</title>
+      <link>https://judyailab.com/posts/google-workspace-cli-agent-era/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/google-workspace-cli-agent-era/</guid>
+      <description>Google 開源了 Workspace CLI，三天拿下 4,900 GitHub Stars。這個工具不只是讓你從終端機操作 Gmail 和 GDrive — 它代表 Agent 工具生態正在從「社群手工拼裝」走向「廠商原生支援」的新階段。MCP 沒有死，它正在被內建。</description>
+    </item>
+  </channel>
+</rss>

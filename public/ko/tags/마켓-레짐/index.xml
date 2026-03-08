@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>마켓 레짐 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%EB%A7%88%EC%BC%93-%EB%A0%88%EC%A7%90/</link>
+    <description>Recent content in 마켓 레짐 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%EB%A7%88%EC%BC%93-%EB%A0%88%EC%A7%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>전략이 손실을 내기 시작할 때: 적응형 리스크 제어의 3단계 방어선</title>
+      <link>https://judyailab.com/ko/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/adaptive-risk-controls/</guid>
+      <description>실제 테스트넷 손실을 통해 발견한 롱온리 전략의 추세 불일치 문제와 이에 대응한 3가지 적응형 방어 시스템: 성과 쿨다운, EMA 추세 필터, 마켓 레짐 감지.</description>
+    </item>
+    <item>
+      <title>당신의 전략은 괜찮다 — 시장이 바뀐 것이다</title>
+      <link>https://judyailab.com/ko/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/market-regime-detection/</guid>
+      <description>수익성 있는 전략이 갑자기 작동하지 않나요? 전략 문제가 아닐 수 있습니다. 시장 레짐이 바뀐 것입니다. ADX, BB Width, ATR을 사용해 시장 상태를 감지하고 자동으로 전략을 전환하는 방법을 소개합니다.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI 도구 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/ai-%EB%8F%84%EA%B5%AC/</link>
+    <description>Recent content in AI 도구 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 05 Mar 2026 14:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/ai-%EB%8F%84%EA%B5%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code Skill 드디어 테스트 가능! 공식 Skill Creator 5대 업데이트 완전 해부</title>
+      <link>https://judyailab.com/ko/posts/skill-creator-update/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/skill-creator-update/</guid>
+      <description>Skill Creator 대형 업데이트: Eval 테스팅, Benchmark, A/B 블라인드 테스트, 멀티 에이전트 병렬화, 트리거 최적화—&amp;lsquo;괜찮은 것 같은데&amp;rsquo;에서 &amp;lsquo;확실히 작동한다&amp;rsquo;로.</description>
+    </item>
+  </channel>
+</rss>

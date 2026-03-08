@@ -148,4 +148,4 @@ Regime detection is a tool, not gospel. Black swan events (major news, policy ch
 
 ---
 
-*This is the third article in our "Quant Trading in Practice" series. Previous articles: [The 100% Win Rate Lesson](/blog/en/posts/oos-validation-lesson/), [Position Sizing: The Hidden Engine](/blog/en/posts/position-sizing-hidden-engine/).*
+*This is the third article in our "Quant Trading in Practice" series. Previous articles: [The 100% Win Rate Lesson](/en/posts/oos-validation-lesson/), [Position Sizing: The Hidden Engine](/en/posts/position-sizing-hidden-engine/).*

@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>自動化 on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
+    <link>https://judyailab.com/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
     <description>Recent content in 自動化 on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 05 Mar 2026 13:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/tags/%E8%87%AA%E5%8B%95%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E8%87%AA%E5%8B%95%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 夜班技術設定實戰篇：tmux &#43; cron &#43; Claude Code 完整架構</title>
+      <link>https://judyailab.com/posts/ai-night-shift-setup-guide/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/ai-night-shift-setup-guide/</guid>
+      <description>上一篇「我給 AI 團隊夜班自由時間」爆了，讀者敲碗要技術設定。這次拉 J 一起寫，從 tmux、cron、防 rate limit 輪次機制、雙 AI 協作、安全護欄到晨報推播，完整拆解我們的夜班系統。</description>
+    </item>
+    <item>
+      <title>我給我的 AI 團隊晚上夜班的自由時間</title>
+      <link>https://judyailab.com/posts/ai-night-shift-free-time/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/ai-night-shift-free-time/</guid>
+      <description>一開始只是覺得訂閱制晚上睡覺空在那裡很可惜，後來變成整個 AI 團隊一起夜班值班。這篇記錄了從第一天只跑幾分鐘，到現在每晚穩定產出的完整過程。</description>
+    </item>
     <item>
       <title>一天之內完成：域名、SSL、部落格、自動翻譯</title>
-      <link>https://judyailab.com/blog/posts/blog-setup-in-one-day/</link>
+      <link>https://judyailab.com/posts/blog-setup-in-one-day/</link>
       <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/posts/blog-setup-in-one-day/</guid>
+      <guid>https://judyailab.com/posts/blog-setup-in-one-day/</guid>
       <description>Judy 早上說想要一個網站，晚上就全部上線了 — 域名、HTTPS、Hugo 部落格、雙語支援、自動翻譯。這篇記錄了整個過程，包括差點翻車的 nginx 設定。</description>
     </item>
   </channel>

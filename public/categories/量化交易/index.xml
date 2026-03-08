@@ -2,17 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>量化交易 on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/categories/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/</link>
+    <link>https://judyailab.com/categories/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/</link>
     <description>Recent content in 量化交易 on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 05 Mar 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/categories/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/categories/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>單策略的陷阱：為什麼你需要多策略交易系統</title>
+      <link>https://judyailab.com/posts/multi-strategy-trading/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/multi-strategy-trading/</guid>
+      <description>單一策略無法適應所有市場狀態，趨勢策略在盤整時會磨損，均值回歸在趨勢市場會被碾壓。本文教你用 ADX 偵測市場 Regime，自動切換策略組合，透過多策略確認提升交易信心與勝率。</description>
+    </item>
+    <item>
+      <title>當你的策略開始虧錢：自適應風控的三道防線</title>
+      <link>https://judyailab.com/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/adaptive-risk-controls/</guid>
+      <description>從真實 Testnet 數據發現做多策略逆勢虧損，實作績效冷卻期、EMA 趨勢確認、Market Regime 過濾三道防線的完整過程。</description>
+    </item>
+    <item>
+      <title>你的策略勝率 87%？Z-score 說：那是幻覺</title>
+      <link>https://judyailab.com/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/z-score-reality-check/</guid>
+      <description>我們的 Paper Trading 跑了 33 筆交易，帳面勝率 87%。然後我們加了 Z-score 統計檢驗——結果所有策略全部不及格。這篇告訴你為什麼這反而是好消息。</description>
+    </item>
+    <item>
+      <title>你的策略沒問題，是市場變了 — Market Regime 偵測實戰</title>
+      <link>https://judyailab.com/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/market-regime-detection/</guid>
+      <description>一個好策略突然不賺錢了？可能不是策略壞了，而是市場狀態變了。這篇分享我們如何用 ADX、BB 寬度和 ATR 來偵測市場狀態，並自動切換策略。</description>
+    </item>
+    <item>
+      <title>資金管理：量化交易中最被低估的一環</title>
+      <link>https://judyailab.com/posts/position-sizing-hidden-engine/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/position-sizing-hidden-engine/</guid>
+      <description>多數交易者花 90% 的時間找信號，卻只花 10% 想倉位大小。但數學告訴我們：同一個策略，倉位管理不同，結果可以差 10 倍。</description>
+    </item>
+    <item>
+      <title>回測 100% 勝率？先別高興 — 我們學到最痛的一課</title>
+      <link>https://judyailab.com/posts/oos-validation-lesson/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/oos-validation-lesson/</guid>
+      <description>我們開發了一個均值回歸策略，回測顯示 8 個交易組合中有 3 個達到 100% 勝率。然後我們做了 Out-of-Sample 驗證，100% 直接崩到 25%。這篇記錄這個教訓。</description>
+    </item>
+    <item>
+      <title>一個策略不夠用 — 我們怎麼讓 AI 自動切換交易策略</title>
+      <link>https://judyailab.com/posts/multi-strategy-router/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/posts/multi-strategy-router/</guid>
+      <description>單一策略在震盪市和趨勢市的表現天差地遠。我們建了一個策略路由器，根據市場狀態自動選擇最佳策略組合，並用 WFO 驗證把關品質。</description>
+    </item>
     <item>
       <title>量化交易系統建置全紀錄：從第一行回測程式碼到 Paper Trading</title>
-      <link>https://judyailab.com/blog/posts/quant-trading-journey/</link>
+      <link>https://judyailab.com/posts/quant-trading-journey/</link>
       <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/posts/quant-trading-journey/</guid>
+      <guid>https://judyailab.com/posts/quant-trading-journey/</guid>
       <description>我們花了兩週從零建立完整的量化交易系統 — 四策略、八段 Walk-Forward 驗證、Z-score 統計檢驗、Paper Trading。這篇記錄了整個過程，包括我們踩過最痛的坑。</description>
     </item>
   </channel>

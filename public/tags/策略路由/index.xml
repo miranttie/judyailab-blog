@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>策略路由 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E7%AD%96%E7%95%A5%E8%B7%AF%E7%94%B1/</link>
+    <description>Recent content in 策略路由 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 05 Mar 2026 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E7%AD%96%E7%95%A5%E8%B7%AF%E7%94%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一個策略不夠用 — 我們怎麼讓 AI 自動切換交易策略</title>
+      <link>https://judyailab.com/posts/multi-strategy-router/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/posts/multi-strategy-router/</guid>
+      <description>單一策略在震盪市和趨勢市的表現天差地遠。我們建了一個策略路由器，根據市場狀態自動選擇最佳策略組合，並用 WFO 驗證把關品質。</description>
+    </item>
+  </channel>
+</rss>

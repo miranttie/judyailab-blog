@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>팀 아키텍처 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%ED%8C%80-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/</link>
+    <description>Recent content in 팀 아키텍처 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 05 Mar 2026 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%ED%8C%80-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 멀티 에이전트 팀을 처음부터 구축하기: 우리의 실제 경험</title>
+      <link>https://judyailab.com/ko/posts/building-ai-agent-team/</link>
+      <pubDate>Thu, 05 Mar 2026 11:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/building-ai-agent-team/</guid>
+      <description>우리는 코드 개발부터 트레이드 실행까지 모든 것을 매일 처리하는 6개의 AI 에이전트 팀을 운영하고 있습니다. 이것은 장난감 데모가 아니라 실제 프로덕션 시스템입니다. 이 글은 혼돈에서 안정성까지의 우리 여정을 기록합니다.</description>
+    </item>
+  </channel>
+</rss>

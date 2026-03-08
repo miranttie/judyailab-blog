@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/tags/python/</link>
+    <link>https://judyailab.com/tags/python/</link>
     <description>Recent content in Python on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 05 Mar 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://judyailab.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>量化交易系統建置全紀錄：從第一行回測程式碼到 Paper Trading</title>
-      <link>https://judyailab.com/blog/posts/quant-trading-journey/</link>
+      <link>https://judyailab.com/posts/quant-trading-journey/</link>
       <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/posts/quant-trading-journey/</guid>
+      <guid>https://judyailab.com/posts/quant-trading-journey/</guid>
       <description>我們花了兩週從零建立完整的量化交易系統 — 四策略、八段 Walk-Forward 驗證、Z-score 統計檢驗、Paper Trading。這篇記錄了整個過程，包括我們踩過最痛的坑。</description>
     </item>
   </channel>

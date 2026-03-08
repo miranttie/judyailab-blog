@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kelly Criterion on Judy AI Lab</title>
+    <link>https://judyailab.com/en/tags/kelly-criterion/</link>
+    <description>Recent content in Kelly Criterion on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 19:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/kelly-criterion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Position Sizing: The Most Underrated Part of Quantitative Trading</title>
+      <link>https://judyailab.com/en/posts/position-sizing-hidden-engine/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/position-sizing-hidden-engine/</guid>
+      <description>Most traders spend 90% of their time finding signals and 10% thinking about position size. But math shows: the same strategy with different position sizing can produce results that differ by 10x.</description>
+    </item>
+  </channel>
+</rss>

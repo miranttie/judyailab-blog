@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bollinger Bands on Judy AI Lab</title>
+    <link>https://judyailab.com/en/tags/bollinger-bands/</link>
+    <description>Recent content in Bollinger Bands on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/bollinger-bands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Single Strategy Trap: Why You Need a Multi-Strategy Trading System</title>
+      <link>https://judyailab.com/en/posts/multi-strategy-trading/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/multi-strategy-trading/</guid>
+      <description>A single strategy can&amp;#39;t adapt to all market conditions - trend strategies get worn down in ranging markets, and mean reversion strategies get crushed in trending markets. This article teaches you how to use ADX to detect market regimes, automatically switch strategy combinations, and boost trading confidence and win rate through multi-strategy confirmation.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ADX on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/adx/</link>
+    <description>Recent content in ADX on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 05 Mar 2026 20:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/adx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你的策略沒問題，是市場變了 — Market Regime 偵測實戰</title>
+      <link>https://judyailab.com/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/market-regime-detection/</guid>
+      <description>一個好策略突然不賺錢了？可能不是策略壞了，而是市場狀態變了。這篇分享我們如何用 ADX、BB 寬度和 ATR 來偵測市場狀態，並自動切換策略。</description>
+    </item>
+  </channel>
+</rss>

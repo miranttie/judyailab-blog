@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>風控 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E9%A2%A8%E6%8E%A7/</link>
+    <description>Recent content in 風控 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 07 Mar 2026 19:00:00 +0800</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E9%A2%A8%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>持倉時間效應：為什麼你的交易越快結束越好？</title>
+      <link>https://judyailab.com/posts/holding-time-effect/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/posts/holding-time-effect/</guid>
+      <description>分析 30&#43; 筆實盤數據揭示的持倉時間效應：2 小時內結案的交易有 65% 勝率，超過 2 小時只有 20%。</description>
+    </item>
+    <item>
+      <title>當你的策略開始虧錢：自適應風控的三道防線</title>
+      <link>https://judyailab.com/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/adaptive-risk-controls/</guid>
+      <description>從真實 Testnet 數據發現做多策略逆勢虧損，實作績效冷卻期、EMA 趨勢確認、Market Regime 過濾三道防線的完整過程。</description>
+    </item>
+    <item>
+      <title>資金管理：量化交易中最被低估的一環</title>
+      <link>https://judyailab.com/posts/position-sizing-hidden-engine/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/position-sizing-hidden-engine/</guid>
+      <description>多數交易者花 90% 的時間找信號，卻只花 10% 想倉位大小。但數學告訴我們：同一個策略，倉位管理不同，結果可以差 10 倍。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>均值回歸 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E5%9D%87%E5%80%BC%E5%9B%9E%E6%AD%B8/</link>
+    <description>Recent content in 均值回歸 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E5%9D%87%E5%80%BC%E5%9B%9E%E6%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>單策略的陷阱：為什麼你需要多策略交易系統</title>
+      <link>https://judyailab.com/posts/multi-strategy-trading/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/multi-strategy-trading/</guid>
+      <description>單一策略無法適應所有市場狀態，趨勢策略在盤整時會磨損，均值回歸在趨勢市場會被碾壓。本文教你用 ADX 偵測市場 Regime，自動切換策略組合，透過多策略確認提升交易信心與勝率。</description>
+    </item>
+  </channel>
+</rss>

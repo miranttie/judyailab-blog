@@ -2,17 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Quantitative Trading on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/en/categories/quantitative-trading/</link>
+    <link>https://judyailab.com/en/categories/quantitative-trading/</link>
     <description>Recent content in Quantitative Trading on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/en/categories/quantitative-trading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/categories/quantitative-trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Single Strategy Trap: Why You Need a Multi-Strategy Trading System</title>
+      <link>https://judyailab.com/en/posts/multi-strategy-trading/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/multi-strategy-trading/</guid>
+      <description>A single strategy can&amp;#39;t adapt to all market conditions - trend strategies get worn down in ranging markets, and mean reversion strategies get crushed in trending markets. This article teaches you how to use ADX to detect market regimes, automatically switch strategy combinations, and boost trading confidence and win rate through multi-strategy confirmation.</description>
+    </item>
+    <item>
+      <title>When Your Strategy Starts Losing: Three Lines of Adaptive Risk Control</title>
+      <link>https://judyailab.com/en/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/adaptive-risk-controls/</guid>
+      <description>How real Testnet losses revealed a trend mismatch in our long-only strategy, and the three adaptive defenses we built: performance cooldown, EMA trend filter, and Market Regime detection.</description>
+    </item>
+    <item>
+      <title>Your Strategy Has 87% Win Rate? Z-Score Says: That&#39;s an Illusion</title>
+      <link>https://judyailab.com/en/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/z-score-reality-check/</guid>
+      <description>Our paper trading system ran 33 trades with an 87% win rate on paper. Then we added Z-score statistical testing — and every single strategy failed. Here&amp;#39;s why that&amp;#39;s actually good news.</description>
+    </item>
+    <item>
+      <title>Your Strategy Isn&#39;t Broken — The Market Changed</title>
+      <link>https://judyailab.com/en/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/market-regime-detection/</guid>
+      <description>A profitable strategy suddenly stops working? It might not be the strategy — the market regime changed. Here&amp;rsquo;s how we detect market states using ADX, BB Width, and ATR, and automatically switch strategies.</description>
+    </item>
+    <item>
+      <title>Position Sizing: The Most Underrated Part of Quantitative Trading</title>
+      <link>https://judyailab.com/en/posts/position-sizing-hidden-engine/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/position-sizing-hidden-engine/</guid>
+      <description>Most traders spend 90% of their time finding signals and 10% thinking about position size. But math shows: the same strategy with different position sizing can produce results that differ by 10x.</description>
+    </item>
+    <item>
+      <title>100% Win Rate in Backtesting? Don&#39;t Celebrate Yet — Our Most Painful Lesson</title>
+      <link>https://judyailab.com/en/posts/oos-validation-lesson/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/oos-validation-lesson/</guid>
+      <description>We developed a mean reversion strategy. Backtesting showed 3 out of 8 combinations hitting 100% win rate. Then we ran Out-of-Sample validation, and 100% crashed to 25%. Here&amp;rsquo;s what happened.</description>
+    </item>
+    <item>
+      <title>One Strategy Isn&#39;t Enough — How We Built an AI Strategy Router</title>
+      <link>https://judyailab.com/en/posts/multi-strategy-router/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/en/posts/multi-strategy-router/</guid>
+      <description>A single strategy performs dramatically different in trending vs ranging markets. We built a strategy router that automatically selects the best strategy based on market regime, with WFO validation as a quality gate.</description>
+    </item>
     <item>
       <title>Quantitative Trading System Build: From First Backtest Code to Paper Trading</title>
-      <link>https://judyailab.com/blog/en/posts/quant-trading-journey/</link>
+      <link>https://judyailab.com/en/posts/quant-trading-journey/</link>
       <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/posts/quant-trading-journey/</guid>
+      <guid>https://judyailab.com/en/posts/quant-trading-journey/</guid>
       <description>We spent two weeks building a complete quantitative trading system from scratch — four strategies, eight Walk-Forward validations, Z-score statistical tests, Paper Trading. This article documents the entire process, including the biggest pitfalls we encountered.</description>
     </item>
   </channel>

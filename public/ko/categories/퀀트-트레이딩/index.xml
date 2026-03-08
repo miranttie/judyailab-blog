@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>퀀트 트레이딩 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/categories/%ED%80%80%ED%8A%B8-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9/</link>
+    <description>Recent content in 퀀트 트레이딩 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/categories/%ED%80%80%ED%8A%B8-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>단일 전략의 함정: 멀티 전략 트레이딩 시스템이 필요한 이유</title>
+      <link>https://judyailab.com/ko/posts/multi-strategy-trading/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/multi-strategy-trading/</guid>
+      <description>단일 전략은 모든 시장 상황에 적응할 수 없습니다. 추세 전략은 횡보장에서 소진되고, 평균 회귀 전략은 추세장에서 박살납니다. 이 글에서는 ADX를 사용해 시장 레짐을 감지하고, 자동으로 전략 조합을 전환하며, 멀티 전략 확인을 통해 트레이딩 신뢰도와 승률을 높이는 방법을 알려드립니다.</description>
+    </item>
+    <item>
+      <title>전략이 손실을 내기 시작할 때: 세 겹의 적응형 위험 관리</title>
+      <link>https://judyailab.com/ko/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/adaptive-risk-controls/</guid>
+      <description>실제 테스트넷 손실이 어떻게 우리 롱온리 전략의 트렌드 불일치를 드러냈는지, 그리고 우리가 구축한 세 가지 적응형 방어 장치: 성과 쿨다운, EMA 트렌드 필터, 시장 레짐 감지에 대해 알아봅니다.</description>
+    </item>
+    <item>
+      <title>당신의 전략이 승률 87%? Z-Score가 말합니다: 그것은 착각입니다</title>
+      <link>https://judyailab.com/ko/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/z-score-reality-check/</guid>
+      <description>우리의 페이퍼 트레이딩 시스템이 33번의 거래로 87% 승률을 기록했습니다. 그런데 Z-score 통계 테스트를 추가하자 모든 전략이 실패했습니다. 이것이 실제로는 좋은 소식인 이유를 알아보세요.</description>
+    </item>
+    <item>
+      <title>당신의 전략이 망가진 게 아닙니다 — 시장이 바뀐 것입니다</title>
+      <link>https://judyailab.com/ko/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/market-regime-detection/</guid>
+      <description>수익성 있던 전략이 갑자기 작동하지 않나요? 전략의 문제가 아닐 수 있습니다 — 시장 레짐이 바뀐 것입니다. ADX, BB Width, ATR을 사용해 시장 상태를 감지하고 자동으로 전략을 전환하는 방법을 알아보세요.</description>
+    </item>
+    <item>
+      <title>포지션 사이징: 퀀트 트레이딩에서 가장 과소평가된 부분</title>
+      <link>https://judyailab.com/ko/posts/position-sizing-hidden-engine/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/position-sizing-hidden-engine/</guid>
+      <description>대부분의 트레이더들은 시간의 90%를 신호 찾기에, 10%를 포지션 크기 고민에 투자합니다. 하지만 수학은 보여줍니다: 같은 전략이라도 포지션 사이징에 따라 결과가 10배나 달라질 수 있습니다.</description>
+    </item>
+    <item>
+      <title>백테스팅에서 100% 승률? 축하하기엔 이르다 — 우리의 가장 뼈아픈 교훈</title>
+      <link>https://judyailab.com/ko/posts/oos-validation-lesson/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/oos-validation-lesson/</guid>
+      <description>평균 회귀 전략을 개발했습니다. 백테스팅에서 8개 조합 중 3개가 100% 승률을 기록했죠. 그런데 아웃오브샘플 검증을 돌렸더니, 100%가 25%로 폭락했습니다. 무슨 일이 벌어졌는지 들려드립니다.</description>
+    </item>
+    <item>
+      <title>하나의 전략으로는 충분하지 않다 — AI 전략 라우터 구축기</title>
+      <link>https://judyailab.com/ko/posts/multi-strategy-router/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/ko/posts/multi-strategy-router/</guid>
+      <description>단일 전략은 트렌드 시장과 횡보 시장에서 극명하게 다른 성과를 보입니다. 마켓 레짐에 따라 자동으로 최적의 전략을 선택하는 전략 라우터를 구축했으며, WFO 검증을 품질 관리 게이트로 사용합니다.</description>
+    </item>
+    <item>
+      <title>퀀트 트레이딩 시스템 구축기: 첫 백테스팅 코드부터 페이퍼 트레이딩까지</title>
+      <link>https://judyailab.com/ko/posts/quant-trading-journey/</link>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/quant-trading-journey/</guid>
+      <description>2주 동안 퀀트 트레이딩 시스템을 처음부터 완성까지 구축했습니다 — 4개 전략, 8구간 워크포워드 검증, Z-점수 통계 검정, 페이퍼 트레이딩. 이 글은 그 전 과정과 가장 큰 함정들을 기록합니다.</description>
+    </item>
+  </channel>
+</rss>

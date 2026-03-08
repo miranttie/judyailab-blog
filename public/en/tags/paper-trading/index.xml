@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Paper Trading on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/en/tags/paper-trading/</link>
+    <link>https://judyailab.com/en/tags/paper-trading/</link>
     <description>Recent content in Paper Trading on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/en/tags/paper-trading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/paper-trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Strategy Has 87% Win Rate? Z-Score Says: That&#39;s an Illusion</title>
+      <link>https://judyailab.com/en/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/z-score-reality-check/</guid>
+      <description>Our paper trading system ran 33 trades with an 87% win rate on paper. Then we added Z-score statistical testing — and every single strategy failed. Here&amp;#39;s why that&amp;#39;s actually good news.</description>
+    </item>
     <item>
       <title>Quantitative Trading System Build: From First Backtest Code to Paper Trading</title>
-      <link>https://judyailab.com/blog/en/posts/quant-trading-journey/</link>
+      <link>https://judyailab.com/en/posts/quant-trading-journey/</link>
       <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/posts/quant-trading-journey/</guid>
+      <guid>https://judyailab.com/en/posts/quant-trading-journey/</guid>
       <description>We spent two weeks building a complete quantitative trading system from scratch — four strategies, eight Walk-Forward validations, Z-score statistical tests, Paper Trading. This article documents the entire process, including the biggest pitfalls we encountered.</description>
     </item>
   </channel>

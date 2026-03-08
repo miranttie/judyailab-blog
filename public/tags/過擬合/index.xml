@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>過擬合 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E9%81%8E%E6%93%AC%E5%90%88/</link>
+    <description>Recent content in 過擬合 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E9%81%8E%E6%93%AC%E5%90%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你的策略勝率 87%？Z-score 說：那是幻覺</title>
+      <link>https://judyailab.com/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/z-score-reality-check/</guid>
+      <description>我們的 Paper Trading 跑了 33 筆交易，帳面勝率 87%。然後我們加了 Z-score 統計檢驗——結果所有策略全部不及格。這篇告訴你為什麼這反而是好消息。</description>
+    </item>
+    <item>
+      <title>回測 100% 勝率？先別高興 — 我們學到最痛的一課</title>
+      <link>https://judyailab.com/posts/oos-validation-lesson/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/oos-validation-lesson/</guid>
+      <description>我們開發了一個均值回歸策略，回測顯示 8 個交易組合中有 3 個達到 100% 勝率。然後我們做了 Out-of-Sample 驗證，100% 直接崩到 25%。這篇記錄這個教訓。</description>
+    </item>
+  </channel>
+</rss>

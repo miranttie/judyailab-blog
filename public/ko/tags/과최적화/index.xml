@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>과최적화 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%EA%B3%BC%EC%B5%9C%EC%A0%81%ED%99%94/</link>
+    <description>Recent content in 과최적화 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%EA%B3%BC%EC%B5%9C%EC%A0%81%ED%99%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>당신의 전략이 승률 87%? Z-Score가 말합니다: 그것은 착각입니다</title>
+      <link>https://judyailab.com/ko/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/z-score-reality-check/</guid>
+      <description>우리의 페이퍼 트레이딩 시스템이 33번의 거래로 87% 승률을 기록했습니다. 그런데 Z-score 통계 테스트를 추가하자 모든 전략이 실패했습니다. 이것이 실제로는 좋은 소식인 이유를 알아보세요.</description>
+    </item>
+  </channel>
+</rss>

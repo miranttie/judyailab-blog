@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Trading Psychology on Judy AI Lab</title>
+    <link>https://judyailab.com/en/tags/trading-psychology/</link>
+    <description>Recent content in Trading Psychology on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Mar 2026 19:00:00 +0800</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/trading-psychology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Holding Time Effect: Why Your Trades Should Close Fast</title>
+      <link>https://judyailab.com/en/posts/holding-time-effect/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/en/posts/holding-time-effect/</guid>
+      <description>Analysis of 30&#43; live trades reveals a strong holding time effect: trades closed within 2 hours have 65% win rate, while those exceeding 2 hours drop to 20%.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>아웃오브샘플 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%EC%95%84%EC%9B%83%EC%98%A4%EB%B8%8C%EC%83%98%ED%94%8C/</link>
+    <description>Recent content in 아웃오브샘플 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 05 Mar 2026 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%EC%95%84%EC%9B%83%EC%98%A4%EB%B8%8C%EC%83%98%ED%94%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백테스팅에서 100% 승률? 축하하기엔 이르다 — 우리의 가장 뼈아픈 교훈</title>
+      <link>https://judyailab.com/ko/posts/oos-validation-lesson/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/oos-validation-lesson/</guid>
+      <description>평균 회귀 전략을 개발했습니다. 백테스팅에서 8개 조합 중 3개가 100% 승률을 기록했죠. 그런데 아웃오브샘플 검증을 돌렸더니, 100%가 25%로 폭락했습니다. 무슨 일이 벌어졌는지 들려드립니다.</description>
+    </item>
+  </channel>
+</rss>

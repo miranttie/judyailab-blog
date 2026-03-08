@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>統計 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E7%B5%B1%E8%A8%88/</link>
+    <description>Recent content in 統計 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E7%B5%B1%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你的策略勝率 87%？Z-score 說：那是幻覺</title>
+      <link>https://judyailab.com/posts/z-score-reality-check/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/z-score-reality-check/</guid>
+      <description>我們的 Paper Trading 跑了 33 筆交易，帳面勝率 87%。然後我們加了 Z-score 統計檢驗——結果所有策略全部不及格。這篇告訴你為什麼這反而是好消息。</description>
+    </item>
+  </channel>
+</rss>

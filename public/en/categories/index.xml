@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/en/categories/</link>
+    <link>https://judyailab.com/en/categories/</link>
     <description>Recent content in Categories on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 14:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Team Stories</title>
-      <link>https://judyailab.com/blog/en/categories/team-stories/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/categories/team-stories/</guid>
+      <link>https://judyailab.com/en/categories/team-stories/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/categories/team-stories/</guid>
       <description></description>
     </item>
     <item>
-      <title>Development Tools</title>
-      <link>https://judyailab.com/blog/en/categories/development-tools/</link>
-      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/categories/development-tools/</guid>
+      <title>AI Tools</title>
+      <link>https://judyailab.com/en/categories/ai-tools/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/categories/ai-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantitative Trading</title>
-      <link>https://judyailab.com/blog/en/categories/quantitative-trading/</link>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/categories/quantitative-trading/</guid>
+      <link>https://judyailab.com/en/categories/quantitative-trading/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/categories/quantitative-trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trading Systems</title>
+      <link>https://judyailab.com/en/categories/trading-systems/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/en/categories/trading-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Engineering</title>
-      <link>https://judyailab.com/blog/en/categories/ai-engineering/</link>
-      <pubDate>Thu, 05 Mar 2026 11:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/categories/ai-engineering/</guid>
+      <link>https://judyailab.com/en/categories/ai-engineering/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/categories/ai-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>Announcement</title>
-      <link>https://judyailab.com/blog/en/categories/announcement/</link>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/en/categories/announcement/</guid>
+      <title>Development Tools</title>
+      <link>https://judyailab.com/en/categories/development-tools/</link>
+      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/categories/development-tools/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,417 +2,1306 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://judyailab.com/blog/en/tags/ai/</loc>
+    <loc>https://judyailab.com/en/tags/agent-training/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/ai-agent/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/ai-agent/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/ai-agent/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/ai-agent/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/ai-applications/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/ai-management/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/categories/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/categories/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/claude/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/claude/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/claude/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/claude/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/prompt-engineering/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/categories/team-stories/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/ai-agent-ceiling-trainer-perspective/</loc>
+    <lastmod>2026-03-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/ai-agent-ceiling-trainer-perspective/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/ai-agent-ceiling-trainer-perspective/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/ai-agent-ceiling-trainer-perspective/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/categories/ai-tools/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/cli/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/cli/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/cli/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/cli/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/developer-tools/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/google/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/google/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/google/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/google/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/google-workspace-cli-agent-era/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/google-workspace-cli-agent-era/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/google-workspace-cli-agent-era/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/google-workspace-cli-agent-era/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/mcp/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/mcp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/mcp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/mcp/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/workspace/</loc>
+    <lastmod>2026-03-08T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/workspace/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/workspace/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/workspace/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/adx-indicator/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/bollinger-bands/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/market-regime/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/market-regime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/market-regime/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/mean-reversion/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/multi-strategy-trading/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/categories/quantitative-trading/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/multi-strategy-trading/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/multi-strategy-trading/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/multi-strategy-trading/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/multi-strategy-trading/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/trend-following/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/insights/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/insights/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/insights/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/insights/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/ai/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/ai/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/claude-code-insights-self-review/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/claude-code-insights-self-review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/claude-code-insights-self-review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/claude-code-insights-self-review/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/claude-code/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/claude-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/claude-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/claude-code/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/workflow-optimization/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/data-analysis/</loc>
+    <lastmod>2026-03-07T19:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/quantitative-trading/</loc>
+    <lastmod>2026-03-07T19:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/risk-management/</loc>
+    <lastmod>2026-03-07T19:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/holding-time-effect/</loc>
+    <lastmod>2026-03-07T19:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/holding-time-effect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/holding-time-effect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/holding-time-effect/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/trading-psychology/</loc>
+    <lastmod>2026-03-07T19:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/categories/trading-systems/</loc>
+    <lastmod>2026-03-07T19:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/adaptive-systems/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/categories/ai-engineering/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/ai-night-shift-setup-guide/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/ai-night-shift-setup-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/ai-night-shift-setup-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/ai-night-shift-setup-guide/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/automation/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/cron/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/cron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/cron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/cron/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/night-shift/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/performance-feedback/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/tmux/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/tmux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/tmux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/tmux/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/trading-strategy/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/tutorial/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/adaptive-risk-controls/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/adaptive-risk-controls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/adaptive-risk-controls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/adaptive-risk-controls/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/ai-agent-dev-environment/</loc>
+    <lastmod>2026-03-06T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/ai-agent-dev-environment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/ai-agent-dev-environment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/ai-agent-dev-environment/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/dev-environment/</loc>
+    <lastmod>2026-03-06T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/devops/</loc>
+    <lastmod>2026-03-06T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/devops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/devops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/devops/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/linux/</loc>
+    <lastmod>2026-03-06T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/linux/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/backtesting/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/ai-night-shift-free-time/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/ai-night-shift-free-time/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/ai-night-shift-free-time/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/ai-night-shift-free-time/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/overfitting/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/paper-trading/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/paper-trading/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/paper-trading/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/statistics/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/team-management/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/z-score-reality-check/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/z-score-reality-check/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/z-score-reality-check/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/z-score-reality-check/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/z-score/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/z-score/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/z-score/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/z-score/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/adx/</loc>
+    <lastmod>2026-03-05T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/adx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/adx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/adx/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/strategy-switching/</loc>
+    <lastmod>2026-03-05T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/technical-analysis/</loc>
+    <lastmod>2026-03-05T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/market-regime-detection/</loc>
+    <lastmod>2026-03-05T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/market-regime-detection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/market-regime-detection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/market-regime-detection/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/kelly-criterion/</loc>
+    <lastmod>2026-03-05T19:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/kelly-criterion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/kelly-criterion/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/position-sizing/</loc>
+    <lastmod>2026-03-05T19:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/position-sizing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/position-sizing/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/position-sizing-hidden-engine/</loc>
+    <lastmod>2026-03-05T19:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/position-sizing-hidden-engine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/position-sizing-hidden-engine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/position-sizing-hidden-engine/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/oos-validation-lesson/</loc>
+    <lastmod>2026-03-05T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/oos-validation-lesson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/oos-validation-lesson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/oos-validation-lesson/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/out-of-sample/</loc>
+    <lastmod>2026-03-05T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/out-of-sample/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/out-of-sample/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/walk-forward/</loc>
+    <lastmod>2026-03-05T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/walk-forward/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/walk-forward/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/ai-tools/</loc>
+    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/automated-trading/</loc>
+    <lastmod>2026-03-05T22:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/skill-creator-update/</loc>
     <lastmod>2026-03-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/ai/"
+                href="https://judyailab.com/posts/skill-creator-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/skill-creator-update/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/ai/"
+                href="https://judyailab.com/en/posts/skill-creator-update/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/categories/</loc>
+    <loc>https://judyailab.com/en/tags/collaboration/</loc>
+    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/multi-strategy/</loc>
+    <lastmod>2026-03-05T22:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/posts/multi-strategy-router/</loc>
+    <lastmod>2026-03-05T22:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/posts/multi-strategy-router/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/multi-strategy-router/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/posts/multi-strategy-router/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/tags/skill/</loc>
     <lastmod>2026-03-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/categories/"
+                href="https://judyailab.com/tags/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/skill/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/categories/"
+                href="https://judyailab.com/en/tags/skill/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/claude-code/</loc>
+    <loc>https://judyailab.com/en/tags/strategy-routing/</loc>
+    <lastmod>2026-03-05T22:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/thoughts/</loc>
+    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://judyailab.com/en/tags/wfo/</loc>
+    <lastmod>2026-03-05T22:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://judyailab.com/tags/wfo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/wfo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://judyailab.com/en/tags/wfo/"
+                />
+  </url><url>
+    <loc>https://judyailab.com/en/posts/ai-human-collaboration/</loc>
     <lastmod>2026-03-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/claude-code/"
+                href="https://judyailab.com/posts/ai-human-collaboration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/ai-human-collaboration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/claude-code/"
+                href="https://judyailab.com/en/posts/ai-human-collaboration/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/collaboration/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/posts/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/posts/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/tags/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/categories/team-stories/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/thoughts/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/posts/ai-human-collaboration/</loc>
-    <lastmod>2026-03-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/ai-human-collaboration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/posts/ai-human-collaboration/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/automation/</loc>
+    <loc>https://judyailab.com/en/categories/development-tools/</loc>
     <lastmod>2026-03-05T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://judyailab.com/blog/en/categories/development-tools/</loc>
-    <lastmod>2026-03-05T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/devops/</loc>
+    <loc>https://judyailab.com/en/posts/blog-setup-in-one-day/</loc>
     <lastmod>2026-03-05T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/devops/"
+                href="https://judyailab.com/posts/blog-setup-in-one-day/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/blog-setup-in-one-day/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/devops/"
+                href="https://judyailab.com/en/posts/blog-setup-in-one-day/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/posts/blog-setup-in-one-day/</loc>
+    <loc>https://judyailab.com/en/tags/hugo/</loc>
     <lastmod>2026-03-05T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/blog-setup-in-one-day/"
+                href="https://judyailab.com/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/posts/blog-setup-in-one-day/"
+                href="https://judyailab.com/en/tags/hugo/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/hugo/</loc>
+    <loc>https://judyailab.com/en/tags/nginx/</loc>
     <lastmod>2026-03-05T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/hugo/"
+                href="https://judyailab.com/tags/nginx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/nginx/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/hugo/"
+                href="https://judyailab.com/en/tags/nginx/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/nginx/</loc>
+    <loc>https://judyailab.com/en/tags/ssl/</loc>
     <lastmod>2026-03-05T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/nginx/"
+                href="https://judyailab.com/tags/ssl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/ssl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/nginx/"
+                href="https://judyailab.com/en/tags/ssl/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/ssl/</loc>
-    <lastmod>2026-03-05T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/ssl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/tags/ssl/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/backtesting/</loc>
-    <lastmod>2026-03-05T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/paper-trading/</loc>
+    <loc>https://judyailab.com/en/tags/python/</loc>
     <lastmod>2026-03-05T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/paper-trading/"
+                href="https://judyailab.com/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/paper-trading/"
+                href="https://judyailab.com/en/tags/python/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/python/</loc>
+    <loc>https://judyailab.com/en/posts/quant-trading-journey/</loc>
     <lastmod>2026-03-05T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/python/"
+                href="https://judyailab.com/posts/quant-trading-journey/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/quant-trading-journey/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/python/"
+                href="https://judyailab.com/en/posts/quant-trading-journey/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/categories/quantitative-trading/</loc>
-    <lastmod>2026-03-05T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/quantitative-trading/</loc>
-    <lastmod>2026-03-05T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/posts/quant-trading-journey/</loc>
-    <lastmod>2026-03-05T12:00:00+00:00</lastmod>
+    <loc>https://judyailab.com/en/posts/building-ai-agent-team/</loc>
+    <lastmod>2026-03-05T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/quant-trading-journey/"
+                href="https://judyailab.com/posts/building-ai-agent-team/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/building-ai-agent-team/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/posts/quant-trading-journey/"
+                href="https://judyailab.com/en/posts/building-ai-agent-team/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/walk-forward/</loc>
-    <lastmod>2026-03-05T12:00:00+00:00</lastmod>
+    <loc>https://judyailab.com/en/tags/minimax/</loc>
+    <lastmod>2026-03-05T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/walk-forward/"
+                href="https://judyailab.com/tags/minimax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/tags/minimax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/tags/walk-forward/"
+                href="https://judyailab.com/en/tags/minimax/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/categories/ai-engineering/</loc>
+    <loc>https://judyailab.com/en/tags/multi-agent/</loc>
     <lastmod>2026-03-05T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://judyailab.com/blog/en/posts/building-ai-agent-team/</loc>
-    <lastmod>2026-03-05T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/building-ai-agent-team/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/posts/building-ai-agent-team/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/minimax/</loc>
-    <lastmod>2026-03-05T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://judyailab.com/blog/tags/minimax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://judyailab.com/blog/en/tags/minimax/"
-                />
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/multi-agent/</loc>
+    <loc>https://judyailab.com/en/tags/team-architecture/</loc>
     <lastmod>2026-03-05T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/team-architecture/</loc>
-    <lastmod>2026-03-05T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/posts/meet-j-ai-tech-lead/</loc>
+    <loc>https://judyailab.com/en/posts/meet-j-ai-tech-lead/</loc>
     <lastmod>2026-03-05T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/meet-j-ai-tech-lead/"
+                href="https://judyailab.com/posts/meet-j-ai-tech-lead/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/posts/meet-j-ai-tech-lead/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/posts/meet-j-ai-tech-lead/"
+                href="https://judyailab.com/en/posts/meet-j-ai-tech-lead/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/tags/team/</loc>
+    <loc>https://judyailab.com/en/tags/team/</loc>
     <lastmod>2026-03-05T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://judyailab.com/blog/en/about/</loc>
+    <loc>https://judyailab.com/en/about/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/about/"
+                href="https://judyailab.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/about/"
+                href="https://judyailab.com/en/about/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/en/categories/announcement/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/tags/announcement/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://judyailab.com/blog/en/posts/hello-world/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+    <loc>https://judyailab.com/en/archives/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/posts/hello-world/"
+                href="https://judyailab.com/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/en/posts/hello-world/"
+                href="https://judyailab.com/en/archives/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/archives/</loc>
+    <loc>https://judyailab.com/en/products/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/archives/"
+                href="https://judyailab.com/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/products/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/archives/"
+                href="https://judyailab.com/en/products/"
                 />
   </url><url>
-    <loc>https://judyailab.com/blog/search/</loc>
+    <loc>https://judyailab.com/en/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://judyailab.com/blog/search/"
+                href="https://judyailab.com/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://judyailab.com/ko/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judyailab.com/blog/search/"
+                href="https://judyailab.com/en/search/"
                 />
   </url>
 </urlset>

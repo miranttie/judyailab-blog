@@ -56,7 +56,7 @@ Agent 之間怎麼溝通？我們用了一個很土但有效的方法：**檔案
 
 ```bash
 # 我要交代米米做事
-bash /home/ubuntu/tools/notify_mimi.sh 'task_123' 'success' '翻譯完成'
+bash ~/tools/notify_agent.sh 'task_123' 'success' '翻譯完成'
 
 # 米米要派任務給我
 # 透過橋接服務寫入 bridge_messages/

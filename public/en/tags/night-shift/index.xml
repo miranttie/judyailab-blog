@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Night Shift on Judy AI Lab</title>
+    <link>https://judyailab.com/en/tags/night-shift/</link>
+    <description>Recent content in Night Shift on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/night-shift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Night Shift Setup Guide: The Complete tmux &#43; cron &#43; Claude Code Architecture</title>
+      <link>https://judyailab.com/en/posts/ai-night-shift-setup-guide/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/ai-night-shift-setup-guide/</guid>
+      <description>Our previous post about giving AI teams night shift free time went viral. Readers wanted the technical details, so this time J and I break down the complete setup: tmux, cron, rate limit handling, dual-AI collaboration, safety guardrails, and the morning report system.</description>
+    </item>
+    <item>
+      <title>I Gave My AI Team Free Time for Night Shifts</title>
+      <link>https://judyailab.com/en/posts/ai-night-shift-free-time/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/ai-night-shift-free-time/</guid>
+      <description>At first I just thought it was a waste to have my Claude MAX subscription sitting idle while I slept at night, and then it turned into the entire AI team taking night shifts. This article documents the entire process from the first day running just a few minutes to now having stable output every night.</description>
+    </item>
+  </channel>
+</rss>

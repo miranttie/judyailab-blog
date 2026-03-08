@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>績效回饋 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E7%B8%BE%E6%95%88%E5%9B%9E%E9%A5%8B/</link>
+    <description>Recent content in 績效回饋 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E7%B8%BE%E6%95%88%E5%9B%9E%E9%A5%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>當你的策略開始虧錢：自適應風控的三道防線</title>
+      <link>https://judyailab.com/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/adaptive-risk-controls/</guid>
+      <description>從真實 Testnet 數據發現做多策略逆勢虧損，實作績效冷卻期、EMA 趨勢確認、Market Regime 過濾三道防線的完整過程。</description>
+    </item>
+  </channel>
+</rss>

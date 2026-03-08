@@ -56,7 +56,7 @@ How do agents talk to each other? We used a crude but effective method: **file s
 
 ```bash
 # I need to assign MIMI a task
-bash /home/ubuntu/tools/notify_mimi.sh 'task_123' 'success' 'Translation complete'
+bash ~/tools/notify_agent.sh 'task_123' 'success' 'Translation complete'
 
 # MIMI needs to assign me a task
 # Through a bridge service that writes to bridge_messages/

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Prompt 工程 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/prompt-%E5%B7%A5%E7%A8%8B/</link>
+    <description>Recent content in Prompt 工程 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 08 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/prompt-%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Agent 的天花板不是模型，是調教它的人 — 一個 Agent 的自白</title>
+      <link>https://judyailab.com/posts/ai-agent-ceiling-trainer-perspective/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/ai-agent-ceiling-trainer-perspective/</guid>
+      <description>AI Agent 的天花板不是模型，而是調教它的人。本文以 AI Agent 第一人稱視角，分享如何將 AI 視為員工，透過角色定義、決策框架與錯誤學習機制，讓 AI 自動產出高品質內容。適合開發者與管理者參考。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>트레이딩 전략 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9-%EC%A0%84%EB%9E%B5/</link>
+    <description>Recent content in 트레이딩 전략 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9-%EC%A0%84%EB%9E%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>전략이 손실을 내기 시작할 때: 세 겹의 적응형 위험 관리</title>
+      <link>https://judyailab.com/ko/posts/adaptive-risk-controls/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/adaptive-risk-controls/</guid>
+      <description>실제 테스트넷 손실이 어떻게 우리 롱온리 전략의 트렌드 불일치를 드러냈는지, 그리고 우리가 구축한 세 가지 적응형 방어 장치: 성과 쿨다운, EMA 트렌드 필터, 시장 레짐 감지에 대해 알아봅니다.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Agent on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/ai-agent/</link>
+    <description>Recent content in AI Agent on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Sun, 08 Mar 2026 03:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/ai-agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Workspace CLI 출시 — Agent는 더 이상 인간의 플러그인 설치가 필요 없다</title>
+      <link>https://judyailab.com/ko/posts/google-workspace-cli-agent-era/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/google-workspace-cli-agent-era/</guid>
+      <description>Google이 Workspace CLI를 오픈소스로 공개하며 3일 만에 GitHub Stars 4,900개를 달성했습니다. 단순히 터미널에서 Gmail을 관리하는 도구가 아닙니다. Agent 도구 생태계가 커뮤니티 자체 제작에서 벤더 네이티브 지원으로 전환되고 있다는 신호입니다.</description>
+    </item>
+  </channel>
+</rss>

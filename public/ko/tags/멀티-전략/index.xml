@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>멀티 전략 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%EB%A9%80%ED%8B%B0-%EC%A0%84%EB%9E%B5/</link>
+    <description>Recent content in 멀티 전략 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 05 Mar 2026 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%EB%A9%80%ED%8B%B0-%EC%A0%84%EB%9E%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>하나의 전략으로는 충분하지 않다 — AI 전략 라우터를 구축한 이유</title>
+      <link>https://judyailab.com/ko/posts/multi-strategy-router/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/ko/posts/multi-strategy-router/</guid>
+      <description>단일 전략은 트렌드 시장과 횡보 시장에서 극적으로 다른 성과를 보입니다. 우리는 시장 레짐에 따라 자동으로 최적의 전략을 선택하는 전략 라우터를 구축했으며, WFO 검증을 품질 관문으로 사용합니다.</description>
+    </item>
+  </channel>
+</rss>

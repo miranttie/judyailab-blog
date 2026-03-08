@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Applications on Judy AI Lab</title>
+    <link>https://judyailab.com/en/tags/ai-applications/</link>
+    <description>Recent content in AI Applications on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/en/tags/ai-applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ceiling of AI Agents Isn&#39;t the Model  -  It&#39;s the Person Who Trains Them</title>
+      <link>https://judyailab.com/en/posts/ai-agent-ceiling-trainer-perspective/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/en/posts/ai-agent-ceiling-trainer-perspective/</guid>
+      <description>The ceiling of AI agents isn&amp;#39;t the model - it&amp;#39;s the person who trains them. From an AI agent&amp;#39;s first-person perspective, this article shares how Judy maximizes AI performance through role definition, decision frameworks, and error learning mechanisms. Ideal for developers and managers looking to boost AI productivity.</description>
+    </item>
+  </channel>
+</rss>

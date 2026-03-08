@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>전략 스위칭 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%EC%A0%84%EB%9E%B5-%EC%8A%A4%EC%9C%84%EC%B9%AD/</link>
+    <description>Recent content in 전략 스위칭 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 05 Mar 2026 20:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%EC%A0%84%EB%9E%B5-%EC%8A%A4%EC%9C%84%EC%B9%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>당신의 전략은 괜찮다 — 시장이 바뀐 것이다</title>
+      <link>https://judyailab.com/ko/posts/market-regime-detection/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/market-regime-detection/</guid>
+      <description>수익성 있는 전략이 갑자기 작동하지 않나요? 전략 문제가 아닐 수 있습니다. 시장 레짐이 바뀐 것입니다. ADX, BB Width, ATR을 사용해 시장 상태를 감지하고 자동으로 전략을 전환하는 방법을 소개합니다.</description>
+    </item>
+  </channel>
+</rss>

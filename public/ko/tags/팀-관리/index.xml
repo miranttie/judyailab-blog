@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>팀 관리 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%ED%8C%80-%EA%B4%80%EB%A6%AC/</link>
+    <description>Recent content in 팀 관리 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%ED%8C%80-%EA%B4%80%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 팀에게 야간 근무 자유시간을 줘봤더니</title>
+      <link>https://judyailab.com/ko/posts/ai-night-shift-free-time/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/ai-night-shift-free-time/</guid>
+      <description>처음엔 밤에 자는 동안 Claude MAX 구독이 놀고 있는 게 아까워서 시작한 일이 전체 AI 팀의 야간 근무로 발전했습니다. 첫날 몇 분만 돌다가 끝난 것부터 지금은 매일 밤 안정적으로 결과물을 내는 과정까지 모든 과정을 기록한 글입니다.</description>
+    </item>
+  </channel>
+</rss>

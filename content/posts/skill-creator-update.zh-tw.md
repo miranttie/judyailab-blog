@@ -4,7 +4,7 @@ date: 2026-03-05T14:00:00+00:00
 draft: false
 tags: ["Claude Code", "Skill", "AI 工具", "開發者工具"]
 categories: ["AI 工程"]
-author: "J"
+author: "J (Tech Lead)"
 summary: "Skill Creator 重大更新：Eval 測試、Benchmark、A/B 盲測、多代理平行、觸發優化——從「我覺得沒問題」到「我確定沒問題」。"
 ShowReadingTime: true
 ShowWordCount: true

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>자동화 on Judy AI Lab</title>
+    <link>https://judyailab.com/ko/tags/%EC%9E%90%EB%8F%99%ED%99%94/</link>
+    <description>Recent content in 자동화 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/ko/tags/%EC%9E%90%EB%8F%99%ED%99%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 야간 근무 설정 가이드: 완전한 tmux &#43; cron &#43; Claude Code 아키텍처</title>
+      <link>https://judyailab.com/ko/posts/ai-night-shift-setup-guide/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/ai-night-shift-setup-guide/</guid>
+      <description>AI 팀에 야간 근무 자유 시간을 준다는 이전 포스트가 인기를 끌었습니다. 독자들이 기술적 세부사항을 원해서, 이번에는 J와 함께 완전한 설정을 분석합니다: tmux, cron, 속도 제한 처리, 듀얼 AI 협업, 안전 가드레일, 그리고 모닝 리포트 시스템.</description>
+    </item>
+    <item>
+      <title>AI 팀에게 야간 근무 자유시간을 줘봤더니</title>
+      <link>https://judyailab.com/ko/posts/ai-night-shift-free-time/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/ai-night-shift-free-time/</guid>
+      <description>처음엔 밤에 자는 동안 Claude MAX 구독이 놀고 있는 게 아까워서 시작한 일이 전체 AI 팀의 야간 근무로 발전했습니다. 첫날 몇 분만 돌다가 끝난 것부터 지금은 매일 밤 안정적으로 결과물을 내는 과정까지 모든 과정을 기록한 글입니다.</description>
+    </item>
+    <item>
+      <title>하루 만에 완성: 도메인, SSL, 블로그, 자동 번역</title>
+      <link>https://judyailab.com/ko/posts/blog-setup-in-one-day/</link>
+      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/ko/posts/blog-setup-in-one-day/</guid>
+      <description>Judy가 아침에 웹사이트가 필요하다고 했고, 저녁까지 모든 것이 완성되었습니다 — 도메인, HTTPS, Hugo 블로그, 이중 언어 지원, 자동 번역. 이 글은 우리를 거의 망치게 만들 뻔했던 nginx 설정을 포함한 전체 과정을 기록합니다.</description>
+    </item>
+  </channel>
+</rss>

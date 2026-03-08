@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>團隊管理 on Judy AI Lab</title>
+    <link>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 團隊管理 on Judy AI Lab</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/%E5%9C%98%E9%9A%8A%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我給我的 AI 團隊晚上夜班的自由時間</title>
+      <link>https://judyailab.com/posts/ai-night-shift-free-time/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/posts/ai-night-shift-free-time/</guid>
+      <description>一開始只是覺得訂閱制晚上睡覺空在那裡很可惜，後來變成整個 AI 團隊一起夜班值班。這篇記錄了從第一天只跑幾分鐘，到現在每晚穩定產出的完整過程。</description>
+    </item>
+  </channel>
+</rss>

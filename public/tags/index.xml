@@ -2,164 +2,479 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Judy AI Lab</title>
-    <link>https://judyailab.com/blog/tags/</link>
+    <link>https://judyailab.com/tags/</link>
     <description>Recent content in Tags on Judy AI Lab</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 05 Mar 2026 14:00:00 +0000</lastBuildDate>
-    <atom:link href="https://judyailab.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <atom:link href="https://judyailab.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>https://judyailab.com/blog/tags/ai/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/ai/</guid>
+      <title>Agent 調教</title>
+      <link>https://judyailab.com/tags/agent-%E8%AA%BF%E6%95%99/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/agent-%E8%AA%BF%E6%95%99/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI 工具</title>
-      <link>https://judyailab.com/blog/tags/ai-%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/ai-%E5%B7%A5%E5%85%B7/</guid>
+      <title>AI Agent</title>
+      <link>https://judyailab.com/tags/ai-agent/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/ai-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 管理</title>
+      <link>https://judyailab.com/tags/ai-%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/ai-%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 應用</title>
+      <link>https://judyailab.com/tags/ai-%E6%87%89%E7%94%A8/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/ai-%E6%87%89%E7%94%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://judyailab.com/tags/claude/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt 工程</title>
+      <link>https://judyailab.com/tags/prompt-%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/prompt-%E5%B7%A5%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLI</title>
+      <link>https://judyailab.com/tags/cli/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://judyailab.com/tags/google/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://judyailab.com/tags/mcp/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workspace</title>
+      <link>https://judyailab.com/tags/workspace/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/workspace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>開發工具</title>
+      <link>https://judyailab.com/tags/%E9%96%8B%E7%99%BC%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E9%96%8B%E7%99%BC%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ADX指標</title>
+      <link>https://judyailab.com/tags/adx%E6%8C%87%E6%A8%99/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/adx%E6%8C%87%E6%A8%99/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Market Regime</title>
+      <link>https://judyailab.com/tags/market-regime/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/market-regime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>布林帶</title>
+      <link>https://judyailab.com/tags/%E5%B8%83%E6%9E%97%E5%B8%B6/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%B8%83%E6%9E%97%E5%B8%B6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>多策略交易</title>
+      <link>https://judyailab.com/tags/%E5%A4%9A%E7%AD%96%E7%95%A5%E4%BA%A4%E6%98%93/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%A4%9A%E7%AD%96%E7%95%A5%E4%BA%A4%E6%98%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>均值回歸</title>
+      <link>https://judyailab.com/tags/%E5%9D%87%E5%80%BC%E5%9B%9E%E6%AD%B8/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%9D%87%E5%80%BC%E5%9B%9E%E6%AD%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>趨勢跟蹤</title>
+      <link>https://judyailab.com/tags/%E8%B6%A8%E5%8B%A2%E8%B7%9F%E8%B9%A4/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E8%B6%A8%E5%8B%A2%E8%B7%9F%E8%B9%A4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>/Insights</title>
+      <link>https://judyailab.com/tags/insights/</link>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/insights/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://judyailab.com/tags/ai/</link>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Claude Code</title>
-      <link>https://judyailab.com/blog/tags/claude-code/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/claude-code/</guid>
+      <link>https://judyailab.com/tags/claude-code/</link>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/claude-code/</guid>
       <description></description>
     </item>
     <item>
-      <title>Skill</title>
-      <link>https://judyailab.com/blog/tags/skill/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/skill/</guid>
+      <title>工作流優化</title>
+      <link>https://judyailab.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%84%AA%E5%8C%96/</link>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%84%AA%E5%8C%96/</guid>
       <description></description>
     </item>
     <item>
-      <title>協作</title>
-      <link>https://judyailab.com/blog/tags/%E5%8D%94%E4%BD%9C/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E5%8D%94%E4%BD%9C/</guid>
+      <title>交易心理</title>
+      <link>https://judyailab.com/tags/%E4%BA%A4%E6%98%93%E5%BF%83%E7%90%86/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E4%BA%A4%E6%98%93%E5%BF%83%E7%90%86/</guid>
       <description></description>
     </item>
     <item>
-      <title>開發者工具</title>
-      <link>https://judyailab.com/blog/tags/%E9%96%8B%E7%99%BC%E8%80%85%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E9%96%8B%E7%99%BC%E8%80%85%E5%B7%A5%E5%85%B7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>感想</title>
-      <link>https://judyailab.com/blog/tags/%E6%84%9F%E6%83%B3/</link>
-      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E6%84%9F%E6%83%B3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>https://judyailab.com/blog/tags/devops/</link>
-      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://judyailab.com/blog/tags/hugo/</link>
-      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nginx</title>
-      <link>https://judyailab.com/blog/tags/nginx/</link>
-      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/nginx/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SSL</title>
-      <link>https://judyailab.com/blog/tags/ssl/</link>
-      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/ssl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>自動化</title>
-      <link>https://judyailab.com/blog/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
-      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Paper Trading</title>
-      <link>https://judyailab.com/blog/tags/paper-trading/</link>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/paper-trading/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://judyailab.com/blog/tags/python/</link>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Walk-Forward</title>
-      <link>https://judyailab.com/blog/tags/walk-forward/</link>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/walk-forward/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>回測</title>
-      <link>https://judyailab.com/blog/tags/%E5%9B%9E%E6%B8%AC/</link>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E5%9B%9E%E6%B8%AC/</guid>
+      <title>風控</title>
+      <link>https://judyailab.com/tags/%E9%A2%A8%E6%8E%A7/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E9%A2%A8%E6%8E%A7/</guid>
       <description></description>
     </item>
     <item>
       <title>量化交易</title>
-      <link>https://judyailab.com/blog/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/</link>
+      <link>https://judyailab.com/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>數據分析</title>
+      <link>https://judyailab.com/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sat, 07 Mar 2026 19:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cron</title>
+      <link>https://judyailab.com/tags/cron/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/cron/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tmux</title>
+      <link>https://judyailab.com/tags/tmux/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/tmux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>交易策略</title>
+      <link>https://judyailab.com/tags/%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自動化</title>
+      <link>https://judyailab.com/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自適應系統</title>
+      <link>https://judyailab.com/tags/%E8%87%AA%E9%81%A9%E6%87%89%E7%B3%BB%E7%B5%B1/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E8%87%AA%E9%81%A9%E6%87%89%E7%B3%BB%E7%B5%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>夜班</title>
+      <link>https://judyailab.com/tags/%E5%A4%9C%E7%8F%AD/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%A4%9C%E7%8F%AD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>實戰教學</title>
+      <link>https://judyailab.com/tags/%E5%AF%A6%E6%88%B0%E6%95%99%E5%AD%B8/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%AF%A6%E6%88%B0%E6%95%99%E5%AD%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>績效回饋</title>
+      <link>https://judyailab.com/tags/%E7%B8%BE%E6%95%88%E5%9B%9E%E9%A5%8B/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E7%B8%BE%E6%95%88%E5%9B%9E%E9%A5%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://judyailab.com/tags/devops/</link>
+      <pubDate>Fri, 06 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://judyailab.com/tags/linux/</link>
+      <pubDate>Fri, 06 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>開發環境</title>
+      <link>https://judyailab.com/tags/%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</link>
+      <pubDate>Fri, 06 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paper Trading</title>
+      <link>https://judyailab.com/tags/paper-trading/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/paper-trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Z-Score</title>
+      <link>https://judyailab.com/tags/z-score/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/z-score/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>回測</title>
+      <link>https://judyailab.com/tags/%E5%9B%9E%E6%B8%AC/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%9B%9E%E6%B8%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>統計</title>
+      <link>https://judyailab.com/tags/%E7%B5%B1%E8%A8%88/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E7%B5%B1%E8%A8%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>過擬合</title>
+      <link>https://judyailab.com/tags/%E9%81%8E%E6%93%AC%E5%90%88/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E9%81%8E%E6%93%AC%E5%90%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>團隊管理</title>
+      <link>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ADX</title>
+      <link>https://judyailab.com/tags/adx/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/adx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技術分析</title>
+      <link>https://judyailab.com/tags/%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>策略切換</title>
+      <link>https://judyailab.com/tags/%E7%AD%96%E7%95%A5%E5%88%87%E6%8F%9B/</link>
+      <pubDate>Thu, 05 Mar 2026 20:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E7%AD%96%E7%95%A5%E5%88%87%E6%8F%9B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kelly Criterion</title>
+      <link>https://judyailab.com/tags/kelly-criterion/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/kelly-criterion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Position Sizing</title>
+      <link>https://judyailab.com/tags/position-sizing/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/position-sizing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>資金管理</title>
+      <link>https://judyailab.com/tags/%E8%B3%87%E9%87%91%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Thu, 05 Mar 2026 19:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E8%B3%87%E9%87%91%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Out-of-Sample</title>
+      <link>https://judyailab.com/tags/out-of-sample/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/out-of-sample/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Walk-Forward</title>
+      <link>https://judyailab.com/tags/walk-forward/</link>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/walk-forward/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 工具</title>
+      <link>https://judyailab.com/tags/ai-%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/ai-%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skill</title>
+      <link>https://judyailab.com/tags/skill/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/skill/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WFO</title>
+      <link>https://judyailab.com/tags/wfo/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/wfo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>多策略</title>
+      <link>https://judyailab.com/tags/%E5%A4%9A%E7%AD%96%E7%95%A5/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E5%A4%9A%E7%AD%96%E7%95%A5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自動交易</title>
+      <link>https://judyailab.com/tags/%E8%87%AA%E5%8B%95%E4%BA%A4%E6%98%93/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E8%87%AA%E5%8B%95%E4%BA%A4%E6%98%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>協作</title>
+      <link>https://judyailab.com/tags/%E5%8D%94%E4%BD%9C/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E5%8D%94%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>策略路由</title>
+      <link>https://judyailab.com/tags/%E7%AD%96%E7%95%A5%E8%B7%AF%E7%94%B1/</link>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 +0800</pubDate>
+      <guid>https://judyailab.com/tags/%E7%AD%96%E7%95%A5%E8%B7%AF%E7%94%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>開發者工具</title>
+      <link>https://judyailab.com/tags/%E9%96%8B%E7%99%BC%E8%80%85%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E9%96%8B%E7%99%BC%E8%80%85%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>感想</title>
+      <link>https://judyailab.com/tags/%E6%84%9F%E6%83%B3/</link>
+      <pubDate>Thu, 05 Mar 2026 14:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/%E6%84%9F%E6%83%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://judyailab.com/tags/hugo/</link>
+      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>https://judyailab.com/tags/nginx/</link>
+      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSL</title>
+      <link>https://judyailab.com/tags/ssl/</link>
+      <pubDate>Thu, 05 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>https://judyailab.com/tags/ssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://judyailab.com/tags/python/</link>
       <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/</guid>
+      <guid>https://judyailab.com/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>MiniMax</title>
-      <link>https://judyailab.com/blog/tags/minimax/</link>
+      <link>https://judyailab.com/tags/minimax/</link>
       <pubDate>Thu, 05 Mar 2026 11:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/minimax/</guid>
+      <guid>https://judyailab.com/tags/minimax/</guid>
       <description></description>
     </item>
     <item>
       <title>多Agent</title>
-      <link>https://judyailab.com/blog/tags/%E5%A4%9Aagent/</link>
+      <link>https://judyailab.com/tags/%E5%A4%9Aagent/</link>
       <pubDate>Thu, 05 Mar 2026 11:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E5%A4%9Aagent/</guid>
+      <guid>https://judyailab.com/tags/%E5%A4%9Aagent/</guid>
       <description></description>
     </item>
     <item>
       <title>團隊架構</title>
-      <link>https://judyailab.com/blog/tags/%E5%9C%98%E9%9A%8A%E6%9E%B6%E6%A7%8B/</link>
+      <link>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A%E6%9E%B6%E6%A7%8B/</link>
       <pubDate>Thu, 05 Mar 2026 11:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E5%9C%98%E9%9A%8A%E6%9E%B6%E6%A7%8B/</guid>
+      <guid>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A%E6%9E%B6%E6%A7%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>團隊</title>
-      <link>https://judyailab.com/blog/tags/%E5%9C%98%E9%9A%8A/</link>
+      <link>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A/</link>
       <pubDate>Thu, 05 Mar 2026 10:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E5%9C%98%E9%9A%8A/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>公告</title>
-      <link>https://judyailab.com/blog/tags/%E5%85%AC%E5%91%8A/</link>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://judyailab.com/blog/tags/%E5%85%AC%E5%91%8A/</guid>
+      <guid>https://judyailab.com/tags/%E5%9C%98%E9%9A%8A/</guid>
       <description></description>
     </item>
   </channel>
