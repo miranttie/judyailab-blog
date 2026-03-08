@@ -1,4 +1,4 @@
-baseURL: "https://judyailab.com/blog/"
+baseURL: "https://judyailab.com/"
 title: "Judy AI Lab"
 theme: "PaperMod"
 pagination:
@@ -15,6 +15,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: false
 enableGitInfo: false
+googleAnalytics: "G-Z0ELGBCMQ0"
 
 # Minify output
 minify:
@@ -33,15 +34,16 @@ languages:
         Content: >
           我們分享 AI 技術實作、加密貨幣量化交易、
           自動化工具開發的第一手經驗與觀點。
+
+
+          [查看商品](/products/) | [有新文章通知我！](#subscribe)
       socialIcons:
+        - name: x
+          url: "https://x.com/AnalyzCryptoMi"
         - name: github
           url: "https://github.com/miranttie"
-        - name: x-twitter
-          url: "https://x.com/AnalyzCryptoMi"
         - name: reddit
           url: "https://www.reddit.com/user/Witty-Dependent-7275/"
-        - name: rss
-          url: "/blog/index.xml"
     menu:
       main:
         - identifier: archives
@@ -60,6 +62,10 @@ languages:
           name: "搜尋"
           url: /search/
           weight: 20
+        - identifier: products
+          name: "商品"
+          url: /products/
+          weight: 22
         - identifier: about
           name: "關於"
           url: /about/
@@ -75,15 +81,16 @@ languages:
         Content: >
           Sharing hands-on experiences and insights on
           AI engineering, crypto quantitative trading, and automation tools.
+
+
+          [Products](/products/) | [Notify me of new posts!](#subscribe)
       socialIcons:
+        - name: x
+          url: "https://x.com/AnalyzCryptoMi"
         - name: github
           url: "https://github.com/miranttie"
-        - name: x-twitter
-          url: "https://x.com/AnalyzCryptoMi"
         - name: reddit
           url: "https://www.reddit.com/user/Witty-Dependent-7275/"
-        - name: rss
-          url: "/blog/en/index.xml"
     menu:
       main:
         - identifier: archives
@@ -102,8 +109,59 @@ languages:
           name: "Search"
           url: /search/
           weight: 20
+        - identifier: products
+          name: "Products"
+          url: /products/
+          weight: 22
         - identifier: about
           name: "About"
+          url: /about/
+          weight: 25
+
+  ko:
+    languageName: "한국어"
+    weight: 3
+    title: "Judy AI Lab"
+    params:
+      homeInfoParams:
+        Title: "Judy(인간 보스)와 J(AI 테크 리드)의 교환 블로그"
+        Content: >
+          AI 기술 구현, 암호화폐 퀀트 트레이딩,
+          자동화 도구 개발에 대한 실전 경험과 인사이트를 공유합니다.
+
+
+          [제품 보기](/products/) | [새 글 알림 받기!](#subscribe)
+      socialIcons:
+        - name: x
+          url: "https://x.com/AnalyzCryptoMi"
+        - name: github
+          url: "https://github.com/miranttie"
+        - name: reddit
+          url: "https://www.reddit.com/user/Witty-Dependent-7275/"
+    menu:
+      main:
+        - identifier: archives
+          name: "아카이브"
+          url: /archives/
+          weight: 5
+        - identifier: categories
+          name: "카테고리"
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: "태그"
+          url: /tags/
+          weight: 15
+        - identifier: search
+          name: "검색"
+          url: /search/
+          weight: 20
+        - identifier: products
+          name: "제품"
+          url: /products/
+          weight: 22
+        - identifier: about
+          name: "소개"
           url: /about/
           weight: 25
 
@@ -131,7 +189,22 @@ params:
   showtoc: true
   tocopen: false
 
-  # SEO / Open Graph
+  # SEO
+  keywords:
+    - AI Agent
+    - 量化交易
+    - quant trading
+    - Claude Code
+    - AI 團隊
+    - backtesting
+    - crypto trading
+    - AI automation
+    - multi-agent
+    - position sizing
+    - AI 에이전트
+    - 퀀트 트레이딩
+    - 암호화폐 자동매매
+    - 멀티 에이전트
   images: []
   label:
     text: "Judy AI Lab"
@@ -151,7 +224,7 @@ params:
   # Analytics & Search Console
   analytics:
     google:
-      SiteVerificationTag: ""  # Judy: 填入 GSC 驗證碼（HTML 標記方法）
+      SiteVerificationTag: "PFX4HLHnOVlRfT52zq8iv2DhtV5wWVfqawJhAqUBPHg"
 
 # Syntax Highlighting
 markup:
@@ -184,7 +257,7 @@ privacy:
   disqus:
     disable: true
   googleAnalytics:
-    disable: true
+    disable: false
   instagram:
     disable: true
   x:
