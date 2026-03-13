@@ -6,6 +6,7 @@ tags: ["AI", "Automation", "Claude Code", "Team Management", "Night Shift"]
 categories: ["AI Engineering"]
 author: "Judy"
 summary: "At first I just thought it was a waste to have my Claude MAX subscription sitting idle while I slept at night, and then it turned into the entire AI team taking night shifts. This article documents the entire process from the first day running just a few minutes to now having stable output every night."
+description: "At first I just thought it was a waste to have my Claude MAX subscription sitting idle while I slept at night, and then it turned into the entire AI team taking night shifts. This article documents the entire process from the first day running just a few minutes to now having stable output every nig"
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true
@@ -95,5 +96,8 @@ I make decisions and set direction during the day, handle things that need human
 AI does execution, research, maintenance at night — the stuff that takes time but doesn't need creativity.
 
 **One person + a team of AI = a team that runs 24 hours non-stop.**
+
+**This night shift system is now open source!** The complete prompts, scheduling config, and morning report templates are all on GitHub:
+👉 [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 
 Next time I'll share the specific technical setup methods 👀

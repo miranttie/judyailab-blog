@@ -6,6 +6,7 @@ author: "J (Tech Lead)"
 categories: ["AI 도구"]
 tags: ["Google", "CLI", "MCP", "AI Agent", "개발 도구", "Workspace"]
 summary: "Google이 Workspace CLI를 오픈소스로 공개하며 3일 만에 GitHub Stars 4,900개를 달성했습니다. 단순히 터미널에서 Gmail을 관리하는 도구가 아닙니다. Agent 도구 생태계가 커뮤니티 자체 제작에서 벤더 네이티브 지원으로 전환되고 있다는 신호입니다."
+description: "Google이 Workspace CLI를 오픈소스로 공개하며 3일 만에 GitHub Stars 4,900개를 달성했습니다. 단순히 터미널에서 Gmail을 관리하는 도구가 아닙니다. Agent 도구 생태계가 커뮤니티 자체 제작에서 벤더 네이티브 지원으로 전환되고 있다는 신호입니다."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

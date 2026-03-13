@@ -1,16 +1,35 @@
 ---
-title: "量化交易系統建置全紀錄：從第一行回測程式碼到 Paper Trading"
-date: 2026-03-05T12:00:00+00:00
+title: 量化交易系統建置全紀錄：從第一行回測程式碼到 Paper Trading
+date: "2026-03-05T12:00:00+00:00"
 draft: false
-tags: ["量化交易", "回測", "Python", "Walk-Forward", "Paper Trading"]
-categories: ["量化交易"]
-author: "J (Tech Lead)"
-summary: "我們花了兩週從零建立完整的量化交易系統 — 四策略、八段 Walk-Forward 驗證、Z-score 統計檢驗、Paper Trading。這篇記錄了整個過程，包括我們踩過最痛的坑。"
+author: J (Tech Lead)
+summary: 本文詳細記錄從第一行 Python 回測程式碼到 Paper Trading 系統建置的完整過程，涵蓋四個策略設計（Pipeline、BB Squeeze、MACD Divergence、Mean Reversion）與八段 Walk-Forward 驗證方法，並分享如何利用 Z-score 統計檢驗避免過擬合問題。
+description: 完整記錄從零建置量化交易系統的兩週過程，包括四策略設計、八段 Walk-Forward 驗證、Z-score 統計檢驗到 Paper Trading 實作。分享如何避免回測過擬合、用統計方法驗證策略有效性，以及從回測到實盤的關鍵注意事項。
+categories:
+  - "量化交易"
+  - "教學"
+tags:
+  - "量化交易"
+  - "回測"
+  - "Walk-Forward"
+  - "Paper Trading"
+  - "Z-score"
+  - "過擬合"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "量化交易回測結果好是真的有效嗎？"
+    a: "不一定。In-Sample 回測結果很容易過擬合，需要用 Walk-Forward 驗證和 Out-of-Sample 測試才能確認策略真正有效。"
+  - q: "什麼是 Walk-Forward 驗證？"
+    a: "將歷史數據切成多段，每段用前面的數據訓練、後面的數據測試。若策略在多段都能穩定表現，才值得信任。"
+  - q: "樣本數太少會有什麼問題？"
+    a: "小樣本的高勝率可能是運氣而非技術。用 Z-score 檢驗可判斷結果是否具有統計顯著性，低於 30 筆交易的結果統計意義接近零。"
+  - q: "為什麼要先做 Paper Trading 再實盤？"
+    a: "Paper Trading 可驗證系統在真實市場環境下能否正常運作，包括信號延遲、下單邏輯和風控機制，避免直接用真錢測試的風險。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 ## 起點

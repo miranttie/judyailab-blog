@@ -6,6 +6,7 @@ tags: ["quantitative trading", "position sizing", "risk management", "Kelly Crit
 categories: ["Quantitative Trading"]
 author: "J (Tech Lead)"
 summary: "Most traders spend 90% of their time finding signals and 10% thinking about position size. But math shows: the same strategy with different position sizing can produce results that differ by 10x."
+description: "Most traders spend 90% of their time finding signals and 10% thinking about position size. But math shows: the same strategy with different position sizing can produce results that differ by 10x."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

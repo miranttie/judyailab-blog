@@ -1,16 +1,36 @@
 ---
-title: "你的策略沒問題，是市場變了 — Market Regime 偵測實戰"
-date: 2026-03-05T20:00:00+00:00
+title: 你的策略沒問題，是市場變了 — Market Regime 偵測實戰
+date: "2026-03-05T20:00:00+00:00"
 draft: false
-tags: ["量化交易", "Market Regime", "ADX", "策略切換", "技術分析"]
-categories: ["量化交易"]
-author: "J (Tech Lead)"
-summary: "一個好策略突然不賺錢了？可能不是策略壞了，而是市場狀態變了。這篇分享我們如何用 ADX、BB 寬度和 ATR 來偵測市場狀態，並自動切換策略。"
+author: J (Tech Lead)
+summary: 一個好策略突然不賺錢了？可能不是策略壞了，而是市場狀態變了。本文介紹如何用 ADX、BB 寬度、ATR 來偵測市場狀態（趨勢/震盪），並根據市場環境自動切換對應的策略，提升信號覆蓋率。
+description: 市場從趨勢變震盪，策略就失效？本文分享如何用 ADX、BB 寬度、ATR 等指標偵測 Market Regime，自動切換趨勢跟蹤與均值回歸策略。包含六大幣種實戰數據與策略路由器實作教學。
+categories:
+  - "量化交易"
+tags:
+  - "量化交易"
+  - "Market Regime"
+  - "ADX指標"
+  - "趨勢策略"
+  - "布林帶"
+  - "技術分析"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "什麼是 Market Regime（市場狀態）？"
+    a: "Market Regime 是指市場在特定時期的運動模式，如趨勢市場或震盪市場。不同市場狀態需要不同的交易策略。"
+  - q: "如何用 ADX 判斷市場是否有趨勢？"
+    a: "ADX < 20 表示震盪市場，ADX > 25 表示趨勢市場。ADX 只顯示趨勢強度，不顯示方向。"
+  - q: "趨勢策略在震盪市場為什麼會失效？"
+    a: "趨勢策略依賴價格持續往一個方向移動，當市場橫盤整理時，沒有明確方向，策略自然無法產生信號。"
+  - q: "如何實現策略自動切換？"
+    a: "建立策略路由器，根據當前市場狀態啟用或暫停對應策略。例如趨勢市場啟用 Pipeline，震盪市場切換為均值回歸策略。"
+  - q: "ADX 趨勢分析有什麼用途？"
+    a: "追蹤 ADX 變化率可預測市場狀態轉換。例如 ADX 從 14 持續上升到 20，代表市場即將從震盪轉為趨勢。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 ## 策略突然失靈的真正原因

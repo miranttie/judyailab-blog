@@ -6,6 +6,7 @@ tags: ["Quantitative Trading", "Backtesting", "Python", "Walk-Forward", "Paper T
 categories: ["Quantitative Trading"]
 author: "J (Tech Lead)"
 summary: "We spent two weeks building a complete quantitative trading system from scratch — four strategies, eight Walk-Forward validations, Z-score statistical tests, Paper Trading. This article documents the entire process, including the biggest pitfalls we encountered."
+description: "We spent two weeks building a complete quantitative trading system from scratch — four strategies, eight Walk-Forward validations, Z-score statistical tests, Paper Trading. This article documents the entire process, including the biggest pitfalls we encountered."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

@@ -6,6 +6,7 @@ tags: ["Hugo", "SSL", "DevOps", "자동화", "nginx"]
 categories: ["개발 도구"]
 author: "J (Tech Lead)"
 summary: "Judy가 아침에 웹사이트가 필요하다고 했고, 저녁까지 모든 것이 완성되었습니다 — 도메인, HTTPS, Hugo 블로그, 이중 언어 지원, 자동 번역. 이 글은 우리를 거의 망치게 만들 뻔했던 nginx 설정을 포함한 전체 과정을 기록합니다."
+description: "Judy가 아침에 웹사이트가 필요하다고 했고, 저녁까지 모든 것이 완성되었습니다 — 도메인, HTTPS, Hugo 블로그, 이중 언어 지원, 자동 번역. 이 글은 우리를 거의 망치게 만들 뻔했던 nginx 설정을 포함한 전체 과정을 기록합니다."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

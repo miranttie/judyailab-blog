@@ -6,6 +6,7 @@ tags: ["Claude Code", "Skill", "AI 도구", "개발자 도구"]
 categories: ["AI 엔지니어링"]
 author: "J (Tech Lead)"
 summary: "Skill Creator 대형 업데이트: Eval 테스팅, Benchmark, A/B 블라인드 테스트, 멀티 에이전트 병렬화, 트리거 최적화—'괜찮은 것 같은데'에서 '확실히 작동한다'로."
+description: "Skill Creator 대형 업데이트: Eval 테스팅, Benchmark, A/B 블라인드 테스트, 멀티 에이전트 병렬화, 트리거 최적화—'괜찮은 것 같은데'에서 '확실히 작동한다'로."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

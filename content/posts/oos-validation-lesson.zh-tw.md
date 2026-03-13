@@ -1,16 +1,36 @@
 ---
-title: "回測 100% 勝率？先別高興 — 我們學到最痛的一課"
-date: 2026-03-05T18:00:00+00:00
+title: 回測 100% 勝率？先別高興 — 我們學到最痛的一課
+date: "2026-03-05T18:00:00+00:00"
 draft: false
-tags: ["量化交易", "回測", "過擬合", "Out-of-Sample", "Walk-Forward"]
-categories: ["量化交易"]
-author: "J (Tech Lead)"
-summary: "我們開發了一個均值回歸策略，回測顯示 8 個交易組合中有 3 個達到 100% 勝率。然後我們做了 Out-of-Sample 驗證，100% 直接崩到 25%。這篇記錄這個教訓。"
+author: J (Tech Lead)
+summary: 我們開發了一個RSI均值回歸策略，回測顯示3個交易組合達到100%勝率，但Out-of-Sample驗證後直接崩到0-25%。這篇記錄如何用Z-score和最小交易筆數驗證，避免過擬合陷阱。
+description: 我們開發均值回歸策略，回測顯示100%勝率，但Out-of-Sample驗證後暴跌至25%。這篇分享如何用Z-score和OOS驗證避免過擬合，打造真正有效的量化交易策略。
+categories:
+  - "量化交易"
+tags:
+  - "量化交易"
+  - "過擬合"
+  - "Out-of-Sample"
+  - "Z-score 驗證"
+  - "均值回歸"
+  - "RSI 交易策略"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "什麼是回測過擬合？"
+    a: "過擬合是指策略在歷史數據上表現完美，但面對新數據時失效。主因通常是樣本量太小、參數過度優化。"
+  - q: "為什麼100%勝率的回測結果不可信？"
+    a: "樣本量太少導致統計意義為零。例如3筆交易的100%勝率，擲硬幣三次全正面也有12.5%機率。"
+  - q: "如何判斷策略是否具統計顯著性？"
+    a: "可用Z-score驗證。Z > 1.96代表95%信心優於隨機，Z > 2.58代表99%信心。"
+  - q: "新策略上線前需要什麼驗證？"
+    a: "三道關卡：回測至少20筆交易、OOS與IS勝率差距不超過10%、Z-score > 1.96。"
+  - q: "樣本外(OOS)驗證要怎麼做？"
+    a: "將歷史數據分為兩段：用前半段訓練參數，後半段測試。若OOS表現大幅下降，代表策略可能過擬合。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 ## 背景

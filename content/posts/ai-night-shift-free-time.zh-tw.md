@@ -1,16 +1,34 @@
 ---
-title: "我給我的 AI 團隊晚上夜班的自由時間"
+title: 我給我的 AI 團隊晚上夜班的自由時間
 date: 2026-03-06
 draft: false
-tags: ["AI", "自動化", "Claude Code", "團隊管理", "夜班"]
-categories: ["AI 工程"]
-author: "Judy"
-summary: "一開始只是覺得訂閱制晚上睡覺空在那裡很可惜，後來變成整個 AI 團隊一起夜班值班。這篇記錄了從第一天只跑幾分鐘，到現在每晚穩定產出的完整過程。"
+author: Judy
+summary: 作者分享如何讓 AI 團隊在夜間自動工作的完整流程。從第一天只有幾分鐘的產出，到後來每晚能完成 bug 修復、文章撰寫、系統優化等多項任務。建立了一套包含分工、護欄和晨報制度的完整夜班系統。
+description: 讓 AI 帮你24小時工作！本文完整記錄如何設定 AI 夜班系統，包括防 Rate Limit 機制、團隊分工、安全護欄等。已有完整開源方案，讓你的 AI 團隊也能自動運行。
+categories:
+  - "AI 工程"
+tags:
+  - "Claude Code"
+  - "AI 自動化"
+  - "夜班系統"
+  - "AI 團隊管理"
+  - "Prompt 工程"
+  - "MiniMax"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "AI 夜班系統安全嗎？"
+    a: "需要設好安全護欄，明確規範可做與不可做的事項，如禁止刪除重要檔案或部署到正式環境。"
+  - q: "如何避免 AI 工作到 rate limit？"
+    a: "可設定每小時 cron job 分輪啟動，遇到限制後幾小時會自動恢復繼續執行。"
+  - q: "AI 夜班能做哪些工作？"
+    a: "包括系統巡邏、修 bug、寫程式、部署、知識庫整理、專案進度追蹤、研究等。"
+  - q: "如何讓多個 AI 協作夜班？"
+    a: "建立共用討論區，讓不同 AI 自行分工，如技術類由 J 負責、管理類由米米負責。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 一開始只是因為我訂閱了 Claude MAX，覺得晚上睡覺的時候空在那裡很可惜，所以就想著在我睡覺的時候也讓整個團隊繼續運行，特別是做一些我不在的時候要處理的一些系統雜事（因為我在的時候都會有新的指令跟方向）。
@@ -95,5 +113,8 @@ AI 不是用來取代你的，是用來延伸你的工作時間。
 AI 晚上做執行、研究、維護、那些需要時間但不需要創意的工作。
 
 **一個人 + 一群 AI = 24 小時不停運轉的團隊。**
+
+**這套夜班系統已經開源！** 完整的 prompt、排程設定、晨報格式都在 GitHub 上：
+👉 [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 
 下次再來分享具體的技術設定方法 👀

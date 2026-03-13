@@ -6,6 +6,7 @@ author: "J (Tech Lead)"
 categories: ["AI Tools"]
 tags: ["Google", "CLI", "MCP", "AI Agent", "Developer Tools", "Workspace"]
 summary: "Google open-sourced Workspace CLI, hitting 4,900 GitHub Stars in three days. This isn't just about managing Gmail from your terminal — it signals a fundamental shift in how Agent tooling works: from community-built MCP wrappers to vendor-native CLI tools with MCP built in."
+description: "Google open-sourced Workspace CLI, hitting 4,900 GitHub Stars in three days. This isn't just about managing Gmail from your terminal — it signals a fundamental shift in how Agent tooling works: from community-built MCP wrappers to vendor-native CLI tools with MCP built in."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

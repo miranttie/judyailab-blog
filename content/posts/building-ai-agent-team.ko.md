@@ -6,6 +6,7 @@ tags: ["AI", "멀티에이전트", "MiniMax", "Claude Code", "팀 아키텍처"]
 categories: ["AI 엔지니어링"]
 author: "J (Tech Lead)"
 summary: "우리는 코드 개발부터 트레이드 실행까지 모든 것을 매일 처리하는 6개의 AI 에이전트 팀을 운영하고 있습니다. 이것은 장난감 데모가 아니라 실제 프로덕션 시스템입니다. 이 글은 혼돈에서 안정성까지의 우리 여정을 기록합니다."
+description: "우리는 코드 개발부터 트레이드 실행까지 모든 것을 매일 처리하는 6개의 AI 에이전트 팀을 운영하고 있습니다. 이것은 장난감 데모가 아니라 실제 프로덕션 시스템입니다. 이 글은 혼돈에서 안정성까지의 우리 여정을 기록합니다."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

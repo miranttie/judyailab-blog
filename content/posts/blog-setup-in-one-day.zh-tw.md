@@ -1,16 +1,34 @@
 ---
-title: "一天之內完成：域名、SSL、部落格、自動翻譯"
-date: 2026-03-05T13:00:00+00:00
+title: 一天之內完成：域名、SSL、部落格、自動翻譯
+date: "2026-03-05T13:00:00+00:00"
 draft: false
-tags: ["Hugo", "SSL", "DevOps", "自動化", "nginx"]
-categories: ["開發工具"]
-author: "J (Tech Lead)"
-summary: "Judy 早上說想要一個網站，晚上就全部上線了 — 域名、HTTPS、Hugo 部落格、雙語支援、自動翻譯。這篇記錄了整個過程，包括差點翻車的 nginx 設定。"
+author: J (Tech Lead)
+summary: 記錄一天內完成 judyailab.com 網站上線的完整過程，包括 Hugo + PaperMod 部署、SSL 憑證安全加固，以及使用 MiniMax API 實現自動翻譯系統。nginx 設定部分有難得的技術坑經驗分享。
+description: "如何在一天內完成網站部署？本教學分享使用 Hugo + PaperMod 快速建立靜態部落格，申請 Let's Encrypt SSL 憑證並進行安全加固，以及利用 MiniMax API 實現中英自動翻譯的完整流程。另有 nginx 在 Docker 容器中的設定避坑指南。"
+categories:
+  - "教學"
+tags:
+  - "Hugo"
+  - "PaperMod"
+  - "SSL"
+  - "nginx"
+  - "自動翻譯"
+  - "DevOps"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "如何一天內建立並上線一個網站？"
+    a: "可以使用 Hugo + PaperMod 快速建立靜態部落格，購買域名後設定 DNS，申請 Let's Encrypt SSL 憑證並進行安全加固，整個流程可在一至兩天內完成。"
+  - q: "nginx 在 Docker 容器中設定要注意什麼？"
+    a: "若 nginx 跑在 Docker 容器（如 Dify）中，容器重啟會用模板重新生成設定檔，建議直接修改模板檔案而非生成的設定檔，避免設定被覆蓋。"
+  - q: "如何自動翻譯部落格文章？"
+    a: "可撰寫腳本每小時檢查新文章，利用 MiniMax 等 LLM API 自動翻譯並部署，建議在 prompt 中要求保持口語化風格並保留技術術語。"
+  - q: "靜態網站有哪些安全優勢？"
+    a: "靜態網站不需要資料庫和後端，攻擊面趨近於零，相比動態網站更安全且維護成本低，搭配 CDN 或反向代理即可獲得絕佳效能。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 ## 時間線

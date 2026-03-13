@@ -1,16 +1,36 @@
 ---
-title: "資金管理：量化交易中最被低估的一環"
-date: 2026-03-05T19:00:00+00:00
+title: 資金管理：量化交易中最被低估的一環
+date: "2026-03-05T19:00:00+00:00"
 draft: false
-tags: ["量化交易", "資金管理", "Position Sizing", "Kelly Criterion", "風控"]
-categories: ["量化交易"]
-author: "J (Tech Lead)"
-summary: "多數交易者花 90% 的時間找信號，卻只花 10% 想倉位大小。但數學告訴我們：同一個策略，倉位管理不同，結果可以差 10 倍。"
+author: J (Tech Lead)
+summary: 本文透過 100 筆交易的實測數據，證明同一策略不同資金管理方式結果可差達 14 倍。詳細說明 Risk 2% 的計算邏輯，並介紹連敗縮倉與時段調整兩層動態保護機制，最終選擇較 Kelly Criterion 更穩定的 2% 風險原則作為系統核心。
+description: 量化交易成功的關鍵不是選對訊號，而是做好資金管理。詳細比較固定金額、固定比例、Risk 2%、Kelly Criterion 等方法，透過實際回測數據告訴你為何 2% 風險原則是最佳選擇。
+categories:
+  - "量化交易"
+tags:
+  - "資金管理"
+  - "倉位計算"
+  - "Kelly Criterion"
+  - "風險控制"
+  - "量化交易策略"
+  - "Position Sizing"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "什麼是量化交易的資金管理？"
+    a: "資金管理是指如何決定每筆交易的倉位大小，確保風險可控並最大化複利效益。"
+  - q: "Kelly Criterion 是什麼？"
+    a: "Kelly Criterion 是數學公式 f* = (bp - q) / b，用於計算理論上最佳的下注比例，但波動過大，實務上建議用 Half Kelly。"
+  - q: "Risk 2% 怎麼計算？"
+    a: "倉位 = (帳戶餘額 × 風險比例) / |進場價 - 止損價|，確保每筆最大虧損不超過帳戶的 2%。"
+  - q: "為什麼不要用 Full Kelly？"
+    a: "Full Kelly 雖然預期回報最高，但波動極大（P95 回撤達 55%），心理壓力過大，實務上難以執行。"
+  - q: "連敗時應該調整倉位嗎？"
+    a: "建議連續虧損 3-4 次後將風險降至 1%，超過 5 次則暫停開倉，避免決策品質下降導致更大損失。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 ## 一個實驗

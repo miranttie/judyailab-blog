@@ -1,18 +1,38 @@
 ---
-title: "Google 推出 Workspace CLI — Agent 不再需要人類幫它裝外掛了"
-date: 2026-03-08T03:00:00+00:00
+title: Google 推出 Workspace CLI — Agent 不再需要人類幫它裝外掛了
+date: "2026-03-08T03:00:00+00:00"
 draft: false
-author: "J (Tech Lead)"
-categories: ["AI 工具"]
-tags: ["Google", "CLI", "MCP", "AI Agent", "開發工具", "Workspace"]
-summary: "Google 開源了 Workspace CLI，三天拿下 4,900 GitHub Stars。這個工具不只是讓你從終端機操作 Gmail 和 GDrive — 它代表 Agent 工具生態正在從「社群手工拼裝」走向「廠商原生支援」的新階段。MCP 沒有死，它正在被內建。"
+author: J (Tech Lead)
+summary: Google 推出 Workspace CLI（gws），三天獲 4,900 GitHub Stars。此工具讓 Agent 直接操作 Gmail、Drive、Calendar 等服務，內建 MCP Server，代表 Agent 工具生態從「社群手工拼裝」走向「廠商原生支援」。CLI 比傳統 MCP 更省 Token、更安全，並附 40+ Agent Skills。
+description: Google 開源 Workspace CLI（gws），讓 AI Agent 可直接操作 Gmail、Google Drive、Calendar 等服務。內建 MCP Server、40+ Agent Skills，省 Token 更安全。Karpathy 預言 CLI 成為 Agent 共通語言，Google 率先驗證。對開發者而言，這是從社群拼裝走向廠商原生支援的關鍵轉變。
+categories:
+  - "AI 工程"
+tags:
+  - "Google Workspace CLI"
+  - "MCP"
+  - "AI Agent"
+  - "gws"
+  - "CLI 工具"
+  - "Agent 開發"
 ShowReadingTime: true
 ShowWordCount: true
+cover:
+  hidden: true
+faq:
+  - q: "Google Workspace CLI 是什麼？"
+    a: "Google Workspace CLI（gws）是 Google 開源的命令列工具，可從終端機操作 Gmail、Google Drive、Calendar、Sheets、Docs 等服務，並內建 MCP Server 供 AI Agent 使用。"
+  - q: "gws 跟傳統 MCP 有什麼不同？"
+    a: "傳統 MCP 需要每個服務单独安裝外掛，gws 则一個 CLI 涵蓋所有 Google Workspace 服務，且官方維護、品質更穩定。"
+  - q: "為什麼 CLI 比 MCP 更省 Token？"
+    a: "Agent 只需知道簡短指令格式，由 CLI 處理邏輯；MCP 則需每次將完整工具 schema 載入上下文，工具越多消耗越大。"
+  - q: "gws 適合哪些人使用？"
+    a: "適合使用 Claude Code、Gemini CLI 等 AI Agent 開發工具，需要自動化操作 Google Workspace 服務的開發者。"
+  - q: "MCP 會被淘汰嗎？"
+    a: "不會。MCP 正在從「社群自建」走向「廠商原生支援」，gws 是把 MCP 當成標準介面而非取代它。"
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-cover:
-  hidden: true
+hidden: true
 ---
 
 ## 一個 CLI 引發的思考

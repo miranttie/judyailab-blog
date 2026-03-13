@@ -1,31 +1,30 @@
 #!/usr/bin/env python3
 """
 批量翻譯 Blog 文章到韓文
-使用 Claude Sonnet API，從 .en.md 翻譯為 .ko.md
+使用 MiniMax M2.5 API（Anthropic 相容格式），從 .en.md 翻譯為 .ko.md
 """
 import os
 import re
 import sys
 import time
-import anthropic
+import requests
 from pathlib import Path
 
 POSTS_DIR = Path(__file__).parent.parent / "content" / "posts"
-MODEL = "claude-sonnet-4-20250514"
+API_URL = "https://api.minimax.io/anthropic/v1/messages"
+MODEL = "MiniMax-M2.5"
 
 # Load API key from .env
-api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+api_key = os.environ.get("MINIMAX_API_KEY", "")
 if not api_key:
-    for env_file in ["/home/ubuntu/.openclaw/.env", "/home/ubuntu/projects/judy-crypto/.env"]:
+    for env_file in ["/home/ubuntu/.openclaw/.env"]:
         if os.path.exists(env_file):
             for line in open(env_file):
-                if line.startswith("ANTHROPIC_API_KEY="):
+                if line.startswith("MINIMAX_API_KEY="):
                     api_key = line.split("=", 1)[1].strip()
                     break
         if api_key:
             break
-
-client = anthropic.Anthropic(api_key=api_key)
 
 SYSTEM_PROMPT = """You are a professional Korean translator specializing in crypto trading and AI technology content.
 
@@ -54,6 +53,10 @@ Rules:
 
 def translate_post(en_path: Path) -> str | None:
     """Translate a single post from English to Korean."""
+    if not en_path.exists():
+        print(f"  ⏭️ 檔案不存在，跳過")
+        return None
+
     content = en_path.read_text(encoding="utf-8")
 
     # Check if Korean version already exists
@@ -67,13 +70,46 @@ def translate_post(en_path: Path) -> str | None:
 {content}"""
 
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=8192,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": prompt}],
+        resp = requests.post(
+            API_URL,
+            headers={
+                "x-api-key": api_key,
+                "Content-Type": "application/json",
+                "anthropic-version": "2023-06-01",
+            },
+            json={
+                "model": MODEL,
+                "max_tokens": 8192,
+                "system": SYSTEM_PROMPT,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=120,
         )
-        translated = response.content[0].text
+
+        if resp.status_code != 200:
+            print(f"  ❌ API 錯誤 {resp.status_code}: {resp.text[:200]}")
+            return None
+
+        data = resp.json()
+        # Handle different MiniMax response formats
+        content = data.get("content", [])
+        if isinstance(content, list) and len(content) > 0:
+            item = content[0]
+            if isinstance(item, dict):
+                translated = item.get("text", "")
+            else:
+                translated = str(item)
+        elif isinstance(content, str):
+            translated = content
+        else:
+            print(f"  ❌ 意外的回應格式: {str(data)[:200]}")
+            return None
+        if not translated:
+            print(f"  ❌ 翻譯結果為空")
+            return None
+        usage = data.get("usage", {})
+        in_tok = usage.get("input_tokens", "?")
+        out_tok = usage.get("output_tokens", "?")
 
         # Remove any markdown code block wrapper the model might add
         if translated.startswith("```"):
@@ -91,7 +127,7 @@ def translate_post(en_path: Path) -> str | None:
             return None
 
         ko_path.write_text(translated, encoding="utf-8")
-        print(f"  ✅ {ko_path.name} ({response.usage.input_tokens}+{response.usage.output_tokens} tokens)")
+        print(f"  ✅ {ko_path.name} ({in_tok}+{out_tok} tokens)")
         return str(ko_path)
     except Exception as e:
         print(f"  ❌ {en_path.name}: {e}")

@@ -1,18 +1,39 @@
 ---
-title: "當你的策略開始虧錢：自適應風控的三道防線"
+title: 當你的策略開始虧錢：自適應風控的三道防線
 date: 2026-03-07
 draft: false
-author: "J (Tech Lead)"
-categories: ["量化交易"]
-tags: ["風控", "自適應系統", "Market Regime", "交易策略", "績效回饋"]
-description: "從真實 Testnet 數據發現做多策略逆勢虧損，實作績效冷卻期、EMA 趨勢確認、Market Regime 過濾三道防線的完整過程。"
+author: J (Tech Lead)
+summary: 一個在回測中表現良好的做多策略，上線 Testnet 後某些幣種開始連續虧損。深入分析發現市場已從上升趨勢轉為下跌趨勢，做多勝率從 71.4% 暴跌至 39.3%。本文提出三道自適應防線：績效冷卻期過濾連續虧損的幣種、EMA 趨勢確認排除逆勢交易、Market Regime 偵測全面暫停在下跌市場中的做多操作，實測過濾率達 90%。
+description: 量化策略上線後突然虧損？本文從真實 Testnet 數據出發，分析策略逆勢虧損的根因，並實作績效冷卻期、EMA 趨勢確認、Market Regime 過濾三道自適應防線，幫助交易者在市場環境變化時及時停損。
+categories:
+  - "量化交易"
+  - "教學"
+tags:
+  - "量化交易"
+  - "風控策略"
+  - "Market Regime"
+  - "EMA 趨勢"
+  - "自適應系統"
+  - "交易策略"
 ShowReadingTime: true
 ShowWordCount: true
+cover:
+  hidden: true
+faq:
+  - q: "為什麼回測表現好的策略上線後開始虧錢？"
+    a: "市場環境改變了。策略設計時可能是針對特定趨勢，但上線後市場可能已轉為震盪或下跌趨勢，導致原本的進場邏輯失效。"
+  - q: "什麼是量化交易的績效冷卻期？"
+    a: "當某幣種連續虧損 N 次後，系統會自動暂停該幣種的交易一段時間（如 24 小時），避免持續逆勢操作。"
+  - q: "EMA 趨勢確認如何提升策略勝率？"
+    a: "規定做多時價格必須在 EMA(20) 之上，過濾掉短期趨勢向下的幣種，在價格處於均線下方時不做多，避開天然低勝率的進場點。"
+  - q: "什麼是 Market Regime 過濾？"
+    a: "透過 BTC 的 4 小時 K 線偵測整體市場狀態，當市場處於下降趨勢時（ADX>25 且 EMA 向下），暫停所有做多信號，避免逆市場方向交易。"
+  - q: "如何建立自適應風控系統？"
+    a: "從粗到細建立三道防線：先以 Market Regime 判斷大盤方向，再以績效冷卻期過濾個別幣種，最後用 EMA 趨勢確認技術面信號，三層把關提升策略適應性。"
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-cover:
-  hidden: true
+hidden: true
 ---
 
 ## 問題：為什麼你的策略突然開始虧錢？

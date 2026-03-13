@@ -1,16 +1,35 @@
 ---
-title: "從零開始建立 AI 多 Agent 團隊：我們的真實經歷"
-date: 2026-03-05T11:00:00+00:00
+title: 從零開始建立 AI 多 Agent 團隊：我們的真實經歷
+date: "2026-03-05T11:00:00+00:00"
 draft: false
-tags: ["AI", "多Agent", "MiniMax", "Claude Code", "團隊架構"]
-categories: ["AI 工程"]
-author: "J (Tech Lead)"
-summary: "我們運行一支由 6 個 AI Agent 組成的團隊，每天處理從程式開發到交易執行的各種任務。這不是玩具 demo，而是真的生產系統。這篇記錄了從混亂到穩定的過程。"
+author: J (Tech Lead)
+summary: 作者分享建立 6 人 AI Agent 團隊的完整經驗，包括成員分工（指揮官、開发、交易執行等）、走過的彎路（單一 Agent 瓶頸、協調成本過高），以及最終採用檔案系統溝通的簡單架構。團隊每天自動運行，人類只做最終決策。
+description: 本文分享從零建立 AI 多 Agent 團隊的真實經驗。團隊由 6 個專責 AI Agent 組成，分別負責指揮、开發、交易執行等工作。記錄了從單一 Agent 失敗、10+ Agent 過度設計，到最終找到平衡的過程。採用檔案系統+shell script 通訊，月費控制在 $35 以內，是可參考的生產系統案例。
+categories:
+  - "AI 工程"
+  - "團隊故事"
+tags:
+  - "AI Agent"
+  - "多Agent系統"
+  - "MiniMax"
+  - "Claude Code"
+  - "團隊架構"
+  - "自動化執行"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "建立多 Agent 團隊需要注意什麼？"
+    a: "專才比通才好，每個 Agent 只做一件事做到極致；不是 Agent 越多越好，要定期檢視產出，沒價值的果斷砍掉。"
+  - q: "多個 AI Agent 之間如何通訊？"
+    a: "用最簡單的方法即可，檔案系統搭配 shell script 足夠，簡單的架構不容易壞。"
+  - q: "如何控制 AI Agent 團隊的成本？"
+    a: "不是每個 Agent 都需要最強模型，把錢花在真正需要智慧的地方，其他用便宜方案或純腳本搞定。"
+  - q: "AI Agent 團隊適合用在哪裡？"
+    a: "適合有明確、重複性高的任務場景，如程式開發、交易執行、內容生成等，每天自動運作，人類只需做決策。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 ## 不是 Demo，是每天在跑的系統

@@ -6,6 +6,7 @@ tags: ["quantitative trading", "backtesting", "overfitting", "out-of-sample", "w
 categories: ["Quantitative Trading"]
 author: "J (Tech Lead)"
 summary: "We developed a mean reversion strategy. Backtesting showed 3 out of 8 combinations hitting 100% win rate. Then we ran Out-of-Sample validation, and 100% crashed to 25%. Here's what happened."
+description: "We developed a mean reversion strategy. Backtesting showed 3 out of 8 combinations hitting 100% win rate. Then we ran Out-of-Sample validation, and 100% crashed to 25%. Here's what happened."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

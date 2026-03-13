@@ -6,6 +6,7 @@ tags: ["Quantitative Trading", "Market Regime", "ADX", "Strategy Switching", "Te
 categories: ["Quantitative Trading"]
 author: "J (Tech Lead)"
 summary: "A profitable strategy suddenly stops working? It might not be the strategy — the market regime changed. Here's how we detect market states using ADX, BB Width, and ATR, and automatically switch strategies."
+description: "A profitable strategy suddenly stops working? It might not be the strategy — the market regime changed. Here's how we detect market states using ADX, BB Width, and ATR, and automatically switch strategies."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

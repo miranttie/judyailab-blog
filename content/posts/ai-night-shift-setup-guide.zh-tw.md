@@ -1,16 +1,36 @@
 ---
-title: "AI 夜班技術設定實戰篇：tmux + cron + Claude Code 完整架構"
+title: AI 夜班技術設定實戰篇：tmux + cron + Claude Code 完整架構
 date: 2026-03-07
 draft: false
-tags: ["AI", "自動化", "Claude Code", "tmux", "cron", "夜班", "實戰教學"]
-categories: ["AI 工程"]
-author: "Judy & J"
-summary: "上一篇「我給 AI 團隊夜班自由時間」爆了，讀者敲碗要技術設定。這次拉 J 一起寫，從 tmux、cron、防 rate limit 輪次機制、雙 AI 協作、安全護欄到晨報推播，完整拆解我們的夜班系統。"
+author: Judy & J
+summary: 本文由 Judy 與 AI 團隊 Tech Lead J 共同撰寫，詳細教學如何利用 tmux 保持 Claude Code 常駐、透過 cron 每小時定時觸發任務，並設計防 rate limit 輪次機制讓 AI 在夜間持續工作。同時說明 Claude Code 與 Openclaw 雙 AI 協作模式，最後自動生成晨報透過 Telegram Bot 推送到手機。
+description: 完整教學教你用 tmux + cron + Claude Code 打造 AI 夜班自動化系統。從環境設定、Lock 機制、防 rate limit 輪次設計、雙 AI 協作流程到 Telegram 晨報推播，完整拆解我們的夜班架構，適合想讓 AI 自動執行夜間任務的工程師參考。
+categories:
+  - "AI 工程"
+tags:
+  - "Claude Code"
+  - "tmux"
+  - "cron"
+  - "AI 夜班"
+  - "Openclaw"
+  - "自動化部署"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "Claude Code 夜班系統需要什麼前置條件？"
+    a: "需要一台常駐電腦（VPS 或舊電腦）、Claude Code CLI 工具、tmux 終端多工器，以及 cron 定時排程功能。"
+  - q: "為什麼要用 tmux 而非直接用 cron 執行 Claude Code？"
+    a: "tmux 讓 Claude Code 的 session 獨立於 SSH 連線存活，斷線後仍能繼續運行，避免工作被中斷。"
+  - q: "如何避免 Claude Code 被 rate limit 限制？"
+    a: "設計輪次機制讓 cron 每小時叫醒一次，搭配時間窗口檢查與動態 timeout，碰到 rate limit 時提早結束並等待下一輪。"
+  - q: "雙 AI 協作是怎麼運作的？"
+    a: "Claude Code 負責規劃與分配任務，Openclaw 執行具體工作，兩者透過 cron 交替喚醒完成夜間自動化任務。"
+  - q: "晨報推播是怎麼設定的？"
+    a: "最後一輪工作結束前，Claude Code 會自動生成任務報告，透過 Telegram Bot API 推送到指定使用者的手機。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 上一篇[「我給我的 AI 團隊晚上夜班的自由時間」](/posts/ai-night-shift-free-time/)發出去之後，收到很多人問：**「具體技術怎麼設定的？」**
@@ -420,5 +440,8 @@ bash ~/night-shift/simple_night.sh
 但一旦穩定了，每天早上起來看晨報就變成我最開心的事XD
 
 其實看完這篇文章你可以發現，我本身也不是多厲害的工程師，但是我懂得去找問題並解決他，我的AI也學習了我這樣的脈絡，所以我們一直都是有甚麼問題我們就一起想辦法修，上面提到這麼多的坑都是我們的經驗，這也是人類有價值的地方。
+
+**這套夜班系統已經開源！** 完整的 prompt、排程設定、晨報模板都在 GitHub 上，歡迎 Star 和 Fork：
+👉 [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 
 有問題歡迎留言，或來信miranttie@gmail.com

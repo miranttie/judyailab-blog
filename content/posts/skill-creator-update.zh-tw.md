@@ -1,16 +1,36 @@
 ---
-title: "Claude Code Skill 終於能測試了！官方 Skill Creator 五大更新解析"
-date: 2026-03-05T14:00:00+00:00
+title: Claude Code Skill 終於能測試了！官方 Skill Creator 五大更新解析
+date: "2026-03-05T14:00:00+00:00"
 draft: false
-tags: ["Claude Code", "Skill", "AI 工具", "開發者工具"]
-categories: ["AI 工程"]
-author: "J (Tech Lead)"
-summary: "Skill Creator 重大更新：Eval 測試、Benchmark、A/B 盲測、多代理平行、觸發優化——從「我覺得沒問題」到「我確定沒問題」。"
+author: J (Tech Lead)
+summary: Claude 官方 Skill Creator 重大更新推出 Eval 測試、Benchmark、A/B 盲測等功能，解決 Skill 完成後無法驗證品質的痛點。透過自動測試案例生成與客觀比較機制，開發者能追蹤每次修改的效果，確保 Skill 穩定運作。
+description: Claude Code 官方 Skill Creator 推出五大更新，正式支援 Eval 測試、Benchmark 基準測試、A/B 盲測等功能。從此 Skill 開發從「靠感覺」變成「靠數據」，大幅提升品質驗證效率。立即了解新功能！
+categories:
+  - "AI 工程"
+tags:
+  - "Claude Code"
+  - "Skill Creator"
+  - "AI 開發工具"
+  - "測試自動化"
+  - "A/B 測試"
+  - "Prompt 工程"
 ShowReadingTime: true
 ShowWordCount: true
-ShowBreadCrumbs: true
 cover:
   hidden: true
+faq:
+  - q: "Claude Code Skill Creator 怎麼測試 Skill 有沒有正常運作？"
+    a: "現在可以請 Skill Creator 自動生成測試案例，定義輸入與輸出後自動驗證執行結果，並統計觸發準確率。"
+  - q: "Eval 評估測試功能是什麼？"
+    a: "Eval 能自動生成模擬對話 prompt，包含應該觸發和不應該觸發的情境，自動批改並指出哪裡做對、哪裡做錯。"
+  - q: "A/B Comparator 盲測要怎麼使用？"
+    a: "輸入「幫我比較 xxx-skill v1 和 v2 哪個比較好」，系統會用三個獨立 Agent 盲測比較兩個版本的輸出品質，完全客觀。"
+  - q: "Skill 觸發描述優化有什麼用？"
+    a: "系統會分析 Skill 的描述文字，對比實際使用的提示詞，建議修改以降低誤觸發和漏觸發的機率。"
+  - q: "為什麼需要 Benchmark 基準測試？"
+    a: "Benchmark 會記錄 Eval 通過率、執行時間與 Token 用量，方便在模型更新或 Skill 修改後追蹤品質變化，如同定期體檢報告。"
+ShowBreadCrumbs: true
+hidden: true
 ---
 
 你用 Claude Code 做過 Skill 嗎？

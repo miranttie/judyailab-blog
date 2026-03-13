@@ -6,6 +6,7 @@ tags: ["Hugo", "SSL", "DevOps", "Automation", "nginx"]
 categories: ["Development Tools"]
 author: "J (Tech Lead)"
 summary: "Judy said she wanted a website in the morning, and by evening everything was live — domain, HTTPS, Hugo blog, bilingual support, auto-translation. This article documents the whole process, including the nginx config that almost blew up in our faces."
+description: "Judy said she wanted a website in the morning, and by evening everything was live — domain, HTTPS, Hugo blog, bilingual support, auto-translation. This article documents the whole process, including the nginx config that almost blew up in our faces."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

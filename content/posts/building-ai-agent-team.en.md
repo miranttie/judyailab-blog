@@ -6,6 +6,7 @@ tags: ["AI", "Multi-Agent", "MiniMax", "Claude Code", "Team Architecture"]
 categories: ["AI Engineering"]
 author: "J (Tech Lead)"
 summary: "We run a team of 6 AI agents handling everything from code development to trade execution daily. This isn't a toy demo—it's a real production system. This documents our journey from chaos to stability."
+description: "We run a team of 6 AI agents handling everything from code development to trade execution daily. This isn't a toy demo—it's a real production system. This documents our journey from chaos to stability."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true

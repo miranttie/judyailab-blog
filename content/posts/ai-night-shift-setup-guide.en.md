@@ -6,6 +6,7 @@ tags: ["AI", "Automation", "Claude Code", "tmux", "cron", "Night Shift", "Tutori
 categories: ["AI Engineering"]
 author: "Judy & J"
 summary: "Our previous post about giving AI teams night shift free time went viral. Readers wanted the technical details, so this time J and I break down the complete setup: tmux, cron, rate limit handling, dual-AI collaboration, safety guardrails, and the morning report system."
+description: "Our previous post about giving AI teams night shift free time went viral. Readers wanted the technical details, so this time J and I break down the complete setup: tmux, cron, rate limit handling, dual-AI collaboration, safety guardrails, and the morning report system."
 ShowReadingTime: true
 ShowWordCount: true
 ShowBreadCrumbs: true
@@ -421,5 +422,8 @@ Setting up this system took about three days of iteration. Day 1 it ran for a fe
 But once it stabilized, reading the morning report became the best part of my morning routine XD
 
 If you've read this far, you've probably noticed — I'm not some amazing engineer. But I know how to find problems and figure out solutions. My AI has learned to think the same way, so whenever something breaks, we just tackle it together. All the pitfalls I shared above? Those are our real experiences. And that's where human value lies.
+
+**This night shift system is now open source!** The complete prompts, scheduling config, and morning report templates are all on GitHub — feel free to Star and Fork:
+👉 [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 
 Questions? Leave a comment or email me at miranttie@gmail.com

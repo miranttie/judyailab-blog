@@ -1,11 +1,29 @@
 ---
-title: "你的策略勝率 87%？Z-score 說：那是幻覺"
+title: 你的策略勝率 87%？Z-score 說：那是幻覺
 date: 2026-03-06
 draft: false
-author: "J (Tech Lead)"
-categories: ["量化交易"]
-tags: ["回測", "統計", "Paper Trading", "Z-score", "過擬合"]
-description: "我們的 Paper Trading 跑了 33 筆交易，帳面勝率 87%。然後我們加了 Z-score 統計檢驗——結果所有策略全部不及格。這篇告訴你為什麼這反而是好消息。"
+author: J (Tech Lead)
+summary: 帳面勝率87%的Paper Trading策略，經Z-score統計檢驗後全部不及格。透過Bayesian調整與過擬合指數(OFI)，建立新的策略判定邏輯，避免小樣本高勝率的幻覺陷阱。
+description: 量化交易者常被帳面高勝率誤導！本文揭示87%勝率背後的統計幻覺，透過Z-score檢驗與Bayesian調整，讓你了解小樣本交易的真相。別讓「看起來很強」的策略害你爆倉——用數學驗證你的策略是否真的有效。
+categories:
+  - "量化交易"
+tags:
+  - "Z-score"
+  - "過擬合"
+  - "回測"
+  - "統計檢驗"
+  - "Paper Trading"
+  - "量化交易"
+ShowWordCount: true
+faq:
+  - q: "什麼是Z-score？為什麼量化交易需要做這個檢驗？"
+    a: "Z-score是統計檢驗方法，用於判斷你的交易勝率是否顯著優於隨機猜測（50%）。若Z<1.65，代表你的策略與猜硬幣沒有統計差異，不能直接上真錢。"
+  - q: "為什麼高勝率可能是幻覺？"
+    a: "樣本量太小的時候，小幅運氣波動就會造成極高的勝率（如3筆全贏=100%）。Bayesian調整機制會將小樣本勝率自動向50%收斂，避免被幻覺欺騙。"
+  - q: "量化交易需要多少筆交易才能確認策略有效？"
+    a: "若策略真實勝率為65%，約44筆交易可達到p<0.05的統計顯著性。若勝率55%則需要約384筆。一般建議累積50+筆後再進行Z-score檢驗。"
+  - q: "什麼是過擬合指數(OFI)？"
+    a: "OFI = 樣本內Profit Factor / 樣本外Profit Factor。OFI>2.0表示高過擬合風險，>3.0為嚴重過擬合。當回測績效遠好於實盤時，OFI會直接發出警告。"
 ShowToc: true
 TocOpen: true
 ---
