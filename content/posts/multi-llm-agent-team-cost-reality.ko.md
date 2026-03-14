@@ -1,5 +1,5 @@
 ---
-title: "Running 4 LLMs Simultaneously: A Real Multi-Agent Team's Selection and Cost Breakdown"
+title: "4개의 LLM을 동시에 운영하다: 실제 멀티 에이전트 팀의 모델 선택과 비용 기록"
 date: "2026-03-13T05:01:49+00:00"
 draft: false
 author: Judy Chen
