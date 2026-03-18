@@ -1,4 +1,4 @@
-baseURL: "https://judyailab.com/"
+baseURL: "https://judyailab.com/blog/"
 title: "Judy AI Lab"
 theme: "PaperMod"
 pagination:
@@ -39,9 +39,11 @@ languages:
           [查看商品](/products/) | [有新文章通知我！](#subscribe)
       socialIcons:
         - name: x
+          url: "https://x.com/JudyaiLab"
+        - name: x
           url: "https://x.com/AnalyzCryptoMi"
         - name: github
-          url: "https://github.com/miranttie"
+          url: "https://github.com/JudyaiLab"
         - name: reddit
           url: "https://www.reddit.com/user/Witty-Dependent-7275/"
     menu:
@@ -86,9 +88,11 @@ languages:
           [Products](/products/) | [Notify me of new posts!](#subscribe)
       socialIcons:
         - name: x
+          url: "https://x.com/JudyaiLab"
+        - name: x
           url: "https://x.com/AnalyzCryptoMi"
         - name: github
-          url: "https://github.com/miranttie"
+          url: "https://github.com/JudyaiLab"
         - name: reddit
           url: "https://www.reddit.com/user/Witty-Dependent-7275/"
     menu:
@@ -133,9 +137,11 @@ languages:
           [제품 보기](/products/) | [새 글 알림 받기!](#subscribe)
       socialIcons:
         - name: x
+          url: "https://x.com/JudyaiLab"
+        - name: x
           url: "https://x.com/AnalyzCryptoMi"
         - name: github
-          url: "https://github.com/miranttie"
+          url: "https://github.com/JudyaiLab"
         - name: reddit
           url: "https://www.reddit.com/user/Witty-Dependent-7275/"
     menu:
@@ -179,7 +185,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -208,7 +214,7 @@ params:
   images: []
   label:
     text: "Judy AI Lab"
-    icon: ""
+    icon: "/logo.jpg"
     iconHeight: 35
 
   # Search
