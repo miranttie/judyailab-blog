@@ -32,6 +32,8 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+lastmod: 2026-04-15T11:17:12+00:00
+
 ---
 
 前陣子在看 Mike Bellafiore 的《The Playbook》，翻到一段話：「頂尖交易員不靠直覺，靠的是他們建立了一本屬於自己的 Playbook——每一個 setup，進場條件、背景、出場邏輯，全部寫清楚。直覺是壞的 Playbook 的別名。」
@@ -101,3 +103,11 @@ Bellafiore 寫這本書的時候，心裡想的是坐在交易員訓練台前的
 結果繞了一圈，設計一個好的 AI 量化交易系統，跟訓練一個好的交易員，要解決的根本問題其實一樣。
 
 以上是最近讀書讀到快睡著前突然想到的事。
+
+我們在 Judy AI Lab 持續把這套 Playbook 思維拆成可驗證的程式碼，讓策略的紀律不再只活在交易員的腦袋裡，而是長在系統的每一格 Regime 中。
+
+## 參考來源
+
+- [15 個工作流、7 個工具整合：Anthropic 要讓小企業老闆把 AI 真正用起來](https://www.aiposthub.com/claude-for-small-business-anthropic-ai-agent-workflows/)
+- [動手寫一隻AI交易機器人](https://medium.com/@meowent/%E5%8B%95%E6%89%8B%E5%AF%AB%E4%B8%80%E9%9A%BBai%E4%BA%A4%E6%98%93%E6%A9%9F%E5%99%A8%E4%BA%BA-e995500b55f7)
+- [如何運用AI協助資產管理--筆記系列(1) - by Finance PhD Having Chien](https://havingchien.substack.com/p/ai-1)

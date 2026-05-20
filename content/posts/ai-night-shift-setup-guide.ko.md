@@ -12,7 +12,25 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "AI 야간 근무 시스템을 구축하려면 어떤 도구가 반드시 필요한가요?"
+    a: "Claude Code CLI(Pro/Max 구독), 항시 켜진 머신(VPS 또는 집 PC), tmux, cron 네 가지가 핵심입니다. Mac이라면 cron 대신 launchd를 써도 동일하게 동작합니다."
+  - q: "tmux를 꼭 써야 하나요? 그냥 nohup이나 screen으로는 안 되나요?"
+    a: "SSH 연결이 끊겨도 Claude Code 세션을 유지하려면 tmux가 가장 안정적입니다. screen도 가능하지만, 분리·재접속·다중 창 관리가 tmux 쪽이 훨씬 견고해 야간 무인 운영에 적합합니다."
+  - q: "--dangerously-skip-permissions 플래그는 위험하지 않나요?"
+    a: "위험합니다. 야간에 승인할 사람이 없어 사용하지만, 반드시 CLAUDE.md에 안전 규칙(파일 경로 제한, 위험 명령 차단)을 명시해야 합니다. 안전장치 없이 켜는 것은 자기 책임이며 권장하지 않습니다."
+  - q: "cron 라운드마다 새 세션을 여는 이유가 뭔가요?"
+    a: "--no-session-persistence로 매 라운드 새 세션을 시작해야 세션 만료·컨텍스트 오염·속도 제한 누적을 피할 수 있습니다. 한 세션을 길게 끌면 첫 라운드에서 토큰 한도를 다 써 야간 전체가 멈춥니다."
+  - q: "Claude Code 없이 OpenClaw만으로도 야간 근무가 가능한가요?"
+    a: "가능하며 오히려 더 간단합니다. OpenClaw는 Docker 내부에서 실행되어 보안성이 높고, 자체 cron으로 작업을 돌릴 수 있습니다. Claude Code는 듀얼 AI 협업과 작업 분배가 필요할 때만 추가하면 됩니다."
+  - q: "야간 작업이 무한 hang에 걸리면 어떻게 막나요?"
+    a: "스크립트에서 timeout 명령으로 Claude Code 실행 시간을 강제 제한하고, 락 파일로 중복 인스턴스를 방지해야 합니다. 두 장치 없이 cron만 돌리면 좀비 프로세스가 쌓여 다음 라운드까지 차단됩니다."
+  - q: "야간 근무 결과는 어떻게 확인하나요?"
+    a: "마지막 라운드에서 모닝 리포트를 생성해 텔레그램 봇으로 푸시하는 구조가 표준입니다. 로그 파일만 두면 아침에 일일이 확인해야 하므로, 푸시 알림과 요약 리포트를 반드시 함께 설계하세요."
+
 ---
+*이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
 
 이전 포스트 ["AI 팀에 야간 근무 자유 시간을 줬더니"](/posts/ai-night-shift-free-time/)가 화제가 된 후, 가장 많이 받은 질문은: **"정확히 어떻게 설정했나요?"**
 
@@ -427,3 +445,15 @@ bash ~/night-shift/simple_night.sh
 👉 [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 
 질문 있으시면? 댓글을 남기거나 miranttie@gmail.com으로 이메일 보내세요
+
+## 참고 자료
+
+- [클로드가 이제 제 야간 근무를 맡고 있어요. 자율 코딩 스케줄을 어떻게 ...](https://www.reddit.com/r/ClaudeAI/comments/1qflv3y/claude_now_works_my_night_shift_heres_how_i_set/?tl=ko)
+- [Claude Code tmux orchestration — spawn full AI sessions ... - GitHub](https://github.com/primeline-ai/claude-tmux-orchestration)
+- [How to Use Claude Code Scheduled Tasks Without Keeping Your ...](https://www.mindstudio.ai/blog/claude-code-scheduled-tasks-cloud-routines/)
+
+## 핵심 수치
+
+- 5000 users (Threads + 뉴스레터 구독자)
+- $0 광고 비용 (100% 오가닉)
+- 95% 콘텐츠는 J + 멀티 에이전트 팀 작성

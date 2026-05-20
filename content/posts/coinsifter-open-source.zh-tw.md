@@ -29,6 +29,8 @@ faq:
     a: "可以。CoinSifter 支援 4H、1H、15m、1D 四個時間框架同時掃描，結果會在 Web UI 中以分頁顯示。"
 a: 可以。CoinSifter 支援 4H、1H、15m、1D 四個時間框架同時掃描，結果會在 Web UI 中以分頁顯示。
 ShowToc: true
+lastmod: 2026-03-08T20:09:55+00:00
+
 ---
 
 ## 從自用工具到開源
@@ -196,3 +198,15 @@ CoinSifter 是第一步。接下來我們計劃：
 ---
 
 *CoinSifter 是 [JudyAI Lab](https://judyailab.com) 的開源專案。MIT 授權，完全免費使用和修改。*
+
+## 參考來源
+
+- [加密貨幣篩選器：所有現有的加密貨幣](https://tw.tradingview.com/crypto-coins-screener/)
+- [幣圈資產追蹤神器介紹：Coinstats - DA Studio](https://da.studio/archives/13699)
+- [Crypto Sniper - 加密貨幣篩選器 | 幣安合約交易](https://crypto-sniper.minglin.vip/)
+
+## 關鍵數據
+
+- 2 倍成交量突破門檻
+- 5 分鐘快速上手
+- 5000 users (Threads + Newsletter 訂閱合計)

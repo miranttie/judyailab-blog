@@ -7,7 +7,25 @@ categories: ["Quantitative Trading"]
 tags: ["multi-strategy", "strategy routing", "WFO", "backtesting", "automated trading"]
 description: "A single strategy performs dramatically different in trending vs ranging markets. We built a strategy router that automatically selects the best strategy based on market regime, with WFO validation as a quality gate."
 summary: "Why single-strategy systems are doomed to fail, how our four-strategy system auto-switches based on market regime, and why WFO validation is the quality gate you can't skip."
+lastmod: 2026-03-05T20:27:03+00:00
+faq:
+  - q: "What is an AI strategy router in algorithmic trading?"
+    a: "A strategy router is a meta-system that automatically selects the best trading strategy based on the current market regime, rather than relying on a single universal strategy. It detects market state using indicators like ADX, Bollinger Bands, ATR, and EMA, then routes execution to the strategy proven to perform best in that regime. Our router picks between four strategies — Pipeline, BB Squeeze, MACD Divergence, and Mean Reversion — and validates each combo against Walk-Forward Optimization (WFO) out-of-sample data before allowing full position sizing."
+  - q: "Why use low win-rate strategies like MACD Divergence (33%) or Mean Reversion (25%)?"
+    a: "Aggregate win rates are misleading. These strategies look weak overall but excel in specific market regimes. Mean Reversion at 25% aggregate jumps significantly when filtered to ranging markets, and BB Squeeze rises from 56% to 80%+ during high-volatility breakouts. Since markets range 60-70% of the time, a trend-only system bleeds money most days. Keeping regime-specialized strategies and routing them correctly turns their statistical weakness into a strength — you only deploy them when conditions favor their edge."
+  - q: "How does the router detect market regime?"
+    a: "The router combines four indicators: ADX measures trend strength (>25 = trending, <20 = ranging), Bollinger Band width detects volatility (>15% = high vol), ATR confirms volatility magnitude, and EMA slope confirms trend direction. A BB squeeze followed by expansion signals a breakout. These signals map to routing rules: trending markets get Pipeline, ranging markets get Mean Reversion plus MACD Divergence, high-volatility states get BB Squeeze, and confirmed breakouts return to Pipeline. The classification updates each bar so the active strategy follows regime shifts."
+  - q: "What is WFO validation and why does it gate position sizing?"
+    a: "Walk-Forward Optimization (WFO) tests a strategy on rolling out-of-sample windows to confirm performance is not curve-fit to historical data. In our router, only strategy-regime combinations with validated OOS results qualify for L2 (normal) position sizing. Unvalidated combos drop to L1 — reduced size — acting as a safety net against routing into untested territory. This prevents the classic backtest trap where in-sample numbers look great but live performance collapses. WFO is the quality gate between research and real capital."
+  - q: "How is a strategy router different from a trading bot that runs multiple strategies in parallel?"
+    a: "Parallel-strategy bots run every strategy simultaneously and let signals fight for capital, which causes overexposure during regime shifts and conflicting trades. A router runs one strategy at a time — whichever matches the current regime. This avoids capital fragmentation, eliminates contradictory positions (one long, one short on the same asset), and produces cleaner P&L attribution. You always know which strategy is active and why, making debugging and parameter tuning far easier than untangling overlapping multi-strategy noise."
+  - q: "Who should build a strategy router instead of optimizing a single strategy?"
+    a: "A router suits traders who already have two or more validated strategies with distinct edges (e.g., one trend, one mean-reversion) and consistent backtest data. If you're still searching for your first profitable strategy, build that first — routing won't fix a broken edge. Routers fit quants managing multi-week drawdowns from regime mismatches, systematic traders running on liquid assets like BTC/ETH with reliable ADX/BB signals, and teams with infrastructure to run WFO validation. Discretionary traders or single-strategy beginners gain less."
+  - q: "What are the common mistakes when building a strategy router?"
+    a: "Four mistakes dominate. First, skipping WFO validation and trusting in-sample backtests — this hides curve-fitting. Second, switching strategies too aggressively on noisy regime signals; add hysteresis or require multi-bar confirmation. Third, equal-weighting strategies regardless of OOS confidence — always tier position sizing (L1 vs L2). Fourth, ignoring transaction costs from frequent strategy switches, which can erase the edge gained by routing. Build the regime detector and validation gate before adding strategies, not after."
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## The Problem: Your Strategy Only Works in Certain Markets
 
@@ -152,3 +170,9 @@ Manual signals have higher win rates because Judy (the human trader) adds judgme
 ---
 
 *This is the fourth article in our "Quantitative Trading in Practice" series. If you're building your own trading system, follow us on [X](https://x.com/AnalyzCryptoMi) for more discussions.*
+
+## References
+
+- [Smart Routing: The Hidden Secret Behind 10x More Powerful AI Systems | by Manoj Desai | Medium](https://medium.com/@the_manoj_desai/smart-routing-the-hidden-secret-behind-10x-more-powerful-ai-systems-bd4258d6813a)
+- [An effective AI strategy: How to build one | Google Cloud Blog](https://cloud.google.com/transform/how-to-build-an-effective-ai-strategy)
+- [r/artificial on Reddit: I built a router that automatically sends your AI tasks to the most appropriate model to handle](https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/)

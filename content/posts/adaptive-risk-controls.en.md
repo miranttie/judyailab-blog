@@ -13,7 +13,25 @@ ShowToc: true
 TocOpen: true
 cover:
   hidden: true
+lastmod: 2026-03-06T16:13:50+00:00
+faq:
+  - q: "Why does my profitable backtest strategy start losing money on live testnet?"
+    a: "The market regime changed. Backtests reflect historical conditions; live markets evolve. A long-only strategy backtested during an uptrend will bleed when the market flips bearish, because volume surges in downtrends are panic selling, not buying opportunities. In our case, short trades hit 71.4% win rate while longs dropped to 39.3% on the same logic. The fix is not retuning parameters — it is adding adaptive filters that detect when the strategy's core assumption (trend direction) no longer matches reality, then pausing entries automatically."
+  - q: "How do I stop a strategy from repeatedly losing on the same token?"
+    a: "Implement a performance cooldown rule: if a token records 2 consecutive losses, block new entries on it for 24 hours. Before each signal scan, query your trade database for closed positions in the last 24 hours, group by token, and check the most recent N outcomes. This mirrors how human traders skip tokens that keep burning them, but stays fully objective — no 'maybe it reverses this time' bias. It is reactive, so pair it with proactive trend filters for full coverage."
+  - q: "What EMA setting should I use as a trend filter for long entries?"
+    a: "Use EMA(20) on the trading timeframe and require current price above it before allowing any long entry. EMA(20) captures short-term trend without being so slow it lags badly or so fast it whipsaws. If price sits persistently below EMA(20), the short-term trend is down and long positions face structurally lower win probability. This single filter eliminates most counter-trend trades before they execute, which is far cheaper than discovering the mistake through a stop-loss hit."
+  - q: "How do you detect overall market regime to suspend trading?"
+    a: "Use BTC 4-hour candles with two confirmations: ADX > 25 to confirm a trending market (not chop), plus EMA slope direction to identify which way it trends. Uptrend (ADX > 25 + EMA slope up) allows longs. Downtrend (ADX > 25 + EMA slope down) suspends all longs entirely. Sideways markets (ADX < 25) require additional caution. BTC drives crypto correlation, so its regime is a reliable proxy for the broader market. This is your highest-level kill switch above token-specific filters."
+  - q: "Performance cooldown vs EMA filter vs regime detection — which should I implement first?"
+    a: "Implement EMA trend filter first. It is the simplest, blocks counter-trend trades before they happen, and requires no historical trade data. Add performance cooldown second to catch tokens the EMA filter misses — useful for choppy tokens that whipsaw across the EMA. Add market regime detection last as the master kill switch for major downtrends. Layered together, they catch failures at three scales: market-wide (regime), trend-relative (EMA), and token-specific (cooldown). Skipping layers leaves predictable blind spots."
+  - q: "What is the biggest mistake when adapting a strategy that started losing?"
+    a: "Retuning parameters instead of questioning assumptions. Traders see losses, lower the RSI threshold, tighten the stop, add more indicators — and overfit the strategy to recent noise. The real question is: did the market condition my strategy was designed for still exist? Our long-only strategy was not broken; the market was simply not trending up anymore. The fix is conditional logic that detects regime mismatch and pauses, not parameter tweaks that paper over the underlying mismatch. Treat losing streaks as a regime signal, not a tuning problem."
+  - q: "Is this three-line risk control approach suitable for spot trading or only futures?"
+    a: "Both, but the value differs. For futures and leveraged positions, all three lines are essential — counter-trend losses compound fast with leverage and a downtrend can liquidate quickly. For spot, regime detection and EMA filtering still improve returns by avoiding dead capital in declining assets, while performance cooldown matters less since spot losses are bounded by position size. If you trade long-only spot in crypto, at minimum add the BTC regime filter; crypto correlation makes ignoring BTC's macro state expensive."
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## The Problem: Why Did Your Strategy Suddenly Start Losing?
 
@@ -114,3 +132,9 @@ If your strategy starts losing money, before tweaking parameters, ask three ques
 3. **Does your strategy have a meta-stop?** — Not just per-trade stop-loss, but "what happens when this entire strategy underperforms"
 
 > Good risk management doesn't prevent all losses. Good risk management stops you when you should stop, and lets you continue when you should continue.
+
+## References
+
+- [A Guide To The 3 Lines Of Defense In Compliance - Lucinity](https://lucinity.com/blog/3-lines-of-defense)
+- [Risk management: Get your three lines in order | Grant Thornton](https://www.grantthornton.com/insights/articles/advisory/2024/risk-management-get-your-three-lines-in-order)
+- [What is the Three Lines of Defense Approach to Risk Management?](https://www.logicmanager.com/resources/erm/what-is-the-three-lines-of-defense-approach-to-risk-management/)

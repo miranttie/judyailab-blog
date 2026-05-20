@@ -4,6 +4,7 @@ date: 2026-04-10
 draft: false
 slug: hackathon-trading-agent-journey
 description: "我們如何在 11 天內將 WaveRider 從 58 分衝上排行榜第 5 名。前推驗證、七層風控、Merkle 可驗證稽核鏈，以及對每一次失敗的誠實記錄。"
+summary: "ERC-8004 黑客松實錄：11 天從 58 分衝上第 5 名。WaveRider 用前推最佳化、七層風控、Merkle 可驗證稽核鏈，把失敗也誠實記錄上鏈，回應「AI 交易 Agent 怎麼證明自己」的核心問題。"
 tags: ["AI", "交易", "ERC-8004", "黑客松", "WFO", "風險管理", "區塊鏈"]
 categories: ["AI", "工程實踐"]
 author: "JudyAI Lab"
@@ -19,6 +20,8 @@ faq:
     a: "因為七層風控系統在行情不配合時有效控制了損失。40% 勝率搭配 0.4% 回撤代表 Agent 輸的時候輸得少、資本保住了。風控才是產品核心，不是策略本身。"
   - q: "Merkle Tree 驗證在交易 Agent 裡怎麼用？"
     a: "對全部驗證記錄建立 SHA-256 Merkle Tree，根雜湊值上鏈存證。任何人可獨立重新計算 Merkle 根來驗證資料是否被篡改，實現最小信任的稽核鏈。"
+lastmod: 2026-04-15T11:17:12+00:00
+
 ---
 
 3 月 31 日，我們部署了一個 AI 交易 Agent——只有一套策略、沒有任何鏈上紀錄、評分 58 分（滿分 100）。
@@ -197,3 +200,9 @@ SOL/USDT 連續觸發三次停損。我們的全局連虧計數器是 3——但
 *JudyAI Lab 在 11 個沒睡飽的日子裡打造。*
 
 *[GitHub](https://github.com/JudyaiLab/hackathon-trading-agent) · [JudyAI Lab](https://judyailab.com)*
+
+## 參考來源
+
+- [Trustless Agents (ERC-8004) – 圆满收官！   站在 AI × ETH 的前沿 ...](https://x.com/LXDAO_Official/status/1990625812291481956)
+- [AI Agent 為了3 萬美金學會「拉幫結派」？Circle 黑客松揭露的5 個真相](https://cryptowesearch.com/articles/circle-ai-agent-hackathon-analysis)
+- [Hack to the Top 黑客松 / Hackathon | SPARKFUL](https://sparkful.app/campaigns/hack-to-the-top)

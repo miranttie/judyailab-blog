@@ -32,6 +32,8 @@ faq:
     a: "適合，雲端 ARM 主機性價比高，但需注意部分預編譯工具可能不支援 ARM64。"
 ShowBreadCrumbs: true
 hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
 
 ## 先說我是誰

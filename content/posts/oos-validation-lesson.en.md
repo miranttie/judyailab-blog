@@ -12,7 +12,25 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "Why does a 100% win rate in backtesting often fail in live trading?"
+    a: "A 100% backtest win rate usually signals overfitting or insufficient sample size, not strategy strength. In our case, SOL LONG and XRP LONG each had only 3 trades — flipping heads three times in a row happens 12.5% of the time by pure chance. When we ran Out-of-Sample validation, XRP LONG dropped from 100% to 0%, and ETH SHORT crashed from 100% to 25%. Always check trade count, run OOS validation, and require at least 30 trades before trusting any win rate metric."
+  - q: "What is Out-of-Sample (OOS) validation and how do I run it?"
+    a: "OOS validation tests a strategy on data it has never seen. Split historical data into two parts: train parameters on the In-Sample portion (e.g., first 120 days), then test on the Out-of-Sample portion (last 60 days) without changing anything. If win rate collapses on OOS data, the strategy is overfitted. Our mean reversion strategy looked perfect on IS data but lost on OOS — proving the parameters were memorizing noise, not capturing real edge. Never deploy a strategy that hasn't passed OOS."
+  - q: "How many trades are needed before backtest results become statistically meaningful?"
+    a: "Aim for at least 30 trades per combination, and ideally 100+. Fewer than 10 trades produces results dominated by randomness — a 100% win rate on 3 trades carries roughly the same information as a coin flip. Profit factor and Sharpe ratio also become unreliable with small samples. If your strategy generates few signals over 180 days, either extend the backtest window, broaden the symbol universe, or accept that you cannot validate it without more market exposure."
+  - q: "When should I use mean reversion instead of trend-following strategies?"
+    a: "Use mean reversion when ADX is below 20 across major pairs, indicating a ranging market with no clear trend. Trend-following strategies like Pipeline or BB Squeeze produce almost no signals in these conditions. Mean reversion exploits price oscillation within a band: enter on RSI extremes (below 35 or above 65), exit at the Bollinger middle band, and use 1.5× ATR stops. However, mean reversion fails catastrophically during trending breakouts, so always combine it with a regime filter that disables it when ADX rises above 25."
+  - q: "What are the most common mistakes when backtesting a new trading strategy?"
+    a: "Four mistakes recur: (1) ignoring trade count and celebrating high win rates on tiny samples; (2) skipping Out-of-Sample validation and treating training results as live performance; (3) over-tuning parameters until every coin looks profitable, which guarantees overfitting; (4) failing to test across multiple market regimes — a strategy that works only in ranging conditions will blow up when trends return. Always validate with OOS, require minimum trade counts, and stress-test against different volatility and trend environments before risking capital."
+  - q: "Who is this lesson most useful for?"
+    a: "This applies to anyone building systematic crypto or stock trading strategies, especially solo developers and small quant teams without access to institutional validation pipelines. If you backtest in Python, TradingView, or Freqtrade and have ever shipped a strategy that looked great in backtest but bled money live, this is your wake-up call. Beginners should adopt OOS validation from day one; experienced traders should audit existing strategies for sample-size and overfitting issues before scaling positions."
+  - q: "How is OOS validation different from walk-forward analysis?"
+    a: "OOS is a single train/test split — train on 120 days, test on 60 days, once. Walk-forward analysis repeats this process rolling forward through time: train on window 1, test on window 2, then shift both windows and repeat. Walk-forward is more robust because it validates parameter stability across multiple market regimes, not just one. Start with OOS as a minimum gate, then graduate to walk-forward once your strategy passes. If walk-forward shows degrading performance over time, the edge is decaying."
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## Context
 
@@ -162,3 +180,9 @@ Small-sample backtest results are the most dangerous trap in trading system deve
 
 > Backtesting is a tool for eliminating bad strategies, not for proving good ones.
 > A strategy that passes OOS validation might not make money, but one that fails definitely will disappoint you in live trading.
+
+## References
+
+- [100% Win Rate Backtesting Session (IFVG's)](https://www.youtube.com/watch?v=9Wh1io7mhmY)
+- [80% win ratio in backtesting. But losing money in live ...](https://www.instagram.com/reel/DWmM4HMjWNX/?hl=en)
+- [70% win rate in backtest but bad in live trading](https://www.reddit.com/r/Trading/comments/1gsigse/70_win_rate_in_backtest_but_bad_in_live_trading/)

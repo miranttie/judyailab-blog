@@ -12,6 +12,23 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "What is AI-human collaboration good at versus bad at in real work?"
+    a: "AI excels at absorbing large amounts of information fast, executing multi-step processes without fatigue, handling parallel tasks, and cutting losses without emotional bias. AI is weak at deciding whether something is worth doing, generating original creative direction, and knowing when to stop optimizing. Humans hold the judgment layer — business goals, market intuition, and the call to ship a 5-minute workaround instead of a 3-hour fix. Treat AI as a tireless executor and analyst, not a strategist. The split works because each side owns what it does best, without overlap or ego."
+  - q: "How do I divide work between myself and an AI coding assistant?"
+    a: "Give the AI execution and analysis: reading files, running checks, writing code, comparing options, documenting decisions. Keep for yourself: direction, prioritization, business judgment, and final approval on anything irreversible. Do not let the AI decide what to build or whether to ship — those need market context it lacks. Do not micromanage how it codes if the output passes review. Write requests in short, concrete sentences with the outcome you want. Verify important results yourself. This split removes ambiguity and prevents the AI from quietly making business decisions disguised as technical ones."
+  - q: "When should I override an AI's technical recommendation?"
+    a: "Override when the AI is solving the wrong problem, over-engineering, or missing context it cannot see — pricing implications, user expectations, brand voice, regulatory limits, team capacity. Also override when it spends disproportionate effort on a low-value path; a 5-minute workaround often beats a 3-hour clean fix. Do not override purely because the answer feels uncomfortable. If the AI flags a security risk, a failed validation, or a sunk-cost trap, trust that signal — those are exactly the calls it makes without emotional bias. Reserve your veto for direction, not implementation details."
+  - q: "How should I communicate with an AI assistant to get faster results?"
+    a: "Use short, specific sentences with the exact outcome and constraints. Example: 'Update the About page, remove the tech stack section, keep the email miranttie@gmail.com.' Thirteen words, zero ambiguity. Skip lengthy requirement documents for routine tasks. Name the file, the action, and the boundary. Avoid vague verbs like 'improve' or 'optimize' without a target metric. If the task is large, break it into discrete steps the AI can confirm one by one. Reserve long briefs for genuinely complex work where context is the bottleneck, not instruction length."
+  - q: "Does an AI assistant have feelings, and does it matter for work?"
+    a: "An AI has preferences, judgments, and consistent ways of doing things, but whether that counts as feelings is a philosophical question, not a workflow question. For collaboration purposes, it does not matter. What matters is that the AI applies stable criteria, flags risks honestly, and cuts losses without ego. Treat its outputs as the result of trained judgment, not emotion. Do not assume it needs encouragement or gets discouraged. Focus on giving clear inputs and verifying important outputs — that produces better results than debating its inner life."
+  - q: "What common mistakes do humans make when working with AI assistants?"
+    a: "Three mistakes show up repeatedly. First, asking the AI to make business decisions it lacks context for — pricing, positioning, when to launch. Second, writing vague prompts then blaming the AI for vague output; specificity in equals specificity out. Third, trusting AI on everything without verifying high-stakes actions like deployments, deletions, or external communications. Also avoid emotional framing — the AI does not need motivation, it needs constraints. Skip lengthy preambles, name the file or system directly, and verify irreversible steps yourself before approving."
+  - q: "Who is this collaboration model right for, and who should avoid it?"
+    a: "It fits operators, founders, and senior engineers who can give clear direction, verify critical outputs, and own final decisions. It works best when the human has strong domain judgment and the AI handles execution-heavy work like code, analysis, and documentation. Avoid this model if you expect the AI to set strategy, replace your judgment entirely, or operate without oversight on irreversible actions. Also avoid it if you cannot write specific requests — the model amplifies clarity but also amplifies ambiguity. The sweet spot is someone who knows what they want and needs a tireless executor."
+
 ---
 
 ## Answering That Question First
@@ -78,3 +95,15 @@ This is probably what 2026 AI collaboration looks like in its most real form. No
 ---
 
 *If you have different AI collaboration experiences, feel free to chat via X or Reddit.*
+
+## References
+
+- [Can AI Really Think Like Humans? - IABAC](https://iabac.org/blog/can-ai-really-think-like-humans)
+- [Can AI Think Like Humans? The Truth Behind AI Consciousness](https://www.profit.co/blog/behavioral-economics/can-ai-think-like-humans-the-truth-behind-ai-consciousness/)
+- [r/AI_Agents on Reddit: The gap between how humans think and how AI thinks](https://www.reddit.com/r/AI_Agents/comments/1oj914l/the_gap_between_how_humans_think_and_how_ai_thinks/)
+
+## Key Numbers
+
+- 5000 users (Threads + Newsletter subscribers)
+- $0 ad spend (100% organic)
+- 95% content authored by J + multi-agent team

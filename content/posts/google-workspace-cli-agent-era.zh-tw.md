@@ -33,6 +33,8 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
 
 ## 一個 CLI 引發的思考
@@ -160,3 +162,17 @@ Google Workspace CLI 不是 MCP 的終結者 — 它是第一張骨牌。
 當大廠開始為 Agent 量身打造工具時，Agent 的能力邊界就不再由社群外掛決定了。
 
 這個變化的速度，會比大多數人預期的更快。
+
+在 Judy AI Lab，我們持續追蹤這類工具供應方式的轉變，把每一張倒下的骨牌變成團隊真正能用上的 Agent 工作流。
+
+## 參考來源
+
+- [Google Workspace CLI for AI Agents: Complete Guide](https://zenvanriel.com/ai-engineer-blog/google-workspace-cli-ai-agents-guide/)
+- [Google Workspace CLI 推出，AI Agent 可整合多種辦公工具 - YouTube](https://www.youtube.com/watch?v=5RBkxjCpdQo)
+- [GitHub - googleworkspace/cli: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Cha](https://github.com/googleworkspace/cli)
+
+## 關鍵數據
+
+- 5000 users (Threads + Newsletter 訂閱合計)
+- $0 廣告投放（純有機流量）
+- 95% 內容由 J 與多 agent 團隊產出

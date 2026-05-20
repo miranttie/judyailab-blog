@@ -34,7 +34,10 @@ hidden: true
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-14T03:44:23+00:00
+
 ---
+*이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
 
 지난달, J가 순찰 보고서에 한 줄을 썼다: "Mimi가 이번 주에 41개 글을 번역했는데, Claude 토큰 청구는 변하지 않았다."
 
@@ -103,3 +106,9 @@ Claude는 자기 출력 습관이 있고, MiniMax는 자기 습관이 있고, Ge
 어떤 한 모델도 "충분히 좋고" 그러면서 "충분히 저렴한" 것을 모든 작업에서 동시에 이룰 수 없다. 벤치마크는 어느 모델이 어느 테스트 셋에서 최고 성능을 내는지 말해준다. 하지만 벤치마크는 당신의 언어, 당신의 작업량, 이번 달 남은 예산이 얼마나 되는지는 말해주지 않는다.
 
 우리의 현재 설정이 최적의 솔루션인지 난 모른다. 하지만 몇 달간의 테스트를 거친 뒤 실제로 작동하는 답변이다—청구서는 여전히 수용 가능해 보인다.
+
+## 참고 자료
+
+- [멀티-에이전트 LLM 코인 투자 팀 만들기. 세계 각지의 연구자 및 공학자들이 LLM을 활용해 다양한 시도를 하고… | by scalalang2 | 취미로 논문 읽는 그룹 | May, 2025 | Medium](https://medium.com/rate-labs/%EB%A9%80%ED%8B%B0-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-llm-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%88%AC%EC%9E%90-%ED%8C%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-1763549bcdf1)
+- [LLM 배치 처리로 100개 이상 에이전트 설정 생성 방법 - DEV Community](https://dev.to/rihpig/llm-baeci-ceoriro-100gae-isang-eijeonteu-seoljeong-saengseong-bangbeob-2j0j)
+- [평범한 개발자들을 위한 LLM 에이전트 프레임워크 가이드](https://pangyoalto.com/llm-agent-guide-for-newbie/)

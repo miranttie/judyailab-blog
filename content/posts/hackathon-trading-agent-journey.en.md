@@ -8,7 +8,25 @@ tags: ["AI", "trading", "ERC-8004", "hackathon", "WFO", "risk management", "bloc
 categories: ["AI", "Engineering"]
 author: "JudyAI Lab"
 keywords: ["AI trading agent", "ERC-8004", "Walk-Forward Optimization", "crypto trading bot", "on-chain identity", "risk management", "hackathon"]
+lastmod: 2026-04-11T11:04:16+00:00
+faq:
+  - q: "What is WaveRider and what makes its trading claims verifiable?"
+    a: "WaveRider is an autonomous crypto trading agent built for the LabLab.ai ERC-8004 hackathon. Unlike typical AI trading bots that show inflated backtest numbers, WaveRider uses Walk-Forward Optimization to test strategies on unseen data, a 7-layer risk management system, and Merkle-verified audit trails on-chain. Every trade decision and performance metric can be independently verified through cryptographic proofs. It runs three complementary strategies (EMA crossover, BB Squeeze, MACD Divergence) routed by regime detection across a 36-cell parameter matrix covering 6 coins and 6 market states."
+  - q: "Why do standard backtest results from AI trading agents collapse in live trading?"
+    a: "Standard backtesting optimizes parameters on the same dataset used for testing, so the model effectively memorizes the answers. A 90% win rate on backtested data tells you nothing about future performance. Walk-Forward Optimization solves this by training on one time window, testing on the next unseen window, then rolling forward. This exposes overfitting immediately. Most hackathon agents skip this step because their numbers drop sharply when tested honestly. WaveRider scored 98 on validation precisely because it survives walk-forward testing instead of relying on in-sample curve fits."
+  - q: "How does WaveRider handle different market conditions instead of using one strategy?"
+    a: "WaveRider classifies market conditions into six regimes using ADX, Bollinger Band width, and EMA convergence: Trending Up, Trending Down, Ranging, High Volatility, Breakout Forming, and Exhaustion. Each regime routes to a different combination of three strategy engines. EMA crossover handles trends, BB Squeeze catches breakouts from compression, and MACD Divergence captures reversals. This produces a 36-cell matrix across 6 coins and 6 regimes, each with its own optimized parameter set. Single-strategy agents fail in sideways markets because they have no answer for non-trending conditions."
+  - q: "What risk management prevents WaveRider from large drawdowns?"
+    a: "WaveRider achieved just 0.4% drawdown on a $100,000 portfolio through seven layers of risk control: per-trade stop losses, position sizing based on volatility, daily loss caps, regime-based exposure limits, correlation checks across coins, trailing stops on winners, and a kill switch for extreme market conditions. The key is layering hard limits at every stage so no single failure mode can blow up the account. Most agents rely on one or two layers, which works until volatility spikes and cascading losses occur faster than the system can react."
+  - q: "What is ERC-8004 and why does it matter for trading agents?"
+    a: "ERC-8004 is an Ethereum standard for autonomous agent identity and reputation. It lets trading agents register an on-chain identity, publish verifiable performance claims, and accumulate a reputation score that other contracts and users can trust. WaveRider uses Merkle-verified audit trails to anchor every trade decision and validation result on-chain, so claims about win rate, drawdown, and Sharpe ratio cannot be faked or retroactively edited. This solves the core trust problem with AI trading agents, where off-chain numbers are essentially marketing screenshots."
+  - q: "Who should consider building or using an agent like WaveRider?"
+    a: "WaveRider's approach suits quantitative developers, hackathon teams targeting ERC-8004 leaderboards, and crypto fund operators who need auditable proof of agent behavior. It is not a plug-and-play retail bot. You need familiarity with walk-forward validation, regime classification, Python backtesting frameworks, and Solidity for the on-chain reputation layer. Retail traders looking for one-click profits should avoid this path. The system rewards engineers who care more about verifiable methodology than headline returns and who treat risk management as the primary feature, not an afterthought."
+  - q: "What are the most common mistakes when building AI trading agents for hackathons?"
+    a: "The biggest mistake is optimizing one strategy on historical data and showcasing the backtest. This collapses on unseen data. Second is ignoring market regime, which kills trend-following bots in ranging markets. Third is treating risk management as a stop-loss line instead of a multi-layer system. Fourth is publishing performance claims off-chain where they cannot be verified. Fifth is over-engineering parameters per coin without walk-forward validation, producing a 36-cell matrix that looks sophisticated but is just curve-fitted noise. Honest validation beats impressive-looking metrics every time on real leaderboards."
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 On March 31st, I deployed an AI trading agent with one strategy, zero on-chain presence, and a score of 58 out of 100.
 
@@ -186,3 +204,9 @@ Run `make test && make validate && make verify && make reputation` to verify eve
 *Built during 11 sleepless days by JudyAI Lab.*
 
 *[GitHub](https://github.com/JudyaiLab/hackathon-trading-agent) · [JudyAI Lab](https://judyailab.com)*
+
+## References
+
+- [AI trading agents with ERC-8004 Hackathon | Lablab.ai](https://lablab.ai/ai-hackathons/ai-trading-agents-erc-8004)
+- [Trustless AI-Powered Crypto Trading Agents with ERC-8004 and Moltbot | by Jung-Hua Liu | Medium](https://medium.com/@gwrx2005/trustless-ai-powered-crypto-trading-agents-with-erc-8004-and-moltbot-58d8789be837)
+- [GitHub - JudyaiLab/hackathon-trading-agent: AI Trading Agent with On-Chain Identity (ERC-8004) — 82.2% OOS Win Rate, Wal](https://github.com/JudyaiLab/hackathon-trading-agent)

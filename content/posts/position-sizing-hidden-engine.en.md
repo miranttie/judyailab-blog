@@ -12,7 +12,25 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "What is position sizing in quantitative trading and why does it matter more than the strategy itself?"
+    a: "Position sizing determines how much capital you allocate to each trade. The article's experiment shows the same 72% win rate strategy produces final balances from $1,050 to $14,332 across 100 trades depending solely on sizing method — a 14x difference. Signal quality sets your edge, but position sizing determines whether that edge compounds into wealth or gets wiped out by drawdowns. Most retail traders obsess over entry signals while ignoring sizing, which is why two traders running identical strategies can have wildly divergent outcomes."
+  - q: "How do I calculate position size using the Risk 2% method?"
+    a: "Use the formula: Position = (Balance × Risk%) / |Entry Price - Stop Loss|. Example: with $1,000 balance, longing BTC at $90,000 with a stop at $88,200 (2% away), position = ($1,000 × 0.02) / $1,800 = 0.0111 BTC, roughly $1,000 notional. Maximum loss equals exactly 2% of account ($20). The key insight: tighter stops allow larger positions, wider stops force smaller positions, but risk per trade stays constant. This decouples position size from arbitrary percentages and ties it directly to your stop loss distance."
+  - q: "Should I use Full Kelly or Half Kelly for crypto trading?"
+    a: "Use Half Kelly or smaller. Full Kelly mathematically maximizes long-term growth but produces 55% max drawdown in the article's test — most traders abandon the strategy before recovery. Half Kelly cut risk to 27% drawdown while delivering the best final balance ($14,332). For crypto specifically, where win rates and payoff ratios fluctuate, even Half Kelly can be aggressive. Many quants use Quarter Kelly. Full Kelly assumes you know your true win rate precisely; in reality, overestimating edge by even 10% turns Full Kelly into a ruin machine."
+  - q: "What's the difference between 2% position size and 2% risk per trade?"
+    a: "They are completely different and confusing them is a common beginner mistake. A 2% position size means you allocate 2% of your balance to the trade — your loss depends on how far the price moves. A 2% risk per trade means your maximum loss never exceeds 2% of balance, regardless of position size. With a 3% stop loss, 2% risk equals roughly 67% position size. Risk-based sizing is what professionals use because it makes losses predictable and survival mathematically guaranteed."
+  - q: "How should I adjust position size after consecutive losses?"
+    a: "Cut risk in half after 3-4 consecutive losses, and pause new positions after 5 or more. The article recommends a tiered multiplier: 100% normal risk at 0-2 losses, 50% multiplier at 3-4 losses (dropping from 2% to 1% per trade), and full pause at 5+. This addresses two problems: statistical evidence your edge may have degraded, and psychological tilt that degrades execution quality. Resume normal sizing only after a winning trade or after market conditions clearly change. This single rule prevents most account blow-ups."
+  - q: "Why is fixed dollar position sizing the worst method?"
+    a: "Fixed dollar sizing fails on both ends. When your account grows from $500 to $5,000, betting $50 per trade means you're risking only 1% — you waste compounding potential and grow linearly instead of exponentially. When your account shrinks to $200, that same $50 represents 25% risk per trade, accelerating losses into ruin. The article's test confirms this: fixed $50 sizing turned $500 into just $1,050 over 100 trades, while risk-based sizing produced $2,340 with lower drawdown. Position size must scale with account equity."
+  - q: "Who should use Kelly Criterion vs Risk 2% sizing?"
+    a: "Use Risk 2% if you're a discretionary trader, run multiple uncorrelated strategies, or cannot precisely measure your win rate and payoff ratio. Use Half Kelly only if you have 200+ trades of backtested data with stable edge, accept 25-30% drawdowns emotionally, and trade a single strategy where the math holds. Beginners and most retail traders should default to Risk 2% — it caps downside without requiring perfect edge estimation. Kelly is for systematic quants with proven, stationary statistics. When in doubt, undersize: surviving the next 100 trades matters more than optimizing the next 10."
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## An Experiment
 
@@ -147,3 +165,9 @@ Position sizing isn't a supporting character in trading — it's the key factor 
 > A 60% win rate strategy + good position sizing > an 80% win rate strategy + bad position sizing.
 
 If you can only improve one part of your trading system, don't tweak indicator parameters. Get position sizing right first.
+
+## References
+
+- [The Risk Framework | Part 2: Position Sizing Is the Most Underrated Risk Management Tool You Have](https://thesisrationale.substack.com/p/the-risk-framework-part-2-position)
+- [Position Sizing Techniques for Quantitative Traders – Blog](https://bluechipalgos.com/blog/position-sizing-techniques-for-quantitative-traders/)
+- [The Trader: Position Sizing – Part I - ShareScope Articles](https://knowledge.sharescope.co.uk/2025/09/05/the-trader-position-sizing-part-i/)

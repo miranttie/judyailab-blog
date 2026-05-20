@@ -29,7 +29,10 @@ faq:
 a: "Start with a stable main strategy, complete backtesting, WFO validation, and Paper Trading confirmation before adding regime detection and complementary strategies."
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-08T17:35:29+00:00
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## A Brutal Fact
 
@@ -199,3 +202,9 @@ The core of building a multi-strategy system isn't "more strategies is better," 
 3. **Data-driven** (adjusting based on real performance, not feelings)
 
 Next time your trend strategy keeps losing in a ranging market, you won't panic. Because you know the mean reversion strategy is making money for you right now.
+
+## References
+
+- [Multi-Strategy Portfolios: Combining Quantitative Strategies](https://blog.quantinsti.com/multi-strategy-portfolios-combining-quantitative-strategies-effectively/)
+- [Trading Multiple Strategies With The Same Instrument – Part 1](https://easylanguagemastery.com/strategies/trading-multiple-strategies-with-the-same-instrument-part-1/)
+- [Do you run multiple strategies independently, or do you combine ...](https://www.reddit.com/r/algotrading/comments/1ghawod/do_you_run_multiple_strategies_independently_or/)

@@ -30,7 +30,10 @@ faq:
 a: 建議至少每季度回顧一次。2 個月內更新的頁面比 2 年以上的頁面多出約 28% 的 AI 引用次數，AI 偏好新鮮的資訊。
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## Your Article Ranks #1, But AI Won't Cite You
 

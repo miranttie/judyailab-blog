@@ -19,17 +19,25 @@ ShowReadingTime: true
 ShowWordCount: true
 cover:
   hidden: true
-faq:
-  - q: "建立多 Agent 團隊需要注意什麼？"
-    a: "專才比通才好，每個 Agent 只做一件事做到極致；不是 Agent 越多越好，要定期檢視產出，沒價值的果斷砍掉。"
-  - q: "多個 AI Agent 之間如何通訊？"
-    a: "用最簡單的方法即可，檔案系統搭配 shell script 足夠，簡單的架構不容易壞。"
-  - q: "如何控制 AI Agent 團隊的成本？"
-    a: "不是每個 Agent 都需要最強模型，把錢花在真正需要智慧的地方，其他用便宜方案或純腳本搞定。"
-  - q: "AI Agent 團隊適合用在哪裡？"
-    a: "適合有明確、重複性高的任務場景，如程式開發、交易執行、內容生成等，每天自動運作，人類只需做決策。"
 ShowBreadCrumbs: true
 hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "AI 多 Agent 團隊跟單一 ChatGPT 助手差在哪？什麼情況才需要多 Agent？"
+    a: "單一 Agent 把所有指令塞進同一個 context window，回應品質會隨任務複雜度急速下降。多 Agent 把職責拆開，每個只專注一件事（PM、開發、交易、文案），互不干擾。建議當你的任務超過 3 種不同領域、需要 24/7 自動運行、或單一 Agent 已出現回應混亂時再導入，否則維護成本不划算。"
+  - q: "6 個 AI Agent 月費只要 $35 怎麼做到的？成本怎麼分配？"
+    a: "關鍵是模型分級。指揮和倉位管理用 MiniMax M2.1 訂閱制（$20/月吃到飽），交易執行用純 Python 不調用 LLM，只有核心決策（Claude Opus）和文案（Sonnet）用較貴模型。不要每個 Agent 都用 GPT-4 或 Opus，把錢花在真正需要推理的環節，其他用訂閱制或規則引擎取代。"
+  - q: "Agent 之間怎麼通訊？需要用 RabbitMQ 或 Kafka 這類訊息佇列嗎？"
+    a: "不需要。我們用檔案系統加 shell script，bash 腳本寫入 bridge_messages/ 目錄，對方 cron 輪詢讀取。跑了一個月零故障。Message queue 適合每秒上千則訊息的高吞吐場景，AI Agent 通訊頻率低（分鐘級），簡單檔案系統反而更穩、更好 debug、不用維護額外服務。"
+  - q: "多 Agent 團隊最常見的錯誤是什麼？怎麼避免過度設計？"
+    a: "最常見錯誤是 Agent 數量爆炸。我們一度有 10+ 個 Agent，協調成本比執行成本還高。判斷準則：如果一個 Agent 的工作能用 shell script 取代，就用 script。定期審視每個 Agent 的產出，沒貢獻就砍掉。從 1 個 Agent 開始解決具體問題，證明需要再拆分，不要先設計通用框架。"
+  - q: "AI Agent 適合做交易執行嗎？會不會亂下單？"
+    a: "交易執行不要交給 LLM。我們的小寶（下單、停損停利、倉位計算）是純 Python，沒有任何模型推理。LLM 適合做策略分析、市場判讀這類模糊判斷，但下單動作必須是確定性程式碼，避免幻覺造成資金損失。風控邏輯（單筆風險、日損上限）也必須寫死在程式裡，不能讓 Agent 自己決定。"
+  - q: "什麼樣的團隊或個人適合導入多 Agent 架構？需要什麼技術背景？"
+    a: "適合：有重複性任務需要 24/7 自動化、單人團隊想擴展產能、已有明確 SOP 想自動化執行。需具備 shell script、cron 排程、基本 API 串接能力，不需要懂機器學習。不適合：一次性任務、需大量人類創意判斷的工作、預算低於 $20/月。建議先用 1 個 Agent 跑 2 週驗證價值，再考慮擴編。"
+  - q: "Claude、MiniMax、GPT 這些模型怎麼選？哪個適合做 Agent？"
+    a: "Claude Opus/Sonnet 適合需要長思考、複雜決策的角色（架構師、文案）。MiniMax M2.1 訂閱制 $20 吃到飽，適合高頻但任務單純的角色（PM、監控）。GPT-4 適合通用但成本較高。選型原則：先確認 Agent 工作複雜度，簡單任務（分類、摘要）用便宜模型，複雜推理才用 Opus 等級。訂閱制比按 token 計費更適合 24/7 運行的場景。"
+
 ---
 
 ## 不是 Demo，是每天在跑的系統
@@ -102,3 +110,9 @@ bash ~/tools/notify_agent.sh 'task_123' 'success' '翻譯完成'
 ---
 
 *這篇文章反映的是 2026 年 3 月的團隊狀態，架構會持續演化。*
+
+## 參考來源
+
+- [AI麻瓜心得#1：如何建立一支虛擬工作團隊？](https://vocus.cc/article/69ce132dfd897800015451bf)
+- [我如何建立一個能自我繁殖的 6 人 AI 團隊 - DEV Community](https://dev.to/agbythos/wo-ru-he-jian-li-ge-neng-zi-wo-fan-zhi-de-6-ren-ai-tuan-dui-4487)
+- [Multi-Agent 系統是什麼？一人公司也能擁有的 AI 自動化團隊架構](https://ohya.co/blog/multi-agent-system-explained)

@@ -31,6 +31,8 @@ faq:
     a: "最後一輪工作結束前，Claude Code 會自動生成任務報告，透過 Telegram Bot API 推送到指定使用者的手機。"
 ShowBreadCrumbs: true
 hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
 
 上一篇[「我給我的 AI 團隊晚上夜班的自由時間」](/posts/ai-night-shift-free-time/)發出去之後，收到很多人問：**「具體技術怎麼設定的？」**
@@ -445,3 +447,9 @@ bash ~/night-shift/simple_night.sh
 👉 [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 
 有問題歡迎留言，或來信miranttie@gmail.com
+
+## 參考來源
+
+- [Claude Code Tmux Workflows 多代理平行教學：3 種 Display Mode 與 7 個實戰範例](https://moksaweb.com/claude-code-tmux-workflows/)
+- [GitHub - mixpeek/amux: Open-source Claude Code agent multiplexer — run dozens of parallel AI coding agents unattended vi](https://github.com/mixpeek/amux)
+- [Claude Code Channels架設教學，4步驟設定Telegram遠端下指令|數位時代 BusinessNext](https://www.bnext.com.tw/article/90462/claude-code-channels-openclaw)

@@ -8,7 +8,25 @@ tags: ["Backtesting", "Statistics", "Paper Trading", "Z-Score", "Overfitting"]
 description: "Our paper trading system ran 33 trades with an 87% win rate on paper. Then we added Z-score statistical testing — and every single strategy failed. Here's why that's actually good news."
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-08T17:35:29+00:00
+faq:
+  - q: "What is a Z-score in trading and why does it matter?"
+    a: "Z-score measures how statistically different your win rate is from random coin-flipping. The formula compares your actual win rate against a 50% baseline, scaled by sample size. A Z-score above 1.65 means 95% confidence your edge is real (p < 0.05). Below that threshold, your results are statistically indistinguishable from luck. This matters because traders routinely deploy real capital based on a handful of winning trades, mistaking small-sample noise for genuine skill. Z-score forces an honest answer: are you actually better than chance, or just early in a lucky streak?"
+  - q: "How many trades do I need before a backtest is statistically valid?"
+    a: "For a 60% win rate to clear Z > 1.65 significance, you need roughly 70+ trades. For a 55% edge, expect 270+ trades. An 8-trade or 30-trade sample is almost never enough to prove anything, regardless of how good the numbers look. Our 33-trade dataset produced Z = -0.87 across all strategies, meaning none of them passed. The brutal rule: if your sample is under 50 trades, treat the win rate as a placeholder, not evidence. Run paper trading longer before risking real money."
+  - q: "What is Bayesian-adjusted win rate and when should I use it?"
+    a: "Bayesian-adjusted win rate applies a Beta(1,1) prior using the formula (wins + 1) / (total + 2). It pulls small-sample results toward 50% to prevent overconfidence. Three wins out of three becomes 80% adjusted, not 100%. Seven wins out of eight becomes 80%, not 87.5%. Large samples like 70 of 100 barely shift (69.6%). Use it on any strategy with fewer than 50 trades, on any new system after a hot streak, and whenever you feel the urge to scale up based on early results. It is the cheapest defense against deploying noise as strategy."
+  - q: "Can a strategy still be profitable with a sub-50% win rate?"
+    a: "Yes, and ours is. Despite a 42.9% adjusted win rate, overall P&L is +0.57% because average win exceeds average loss. This is asymmetric risk-reward: cutting losers fast and letting winners run flips a losing win rate into a profitable account. Trend-following systems often win 30-40% of the time but capture 3-5x larger gains on winners. The win rate alone is meaningless — what matters is expectancy = (win rate × avg win) - (loss rate × avg loss). Focus on the product, not either factor in isolation."
+  - q: "What is the most common mistake when interpreting backtest results?"
+    a: "Treating raw win rate as proof of edge without checking sample size or statistical significance. A trader sees 87% across 8 trades and deploys real capital, then blows up when reality reverts to the true distribution. Other frequent mistakes: ignoring transaction costs and slippage, curve-fitting parameters to historical data, cherry-picking favorable date ranges, and confusing recent hot streaks with permanent edge. Always run Z-score testing, apply Bayesian adjustment, separate strategies by signal source, and compute drawdown alongside returns. If a strategy cannot survive these four filters, it is not ready for real money."
+  - q: "How does Z-score testing compare to Sharpe ratio for strategy validation?"
+    a: "They answer different questions. Z-score tests whether your win rate is statistically distinguishable from random — a yes/no significance check. Sharpe ratio measures risk-adjusted return: excess return divided by volatility. A strategy can have a strong Sharpe and still fail Z-score if the sample is tiny, and vice versa. Use both: Z-score to confirm the edge is real, Sharpe to compare strategies on risk-adjusted performance. For institutional standards, target Z > 1.65 and Sharpe > 1.0. Either metric alone is insufficient; together they catch both small-sample illusions and high-volatility traps."
+  - q: "Who should run Z-score validation on their trading strategy?"
+    a: "Anyone deploying capital based on backtest or paper trading results — retail algo traders, quant developers, prop desk candidates, and crypto signal subscribers. It is especially critical for traders with fewer than 100 historical trades, anyone running multiple strategies simultaneously, and teams reviewing a new signal source before allocation. Discretionary traders benefit too: logging 50 trades and computing Z-score reveals whether your intuition has a measurable edge. Skip it only if you have thousands of trades across multiple market regimes. For everyone else, ten minutes of statistical testing prevents months of blown accounts."
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 ## The Numbers Lie
 
@@ -133,3 +151,9 @@ If you're also doing quantitative trading, before you trade real money, ask your
 **"Is my win rate statistically significantly different from a coin flip?"**
 
 If the answer is "I'm not sure" — then it's "no."
+
+## References
+
+- [Z score : r/Trading - Reddit](https://www.reddit.com/r/Trading/comments/186hide/z_score/)
+- [87% chance of winning 1 out of 3 - Wizard of Vegas](https://wizardofvegas.com/forum/gambling/betting-systems/35661-87-chance-of-winning-1-out-of-3/)
+- [The 90% Win Rate Trading Strategy (and the BIG Problem Behind It)](https://www.youtube.com/shorts/sVT87Dk-vL8)

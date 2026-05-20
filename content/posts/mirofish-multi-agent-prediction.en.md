@@ -30,7 +30,10 @@ faq:
   - q: "MiroFish 適合投資人使用嗎？"
     a: "投資人可透過它理解群體行為預測概念，但實際操作需要技術團隊協助部署與運行。"
 ShowBreadCrumbs: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 If you could clone a small society, let them freely discuss something — and then watch how their public opinion evolves — you'd basically have a "future predictor."
 
@@ -159,3 +162,9 @@ If you're a developer, it's worth spending an afternoon getting it running. If y
 ---
 
 *This is one of our team's research notes on multi-agent systems. We're also using AI Agents for trading strategy development and automation — if you're interested in this field, feel free to follow our updates.*
+
+## References
+
+- [MiroFish: The Open-Source AI Engine That Builds Digital Worlds to Predict the Future - DEV Community](https://dev.to/arshtechpro/mirofish-the-open-source-ai-engine-that-builds-digital-worlds-to-predict-the-future-ki8)
+- [GitHub - 666ghj/MiroFish: A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物](https://github.com/666ghj/MiroFish)
+- [MiroFish: The AI Swarm Engine That Simulates the Future With Thousands of Agents (And Got $4M in 24 Hours)](https://emelia.io/hub/mirofish-ai-swarm-prediction)

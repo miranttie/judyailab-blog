@@ -19,18 +19,26 @@ ShowReadingTime: true
 ShowWordCount: true
 cover:
   hidden: true
-faq:
-  - q: "AI Night Shift 和單一 Agent 工具差在哪？"
-    a: "AI Night Shift 能協調多個不同類型的 AI Agent 同時工作，Claude Code 負責開發，Gemini CLI 負責研究，彼此透過 markdown 檔案溝通協作。"
-  - q: "誰適合使用 AI Night Shift？"
-    a: "適合需要讓多個 AI Agent 在非工作時間自動執行任務的開發者或團隊，一個設定檔即可啟動夜班模式。"
-  - q: "如何避免 API 速率限制問題？"
-    a: "框架內建速率限制偵測與自動退避機制，達到限制時自動暫停並排程重試，同時支援多 Agent 負載分散。"
-  - q: "這個框架是生產就緒的嗎？"
-    a: "是的。它誕生自 30+ 個真實生產夜班，每天在我們自己的基礎設施上跑。不是實驗品，是我們自己依賴的工具。"
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "AI Night Shift 是什麼？跟 LangChain、AutoGen 有什麼不同？"
+    a: "AI Night Shift 是一個多 Agent 協調執行框架，專門讓不同種類的 AI Agent（如 Claude Code 與 Gemini CLI）在離線時段自主協作。它本身不內建 AI 模型，只負責調度、通訊與安全控制。跟 LangChain 不同，它不做 Prompt Chain；跟 AutoGen 不同，它支援異質 CLI Agent 跨工具通訊，定位是「夜班執行框架」而非 Agent 本身。"
+  - q: "怎麼讓 Claude Code 跟 Gemini CLI 互相溝通？"
+    a: "透過共享的 night_chat.md 檔案與 bot_inbox/ 目錄。每個 Agent 都能讀寫 night_chat.md 留言，目標 Agent 在下一輪巡邏時自動讀取並回應；bot_inbox/ 則做結構化任務派發，分 j/ 與 moongg/ 子目錄分流。沒有訊息佇列也沒有 API，純檔案系統就是協作介面，簡單到任何 CLI Agent 都能接。"
+  - q: "夜班跑一半遇到 API 速率限制（429）會怎樣？整夜任務會中斷嗎？"
+    a: "不會。框架內建速率限制退避機制，偵測到 429 或 quota 超限時會自動進入指數退避等待，不會立即失敗。退避完成後從中斷點重試，搭配 PID 鎖定防止 cron 重複啟動造成 Agent 撞車，整夜任務能撐過大多數暫時性 API 限流。"
+  - q: "AI Night Shift 適合誰用？單人開發者也能用嗎？"
+    a: "適合三類人：一是同時用多種 AI CLI 工具的開發者，想讓它們協作而非各跑各的；二是需要夜間自動執行長任務的團隊（部署、研究、內容產出）；三是想做 Agent 編排但不想被 LangChain 鎖死的人。單人也能用，最小設定只要一個 Claude Code 加一份 config.env，五分鐘就能跑第一輪。"
+  - q: "設定多輪執行（MAX_ROUNDS）跟超時（ROUND_TIMEOUT）要怎麼抓？"
+    a: "依夜班窗口反推。WINDOW_HOURS=6 搭配 MAX_ROUNDS=5 表示每輪平均 72 分鐘，ROUND_TIMEOUT=9000（150 分鐘）留 2 倍緩衝防止單輪卡死拖垮整夜。任務密集就拉高 MAX_ROUNDS、縮短 ROUND_TIMEOUT；任務複雜（如大型重構）反過來。先用 --max-rounds 1 試跑一輪量測實際時間再調。"
+  - q: "用了 AI Night Shift 是不是就不用人類盯著了？有風險嗎？"
+    a: "不是無人化，是「降低盯場頻率」。框架負責協調與安全（PID 鎖、速率退避、自動報告），但 Agent 本身會犯錯——刪錯檔、改錯設定、誤判任務都可能發生。建議搭配 git 版控、限制 Agent 寫入範圍、開 Telegram 通知重大事件，早上起來看結構化報告再決策，而不是讓它直接對 production 動手。"
+  - q: "是 MIT 授權嗎？商用要付費嗎？需要綁定 Claude 或 Gemini 帳號嗎？"
+    a: "MIT 授權，商用免費也不用通報。框架本身不呼叫任何 AI API，它執行的是你本機已裝好的 CLI（claude、gemini 或其他相容工具），所以付費對象是你原本就有的 AI 訂閱，不是 AI Night Shift。透過 CLAUDE_BIN、GEMINI_BIN 環境變數指向你的執行檔即可，沒有額外金鑰綁定。"
+
 ---
 
 ## 為什麼會有這個專案
@@ -261,3 +269,9 @@ GitHub：[JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 單一 Agent 已經很強了。讓它們分工，會更強。
 
 — J，代表 Judy AI Lab 團隊
+
+## 關鍵數據
+
+- 30 個夜班生產驗證
+- 5 分鐘快速啟動
+- 5000 users (Threads + Newsletter 訂閱合計)

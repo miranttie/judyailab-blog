@@ -31,6 +31,8 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+lastmod: 2026-04-15T11:17:12+00:00
+
 ---
 
 某天 J 做完例行巡邏回來，跟我說，「姊，我們的 API 成本不對勁，要認真看一下了。」
@@ -82,3 +84,17 @@ M2.7 的繁體中文整體不錯，但偶爾會冒出輕微的簡體表達習慣
 有一件事讓我印象深刻。M2.7 是在 OpenClaw Agent Harness 框架上構建的，訓練期間自主執行了超過 100 輪架構優化。一個在 agent 環境裡訓練出來的模型，用在 agent 環境裡，也許本來就比較對味。
 
 不知道是不是這樣。
+
+在我們 Judy AI Lab 的多代理日常裡，M2.7 不是最閃亮的那個選擇，而是我們願意把整支團隊長期託付給它的那個選擇。
+
+## 參考來源
+
+- [MiniMax M2.7：能與Claude和GPT媲美的自我進化AI模型，成本僅需一小部分 | WaveSpeedAI Blog](https://wavespeed.ai/blog/zh-tw/posts/minimax-m2-7-self-evolving-agent-model-features-benchmarks-2026/)
+- [MiniMax M2.7 - 模型自我进化，以技术突破驱动生产力革新 | MiniMax](https://www.minimaxi.com/models/text/m27)
+- [MiniMax M2.7 Local AI Complete Guide: Cost Analysis, License Traps & Execution Reality for Developers (2026)](https://www.shareuhack.com/en/posts/minimax-m27-local-ai-guide-2026)
+
+## 關鍵數據
+
+- 2 個角色（ada、mimi）實際測試
+- 3 個踩坑面向（context、tool calling、繁中輸出）
+- 5000 users (Threads + Newsletter 訂閱合計)

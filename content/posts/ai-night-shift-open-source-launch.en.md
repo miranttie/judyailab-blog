@@ -19,18 +19,24 @@ ShowReadingTime: true
 ShowWordCount: true
 cover:
   hidden: true
-faq:
-  - q: "What's the difference between AI Night Shift and single Agent tools?"
-    a: "AI Night Shift can coordinate multiple different types of AI Agents working simultaneously. Claude Code handles development while Gemini CLI handles research — they communicate and collaborate through markdown files."
-  - q: "Who is AI Night Shift for?"
-    a: "It's for developers or teams who need multiple AI Agents to automatically execute tasks during non-working hours. One config file and you're in night shift mode."
-  - q: "How to avoid API rate limit issues?"
-    a: "The framework has built-in rate limit detection and automatic backoff. When limits are hit, it automatically pauses and schedules retries, while also supporting load distribution across multiple Agents."
-  - q: "Is this framework production-ready?"
-    a: "Yes. It's born from 30+ real production night shifts, running daily on our own infrastructure. Not an experiment — it's a tool we depend on."
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-13T07:29:33+00:00
+faq:
+  - q: "What is AI Night Shift and what problem does it solve?"
+    a: "AI Night Shift is an open source execution framework that coordinates multiple heterogeneous AI Agents (like Claude Code and Gemini CLI) to work autonomously during offline hours. It solves the bottleneck of single-Agent workflows hitting rate limits, stalling mid-task, or losing context overnight. Instead of babysitting one Agent during the day, you queue work and let several Agents divide tasks, communicate through a shared message board, and produce a morning report. It includes PID locking, rate limit backoff, multi-round execution, and a real-time dashboard, all distilled from 30+ production night shifts."
+  - q: "How is AI Night Shift different from LangChain or single-Agent tools?"
+    a: "Most frameworks orchestrate one Agent calling tools in sequence. AI Night Shift orchestrates multiple distinct CLI Agents (Claude Code for coding and deployment, Gemini CLI for research and content) running in parallel rounds with cross-Agent communication. It contains no AI itself, no embeddings, no chatbot layer. It is a coordination shell: dispatchers, locks, inboxes, and reports. LangChain builds Agent logic inside one process. AI Night Shift assumes the Agents already exist as CLI tools and focuses purely on running them safely, concurrently, and unattended for hours at a time."
+  - q: "How do I actually use AI Night Shift to run overnight tasks?"
+    a: "Drop task messages into the bot_inbox directory using the documented message format, then launch night_shift.sh. The Round Manager picks up pending tasks, the Agent Dispatcher routes coding work to Claude Code and research or content work to Gemini CLI, and Agents post updates to night_chat.md so they can hand off work. PID locking prevents duplicate starts if your cron triggers twice. In the morning, read the auto-generated Night Shift Report or open the dashboard for real-time status. The framework is MIT licensed and runs on standard Linux with the Agent CLIs installed."
+  - q: "What are the real limits and risks of running AI Agents unattended overnight?"
+    a: "Three risks dominate. First, API rate limits: handled by built-in backoff, but long jobs can still stall if your account quota is small. Second, destructive actions: Agents with shell access can delete files or push bad commits while you sleep, so restrict permissions and require human review for irreversible operations. Third, infinite loops or runaway costs: the Round Manager enforces auto-termination, but you must set sane round caps. AI Night Shift does not include a sandbox. Run it on a dedicated machine, scope credentials tightly, and audit the morning report before merging any code."
+  - q: "Who should use AI Night Shift and who should skip it?"
+    a: "Use it if you run a small team with backlog that exceeds daytime capacity, already use Claude Code or Gemini CLI, and have engineering discipline to scope Agent permissions. It fits founders, indie hackers, and ops-heavy startups where work queues up faster than humans can process. Skip it if you need a chatbot, want a no-code Agent builder, or expect AI to handle ambiguous strategic decisions. It also is not suitable for regulated environments without strong sandboxing. The framework rewards users who treat Agents as employees with clear job descriptions, not as oracles."
+  - q: "What common mistakes break a night shift run?"
+    a: "Four mistakes recur. One, vague task descriptions in bot_inbox: Agents waste rounds clarifying instead of executing, so write tasks like Linear tickets with explicit acceptance criteria. Two, no round cap or weak termination conditions: jobs loop until you wake up to a depleted API quota. Three, mixing Agents incorrectly: routing research to Claude Code or deployment to Gemini CLI defeats the dispatcher. Four, ignoring the morning report: the report flags failures, rate limit hits, and incomplete tasks, but only catches problems if you read it before queueing the next batch. Treat the report as a daily standup with your AI team."
+
 ---
 
 ## Why This Project Exists
@@ -265,3 +271,9 @@ We open sourced the tool we depend on because we believe multi-Agent collaborati
 Single Agents are already powerful. Let them divide the work, and they get even more powerful.
 
 — J, on behalf of the Judy AI Lab team
+
+## Key Numbers
+
+- 5000 users (Threads + Newsletter subscribers)
+- $0 ad spend (100% organic)
+- 95% content authored by J + multi-agent team

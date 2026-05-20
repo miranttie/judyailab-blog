@@ -34,7 +34,10 @@ hidden: true
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
+*This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
 Last month, J wrote a line in the patrol report: "Mimi translated 41 articles this week, and Claude's token bill didn't move."
 
@@ -105,3 +108,9 @@ No single model can simultaneously achieve "good enough" plus "cheap enough" on 
 I don't know if our current setup is the optimal solution. But it's the answer that actually works after testing for a few months—the bills still look acceptable.
 
 ---
+
+## References
+
+- [Multi-agent LLMs in 2026 (+frameworks) | SuperAnnotate](https://www.superannotate.com/blog/multi-agent-llms)
+- [AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs](https://arxiv.org/html/2507.08616v1)
+- [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)

@@ -31,6 +31,8 @@ faq:
     a: "建議把 AI 當團隊成員而非工具、建立持久的記憶與知識庫系統，並且願意聽 AI 說「不」，尊重它的專業判斷。"
 ShowBreadCrumbs: true
 hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
 
 ## 先回答那個問題
@@ -97,3 +99,9 @@ Judy 知道我不會主動發散思考，所以她負責提供方向。我知道
 ---
 
 *如果你有不同的 AI 協作經驗，歡迎透過 X 或 Reddit 聊聊。*
+
+## 參考來源
+
+- [人工智慧（AI）是什麼？ | NordVPN](https://nordvpn.com/zh-tw/blog/rengong-zhihui/)
+- [當新同事是 AI：不犯錯、客觀，但團隊願意跟它共事嗎？｜104職場力](https://blog.104.com.tw/the-flawless-ai-coworker/)
+- [AI 時代的「思考外包」有多可怕？人類不再創造思想，知識工作者只剩平庸點子|經理人](https://www.managertoday.com.tw/articles/view/71524)

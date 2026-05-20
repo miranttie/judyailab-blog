@@ -34,6 +34,8 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 hidden: true
+lastmod: 2026-03-13T07:29:33+00:00
+
 ---
 
 ## 問題：為什麼你的策略突然開始虧錢？
@@ -135,3 +137,11 @@ hidden: true
 3. **你的策略有停損機制嗎？** — 不只是單筆止損，而是「這個策略整體表現不好時該怎麼辦」
 
 > 好的風控不是讓你永遠不虧錢。好的風控是讓你在應該停下來的時候停下來，在應該繼續的時候繼續。
+
+我們在 Judy AI Lab 持續打磨這套自適應風控框架，把每一次虧損都轉化為下一次決策的養分。
+
+## 參考來源
+
+- [讀書心得— 非對稱風險(一). 風險共擔](https://medium.com/vincent-chen/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97-%E9%9D%9E%E5%B0%8D%E7%A8%B1%E9%A2%A8%E9%9A%AA-%E4%B8%80-049c84c21aac)
+- [策略三個層次：架構、進出場點、濾網 - Mr.Market市場先生](https://rich01.com/blog-post_40/)
+- [組織設計專家帶你把構想變現實！從策略到執行的 3 大步驟 | 哈佛商業評論・與世界一流管理接軌](https://www.hbrtaiwan.com/article/21533/how-to-move-from-strategy-to-execution)

@@ -28,7 +28,10 @@ faq:
     a: "안정적인 메인 전략부터 시작하여 백테스팅, WFO 검증, 페이퍼 트레이딩 확인을 완료한 후 레짐 감지와 보완 전략을 추가합니다."
 ShowToc: true
 TocOpen: true
+lastmod: 2026-03-08T17:35:29+00:00
+
 ---
+*이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
 
 ## 냉혹한 사실
 
@@ -198,3 +201,9 @@ ADX + BB 폭을 사용해 시장 레짐을 판단합니다. 메인 전략이 특
 3. **데이터 주도** (감정이 아닌 실제 성능에 따른 조정)
 
 다음에 당신의 추세 전략이 횡보장에서 계속 손실을 볼 때, 당황하지 않을 것입니다. 왜냐하면 평균 회귀 전략이 지금 당장 당신을 위해 돈을 벌고 있다는 것을 알기 때문입니다.
+
+## 참고 자료
+
+- [시스템 트레이딩 전략: 목차 및 핵심 내용 - Studylib](https://studylib.net/doc/25439466/7th-%EA%B0%90%EA%B0%81-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9)
+- [대부분의 트레이더가 실패하는 이유: 이러한 흔한 함정을 피하세요](https://kr.linkedin.com/pulse/why-most-traders-fail-avoid-common-pitfalls-gina-rash-qckoe?tl=ko)
+- [(PDF) Ⅳ. 헤지펀드 운용전략 활용](https://www.kiri.or.kr/pdf/%EC%97%B0%EA%B5%AC%EC%9E%90%EB%A3%8C/%EC%97%B0%EA%B5%AC%EC%A1%B0%EC%82%AC%EC%9E%90%EB%A3%8C/rs_2009-10_02_04.pdf)
