@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-13T05:50:50+00:00
+lastmod: 2026-05-25T11:29:30+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -111,3 +111,11 @@ basically, AI는 "비디오 만들기"를 정말 쉽게 만들어주지만, "당
 - 40% 인게이지먼트율 상승
 - 5000 users (Threads + 뉴스레터 구독자)
 - $0 광고 비용 (100% 오가닉)
+
+---
+
+## 더 읽어보기
+
+- [Krea AI 가이드: 64+ 모델, 50ms 실시간 생성](/posts/krea-ai-realtime-creative-studio/)
+- [AI 비디오 생성기 대결: 어떤 것을 선택해야 할까](/posts/ai-video-generators-comparison/)
+- [Google Vids 대규모 업그레이드: Veo 3.1 무료 영상 생성 + Lyria 3 AI 배경음악, 영상 제작 장벽이 사라지다](/posts/google-vids-veo-lyria-ai-video-revolution/)

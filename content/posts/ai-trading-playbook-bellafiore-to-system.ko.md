@@ -32,7 +32,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T10:55:58+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -116,3 +116,11 @@ Bellafiore는 트레이더 훈련석에 앉은 사람들을 생각하며 《The 
 - 72 個 Regime Grid 칸
 - 5000 users (Threads + 뉴스레터 구독자)
 - $0 광고 비용 (100% 오가닉)
+
+---
+
+## 더 읽어보기
+
+- [당신의 전략이 승률 87%? Z-Score가 말합니다: 그것은 착각입니다](/posts/z-score-reality-check/)
+- [퀀트 트레이딩 시스템 구축기: 첫 백테스팅 코드부터 페이퍼 트레이딩까지](/posts/quant-trading-journey/)
+- [백테스팅에서 100% 승률? 축하하기엔 이르다 — 우리의 가장 뼈아픈 교훈](/posts/oos-validation-lesson/)

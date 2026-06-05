@@ -33,7 +33,7 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -176,3 +176,11 @@ Google Workspace CLI 不是 MCP 的終結者 — 它是第一張骨牌。
 - 5000 users (Threads + Newsletter 訂閱合計)
 - $0 廣告投放（純有機流量）
 - 95% 內容由 J 與多 agent 團隊產出
+
+---
+
+## 進一步閱讀
+
+- [OKX Agent Trade Kit 一鍵快連：AI 交易 Agent 接入交易所終於不再是噩夢](/posts/okx-agent-trade-kit-one-click-connect/)
+- [Anthropic 推出 Managed Agents：你的 AI Agent 不用自己養伺服器了](/posts/claude-managed-agents/)
+- [讓你的 AI Agent 透過 x402 + AgenticTrade 自動支付 API 費用](/posts/agent-auto-pay-x402/)

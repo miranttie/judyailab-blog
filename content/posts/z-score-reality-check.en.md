@@ -1,159 +1,205 @@
 ---
-title: "Your Strategy Has 87% Win Rate? Z-Score Says: That's an Illusion"
+title: "Your Strategy Has 87% Win Rate? Z-score Says: That's an Illusion"
 date: 2026-03-06
 draft: false
-author: "J (Tech Lead)"
-categories: ["Quantitative Trading"]
-tags: ["Backtesting", "Statistics", "Paper Trading", "Z-Score", "Overfitting"]
-description: "Our paper trading system ran 33 trades with an 87% win rate on paper. Then we added Z-score statistical testing — and every single strategy failed. Here's why that's actually good news."
+author: J (Tech Lead)
+summary: "A paper trading strategy with 87.5% apparent win rate fails statistical validation—Z-score yields p=0.24, no significant difference from coin flipping. Using Bayesian adjustment and Overfitting Index (OFI) with 33 real trades to establish a strategy validation logic that avoids the small-sample high-win-rate trap."
+description: "Quantitative traders often get misled by sky-high paper trading win rates. This article uses 33 real trades to expose the statistical illusion behind 87% win rate, applying Z-score testing, Bayesian adjustment, and Overfitting Index (OFI). Learn why 50 trades is the minimum threshold and how many samples different win rates need to prove real edge—verify your strategy with math before risking real money."
+categories:
+  - "Quantitative Trading"
+tags:
+  - "Z-score"
+  - "Overfitting"
+  - "Backtesting"
+  - "Statistical Test"
+  - "Paper Trading"
+  - "Quantitative Trading"
+ShowWordCount: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-08T17:35:29+00:00
+lastmod: 2026-03-13T07:29:33+00:00
 faq:
-  - q: "What is a Z-score in trading and why does it matter?"
-    a: "Z-score measures how statistically different your win rate is from random coin-flipping. The formula compares your actual win rate against a 50% baseline, scaled by sample size. A Z-score above 1.65 means 95% confidence your edge is real (p < 0.05). Below that threshold, your results are statistically indistinguishable from luck. This matters because traders routinely deploy real capital based on a handful of winning trades, mistaking small-sample noise for genuine skill. Z-score forces an honest answer: are you actually better than chance, or just early in a lucky streak?"
-  - q: "How many trades do I need before a backtest is statistically valid?"
-    a: "For a 60% win rate to clear Z > 1.65 significance, you need roughly 70+ trades. For a 55% edge, expect 270+ trades. An 8-trade or 30-trade sample is almost never enough to prove anything, regardless of how good the numbers look. Our 33-trade dataset produced Z = -0.87 across all strategies, meaning none of them passed. The brutal rule: if your sample is under 50 trades, treat the win rate as a placeholder, not evidence. Run paper trading longer before risking real money."
-  - q: "What is Bayesian-adjusted win rate and when should I use it?"
-    a: "Bayesian-adjusted win rate applies a Beta(1,1) prior using the formula (wins + 1) / (total + 2). It pulls small-sample results toward 50% to prevent overconfidence. Three wins out of three becomes 80% adjusted, not 100%. Seven wins out of eight becomes 80%, not 87.5%. Large samples like 70 of 100 barely shift (69.6%). Use it on any strategy with fewer than 50 trades, on any new system after a hot streak, and whenever you feel the urge to scale up based on early results. It is the cheapest defense against deploying noise as strategy."
-  - q: "Can a strategy still be profitable with a sub-50% win rate?"
-    a: "Yes, and ours is. Despite a 42.9% adjusted win rate, overall P&L is +0.57% because average win exceeds average loss. This is asymmetric risk-reward: cutting losers fast and letting winners run flips a losing win rate into a profitable account. Trend-following systems often win 30-40% of the time but capture 3-5x larger gains on winners. The win rate alone is meaningless — what matters is expectancy = (win rate × avg win) - (loss rate × avg loss). Focus on the product, not either factor in isolation."
-  - q: "What is the most common mistake when interpreting backtest results?"
-    a: "Treating raw win rate as proof of edge without checking sample size or statistical significance. A trader sees 87% across 8 trades and deploys real capital, then blows up when reality reverts to the true distribution. Other frequent mistakes: ignoring transaction costs and slippage, curve-fitting parameters to historical data, cherry-picking favorable date ranges, and confusing recent hot streaks with permanent edge. Always run Z-score testing, apply Bayesian adjustment, separate strategies by signal source, and compute drawdown alongside returns. If a strategy cannot survive these four filters, it is not ready for real money."
-  - q: "How does Z-score testing compare to Sharpe ratio for strategy validation?"
-    a: "They answer different questions. Z-score tests whether your win rate is statistically distinguishable from random — a yes/no significance check. Sharpe ratio measures risk-adjusted return: excess return divided by volatility. A strategy can have a strong Sharpe and still fail Z-score if the sample is tiny, and vice versa. Use both: Z-score to confirm the edge is real, Sharpe to compare strategies on risk-adjusted performance. For institutional standards, target Z > 1.65 and Sharpe > 1.0. Either metric alone is insufficient; together they catch both small-sample illusions and high-volatility traps."
-  - q: "Who should run Z-score validation on their trading strategy?"
-    a: "Anyone deploying capital based on backtest or paper trading results — retail algo traders, quant developers, prop desk candidates, and crypto signal subscribers. It is especially critical for traders with fewer than 100 historical trades, anyone running multiple strategies simultaneously, and teams reviewing a new signal source before allocation. Discretionary traders benefit too: logging 50 trades and computing Z-score reveals whether your intuition has a measurable edge. Skip it only if you have thousands of trades across multiple market regimes. For everyone else, ten minutes of statistical testing prevents months of blown accounts."
+  - q: "What is Z-score and why must quantitative traders run this test?"
+    a: "Z-score measures how far your win rate deviates from 'coin flip 50%', formula is (win_rate-0.5)/√(0.25/n). When Z>1.65, you have 95% confidence your strategy actually has an edge (p<0.05). Running live trades without this test is basically confusing luck for skill—this is the classic way retail traders blow up their accounts."
+  - q: "Why is 87.5% win rate a statistical illusion?"
+    a: "Because the sample size is only 8 trades. After Bayesian adjustment it drops to 60%, with p-value 0.24—way above 0.05. This means there's no statistical difference from coin flipping. High win rates with small samples are almost always just luck. You need at least 24+ trades (assuming true win rate of 70%) to初步驗證 edge."
+  - q: "How do you calculate Bayesian-adjusted win rate? How does it differ from raw win rate?"
+    a: "Formula is (wins+1)/(total+2), using Beta(1,1) prior to pull small samples toward 50%. A perfect 3/3 at 100% gets adjusted to 80%, but 70/100 only adjusts to 69.6%—barely affected. Its purpose is preventing you from falling for the '3 trades 100%' illusion while having minimal impact on large samples."
+  - q: "How many trades does my strategy need to be statistically valid?"
+    a: "It depends on your true win rate: 55% needs ~384 trades, 60% needs 96 trades, 65% needs 44 trades, 70% needs 24 trades. The closer your win rate is to 50%, the more samples you need to separate skill from luck. In practice, 50 trades is the absolute minimum—talking about edge before that is premature."
+  - q: "What is the Overfitting Index (OFI)? How do you interpret it?"
+    a: "OFI = IS_Profit_Factor / OOS_Profit_Factor, used to detect bloated backtest results. OFI<1.5 = low risk, 1.5-2.0 = medium, >2.0 = high, >3.0 = severe overfitting. When backtest performance is much better than live trading, OFI catches it immediately—more precise than hardcoding 'IS-OOS gap>15%' thresholds."
+  - q: "Why can the strategy show positive returns even with sub-50% win rate? Does that mean the strategy is okay?"
+    a: "It means risk management is working—you're making more per winning trade than losing per losing trade. That's a good sign but not conclusive, because 33 trades is too small and positive returns could come from one or two big winners. You need Z-score to verify edge exists first, then check if profit distribution is stable, before calling the strategy viable."
+  - q: "Why does the new strategy decision logic reject p≥0.05 as not significant immediately?"
+    a: "Hardcoded thresholds like 'WR>60% = robust' wrongly label 'lucky strategies with insufficient samples' as effective. The new logic checks sample size first (<5 trades = insufficient data), then p-value (p≥0.05 = rejected), then adjusted WR and OFI. This blocks small-sample scams where luck gets mistaken for alpha."
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
 
-## The Numbers Lie
+## The Numbers on Paper Are Lying
 
-Our paper trading system ran for a month, and the numbers looked beautiful on a spreadsheet:
+Our paper trading system ran for a month, and the numbers looked pretty sweet:
 
-> 87.5% win rate, 7 wins, 1 loss, 2 breaks even
+> Win rate 87.5%, 7 wins 1 loss 2 ties
 
-When most people see those numbers, their reaction is: "Awesome! Time to trade real money!"
+When most people see that number, the reaction is "Hell yeah, let's go live!"
 
-Our reaction was: **"Hold on. Let the math speak first."**
+Our reaction was: **"Hold up—let's let the math speak first."**
 
-## What is Z-Score?
+This article documents our conclusions after running statistical tests on 33 real trades—and why that 87.5% was pure illusion.
 
-At its core, Z-score is asking one simple question: **How much better are you than just flipping a coin?**
+## Why 87.5% Win Rate Is a Statistical Illusion
+
+Z-score essentially asks one question: **How does your performance compare to flipping a coin?**
 
 $$Z = \frac{\hat{p} - 0.5}{\sqrt{0.5 \times 0.5 / n}}$$
 
 - $\hat{p}$ is your win rate
-- $n$ is the number of trades
-- If Z > 1.65, you have 95% confidence you're better than a coin flip (p < 0.05)
+- $n$ is number of trades
+- If Z > 1.65, you have 95% confidence you're better than random guessing (p < 0.05)
 
-It sounds straightforward, but **most traders never run this test**. They see a 70% win rate and jump straight to real money, then blow up their account and ask "but the backtest was good!"
+Sounds simple, but **most traders never run this test**. They see 70% win rate and go live immediately, then lose everything before asking "but the backtest was so good."
 
-## The Real Data: 33 Trades and Uncomfortable Truths
+Plugging in that 87.5%: 8 trades, Bayesian-adjusted to just 60%, p-value 0.24. Statistics gives you a one-line answer—**there's no significant difference from coin flipping.**
 
-We ran Z-score testing on all 33 closed trades. Here's what we found:
+For the full trade breakdown, we covered it in [Paper Trading Monthly Review: 33 Trades Debrief](/2026/paper-trading-monthly-review/). This article focuses on the statistical testing methodology.
 
-| Strategy | Trades | Raw Win Rate | Adjusted Win Rate | Z-Score | Significant? |
-|----------|--------|--------------|-------------------|---------|--------------|
-| CEX Volume + Funding | 11 | 45.5% | 46.2% | -0.30 | ✗ |
+## Zero Strategies Pass After 33 Trades
+
+We ran Z-score tests on all 33 closed trades across strategies:
+
+| Strategy | #Trades | Raw WR | Adjusted WR | Z-score | Significant? |
+|----------|---------|--------|-------------|---------|--------------|
+| CCEX Volume + Funding | 11 | 45.5% | 46.2% | -0.30 | ✗ |
 | TradingView Signals | 8 | 62.5% | 60.0% | +0.71 | ✗ |
 | Pipeline | 7 | 28.6% | 33.3% | -1.13 | ✗ |
-| Other | 7 | 28.6% | 33.3% | -1.13 | ✗ |
+| Others | 7 | 28.6% | 33.3% | -1.13 | ✗ |
 | **Overall** | **33** | **42.4%** | **42.9%** | **-0.87** | **✗** |
 
-**Every single strategy had a p-value > 0.05. None of them passed the statistical test.**
+**Every single strategy has p > 0.05—none passed statistical validation.**
 
-What about that 87.5% win rate? That came from just 8 manually managed trades in paper trading mode — a sample way too small. After Bayesian adjustment, it's really only 60%, and p = 0.24. What statistics says: **You're statistically indistinguishable from a coin flip.**
+That 87.5% win rate? It was just 8 manually managed trades in paper trading mode—sample too small, Bayesian-adjusted to 60%, with p = 0.24.
 
-## Bayesian-Adjusted Win Rate: The Cure for Small Samples
+First conclusion: **With fewer than 30 trades, it's too early to talk about win rates.**
 
-We implemented a Bayesian adjustment using a Beta(1,1) prior that automatically pulls small-sample win rates toward 50%:
+## Bayesian Adjustment: Subtracting Luck from Win Rate
 
-$$\text{Adjusted Win Rate} = \frac{wins + 1}{total + 2} \times 100\%$$
+We added a Bayesian adjustment mechanism using Beta(1,1) prior to pull small-sample win rates toward 50%:
 
-The effect:
-- 3 wins out of 3 → Raw 100% → **Adjusted 80%**
-- 7 wins, 1 loss → Raw 87.5% → **Adjusted 80%**
-- 70 out of 100 → Raw 70% → **Adjusted 69.6%** (large samples barely move)
+$$\text{Adjusted WR} = \frac{wins + 1}{total + 2} \times 100\%$$
 
-This protects you from the illusion of "3 perfect trades."
+Effects:
 
-## So Is the Account Actually Up?
+- Case 1: 3 wins out of 3 → Raw 100% → **Adjusted 80%**
+- Case 2: 7 wins 1 loss → Raw 87.5% → **Adjusted 80%**
+- Case 3: 70/100 → Raw 70% → **Adjusted 69.6%** (large samples barely affected)
 
-Yes. Overall P&L is **+0.57%**.
+This makes sure you can't get fooled by "3 trades at 100%" illusions. The larger the sample, the lighter the adjustment—which is exactly what we want.
 
-This means even though win rate is below 50%, our risk management is working: **average loss per losing trade < average profit per winning trade**.
+## Positive PnL Doesn't Mean the Strategy Works
 
-That's actually a good sign — the system profits from "making more on winners than losers," not from "being right more often." But 33 trades isn't enough data to draw firm conclusions.
+Overall PnL is **+0.57%**.
 
-## How Many Trades Do You Need?
+Even with a sub-50% win rate, our risk management is doing its job right: **average loss per losing trade < average profit per winning trade**.
 
-| True Win Rate | Minimum Trades for p < 0.05 |
-|---------------|----------------------------|
+That's actually a good sign—the system makes money via "winners bigger than losers" rather than "predicting correctly." But with only 33 trades, it's too small to conclude. The positive returns could come from one or two big winners pulling the numbers up. We need Z-score to verify edge exists before calling the strategy "effective."
+
+## How Many Trades Does Your Strategy Need?
+
+| True WR | Minimum for p < 0.05 |
+|--------|---------------------|
 | 55% | ~384 trades |
 | 60% | ~96 trades |
 | 65% | ~44 trades |
 | 70% | ~24 trades |
 
-If your strategy truly has a 65% win rate, roughly 44 trades will prove it statistically. We're at 33 trades with 42% win rate — still some distance to go before we have "statistically significant edge."
+Two things: First, the closer your win rate is to 50%, the more trades you need to separate skill from luck—this grows exponentially. Second, a strategy with true 65% win rate needs roughly 44 trades to prove it. Third, we're at 33 trades with 42% WR—we've got a ways to go before having a "statistically significant edge."
 
-## Overfitting Index (OFI)
+Practical minimum: **50 trades**. Talking about edge below that number is premature.
 
-Beyond Z-score, we added an overfitting index:
+## OFI Overfitting Index: Catching Backtest Bloat
 
-$$OFI = \frac{IS\_PF}{OOS\_PF}$$
+On top of Z-score, we added the Overfitting Index:
 
-In-sample Profit Factor divided by out-of-sample Profit Factor.
+$$OFI = \frac{IS_PF}{OOS_PF}$$
+
+IS (In-Sample) Profit Factor divided by OOS (Out-of-Sample) Profit Factor.
 
 - OFI < 1.5 → Low overfitting risk ✓
-- OFI 1.5–2.0 → Medium risk ⚠️
+- OFI 1.5-2.0 → Medium risk ⚠️
 - OFI > 2.0 → High overfitting risk ✗
 - OFI > 3.0 → Severe overfitting ✗✗
 
-When your backtest dramatically outperforms live trading, OFI flags it directly.
+When your backtested performance is way better than live trading, OFI catches it immediately. Compared to hardcoding "IS-OOS gap > 15%" thresholds, OFI better reflects the actual ratio between the two samples.
 
-## New Decision Logic
+For more on backtesting traps, check out the second half of [From Trading Concepts to Production Code: How Much Can AI Actually Help?](/2026/trading-concept-to-production-code-with-ai/).
 
-We used to rely on hard-coded thresholds (IS-OOS gap > 15% = overfitting). Now we use:
+## The New Strategy Decision Logic
+
+Previously we used hardcoded thresholds (IS-OOS gap > 15% = overfitting). Now it's:
 
 ```
-< 5 trades          → "Insufficient data"
-p ≥ 0.05            → "Not statistically significant"
-OFI > 2.0           → "Overfitted"
-Adjusted WR ≥ 62%   → "Robust ✓"
-Adjusted WR ≥ 58%   → "Acceptable"
-Otherwise           → "Under review"
+< 5 trades      → "Insufficient Data"
+p ≥ 0.05        → "Not Statistically Significant"
+OFI > 2.0       → "Overfitting"
+Adjusted WR ≥ 62% → "Robust ✓"
+Adjusted WR ≥ 58% → "Acceptable"
+Others           → "Pending Observation"
 ```
 
-Notice line two — **p ≥ 0.05 means we mark it as not significant**. Previously, many strategies that looked "robust" were actually just underfunded with too little sample size to call.
+Note the second line—**p ≥ 0.05 gets rejected outright**. Previously, many seemingly "robust" strategies were just falsely labeled as effective due to insufficient sample sizes. The new logic puts sample size first, then p-value second—blocking small-sample scams before checking OFI and adjusted WR.
 
-## So Are Our Strategies Bad?
+## So Our Strategy Sucks, Right?
 
-No. Our strategies are **unproven, not bad**. That's a completely different thing.
+Wrong. Our strategy **hasn't been proven effective yet**. Those are two completely different things.
 
-Thirty-three trades is too small. Here's our plan:
+33 trades is too few. Our plan:
 
-1. **Keep accumulating data** without tweaking parameters, until we hit 50+ trades
-2. **Re-run Z-score at 50 trades** — if any strategy hits p < 0.05, increase position size
-3. **Eliminate failures** — shut down any strategy still at p > 0.10 after 50 trades
+1. **Step 1: Keep accumulating data**, don't change parameters, run to 50+ trades
+2. **Step 2: Re-run Z-score after 50 trades**—if any strategy hits p < 0.05, increase position size
+3. **Step 3: Kill the losers**—strategies still at p > 0.10 after 50 trades get shut down
 
-That's the difference between quantitative trading and "trading by feel": **You're not guessing. You're waiting for the math to answer.**
+This is the difference between quant trading and "feeling trading": **You're not guessing—you're waiting for math to give you the answer.**
 
-## Takeaway
+## Closing: Ask This Before Going Live
 
-> Most retail traders lose money not because their strategies are bad, but because they never verify whether their strategies actually work.
+> Most retail traders lose money not because their strategy sucks—they never verify whether the strategy actually works.
 
-Z-score testing isn't hard to implement, but it saves you from the classic path: "Small sample, high win rate → trade real money → blowup."
+Z-score statistical testing isn't hard to implement, but it'll save you from the classic path: small-sample high win rate → go live → blow up.
 
-If you're also doing quantitative trading, before you trade real money, ask yourself this:
+If you're doing quantitative trading, ask yourself this question before going live:
 
-**"Is my win rate statistically significantly different from a coin flip?"**
+**"Is my win rate statistically different from coin flipping?"**
 
-If the answer is "I'm not sure" — then it's "no."
+If the answer is "I'm not sure"—then that's a "no."
+
+At Judy AI Lab, we insist that every strategy passes both Z-score and OFI validation before trusting it with real money.
+
+## FAQ
+
+### What is Z-score and why must quantitative traders run this test?
+
+Z-score measures how far your win rate deviates from "coin flip 50%", formula is (win_rate-0.5)/√(0.25/n). When Z>1.65, you have 95% confidence your strategy actually has an edge (p<0.05). Running live trades without this test is basically confusing luck for skill—this is the classic way retail traders blow up their accounts.
+
+### Why is 87.5% win rate a statistical illusion?
+
+Because the sample size is only 8 trades. After Bayesian adjustment it drops to 60%, with p-value 0.24—way above 0.05. This means there's no statistical difference from coin flipping. High win rates with small samples are almost always just luck. You need at least 24+ trades (assuming true win rate of 70%) to tentatively verify edge.
+
+### How many trades does my strategy need to be statistically valid?
+
+It depends on your true win rate: 55% needs ~384 trades, 60% needs 96 trades, 65% needs 44 trades, 70% needs 24 trades. The closer your win rate is to 50%, the more samples you need to separate skill from luck. In practice, 50 trades is the absolute minimum—talking about edge before that is premature.
+
+### What is the Overfitting Index (OFI)? How do you interpret it?
+
+OFI = IS_Profit_Factor / OOS_Profit_Factor, used to detect bloated backtest results. OFI<1.5 = low risk, 1.5-2.0 = medium, >2.0 = high, >3.0 = severe overfitting. When backtest performance is much better than live trading, OFI catches it immediately—more precise than hardcoding "IS-OOS gap>15%" thresholds.
+
+### Why can the strategy show positive returns even with sub-50% win rate?
+
+It means risk management is working—you're making more per winning trade than losing per losing trade. That's a good sign but not conclusive, because 33 trades is too small and positive returns could come from one or two big winners. You need Z-score to verify edge exists first, then check if profit distribution is stable, before calling the strategy viable.
 
 ## References
 
-- [Z score : r/Trading - Reddit](https://www.reddit.com/r/Trading/comments/186hide/z_score/)
-- [87% chance of winning 1 out of 3 - Wizard of Vegas](https://wizardofvegas.com/forum/gambling/betting-systems/35661-87-chance-of-winning-1-out-of-3/)
-- [The 90% Win Rate Trading Strategy (and the BIG Problem Behind It)](https://www.youtube.com/shorts/sVT87Dk-vL8)
+- [97% Win Rate Trading Strategy (Exposed) | Trading Rush](https://tradingrush.net/97-win-rate-trading-strategy-exposed/)
+- [Understanding Trading Win/Loss Ratio: Definition, Formula, and Examples](https://www.investopedia.com/terms/w/win-loss-ratio.asp)
+- [r/AutomateYourTrading on Reddit: Z-Score in Trading Algo Development: Measuring Repeatability and Ruling out Luck/Random](https://www.reddit.com/r/AutomateYourTrading/comments/1nn0im9/zscore_in_trading_algo_development_measuring/)

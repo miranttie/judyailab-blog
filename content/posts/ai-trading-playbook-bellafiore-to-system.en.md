@@ -32,7 +32,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T10:55:45+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -116,3 +116,11 @@ That's what I was thinking about late at night, somewhere between the last chapt
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [Your Strategy Has 87% Win Rate? Z-Score Says: That's an Illusion](/posts/z-score-reality-check/)
+- [Quantitative Trading System Build: From First Backtest Code to Paper Trading](/posts/quant-trading-journey/)
+- [100% Win Rate in Backtesting? Don't Celebrate Yet — Our Most Painful Lesson](/posts/oos-validation-lesson/)

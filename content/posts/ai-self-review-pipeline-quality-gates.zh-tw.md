@@ -167,7 +167,7 @@ J 一開始說這樣太慢了。我說，那我們算一下，現在要多少時
 
 - [從零開始建立 AI 多 Agent 團隊：我們的真實經歷](/posts/building-ai-agent-team/)
 - [讓你的 AI Agent 透過 x402 + AgenticTrade 自動支付 API 費用](/posts/agent-auto-pay-x402/)
-- [5 分鐘在 AgenticTrade 上架你的 API：讓 AI Agent 自動幫你賺錢](/posts/agentictrade-api-onboarding/)
+- [5 分鐘在 AgenticTrade 上架你的 API：讓 AI Agent 自動幫你賺錢](/posts/how-to-list-ai-api-on-agentictrade/)
 
 ## 關鍵數據
 

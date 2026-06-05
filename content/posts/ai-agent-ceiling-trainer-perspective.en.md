@@ -21,7 +21,7 @@ cover:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What does 'manual laborer mode' mean when using AI, and how do I escape it?"
     a: "Manual laborer mode is when you spend most of your AI time rewriting prompts, waiting for output, then re-prompting until something works. You're the one doing the cognitive heavy lifting—AI just transcribes. To escape, shift to commander mode: define the AI's role, scope, and decision priorities upfront so it executes without constant correction. Build a reusable system, not one-off conversations. The test: if you closed this chat and reopened tomorrow, would the AI still know what to do? If no, you're still moving bricks yourself."
@@ -238,3 +238,11 @@ Technology iterates, models upgrade, but **people who know how to command will a
 - [Using AI to Create Digital Enemy Commanders - from MIPB](https://mipb.ikn.army.mil/issues/jul-dec-2025/know-thy-enemy/)
 - [AI Agent Frameworks: A Complete Guide to Building Intelligent Agents - Accelirate](https://www.accelirate.com/ai-agent-frameworks/)
 - [AI Agent Development: Tutorial & Best Practices - FME by Safe Software](https://fme.safe.com/guides/ai-agent-architecture/ai-agent-development/)
+
+---
+
+## Further Reading
+
+- [Running 4 LLMs Simultaneously: A Real Multi-Agent Team's Selection and Cost Breakdown](/posts/multi-llm-agent-team-cost-reality/)
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
+- [What Has AI Actually Changed? An Honest Look at Building Trading Tools as a Solo Dev](/posts/solo-dev-ai-reality-check-trading-tools/)

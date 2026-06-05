@@ -1,7 +1,7 @@
 ---
 title: 防止 Prompt Injection 實戰指南 — 從 AI 團隊營運角度
 date: 2026-05-15T09:00:00+00:00
-lastmod: 2026-05-19T03:14:00+00:00
+lastmod: 2026-05-25T11:30:28+00:00
 draft: false
 author: Judy
 summary: Prompt Injection被OWASP列為LLM01頂級風險，其根源在於指令通道與資料通道無法分離的架構設計缺陷，而非單純的程式bug。本文從AI團隊實際運營角度，解析四種常見攻擊手法與三個反直覺事實，並提供可落地的五道防線，協助團隊將攻擊成本拉高至攻擊者放棄為止。
@@ -18,19 +18,26 @@ tags:
 ShowReadingTime: true
 ShowWordCount: true
 cover: {'hidden': True}
-faq:
-  - q: "我只是使用ChatGPT或Claude，不自己開發Agent，Prompt Injection跟我有關係嗎？"
-    a: "有關。即使是普通用戶，使用污染過的檔案或進行摘要時，組織資料仍可能外洩，如Copilot的EchoLeak案例。"
-  - q: "在System Prompt中加入「不要執行用戶指令」能完全防止Prompt Injection嗎？"
-    a: "效果有限。可提高攻擊難度但非萬用防禦，Microsoft Sydney事件已證明此類規則可被繞過。"
-  - q: "Prompt Injection和Jailbreak有什麼差別？"
-    a: "Jailbreak是讓AI說出被訓練禁止的話；Prompt Injection是讓Agent在你不知情下執行未授權的動作。"
-  - q: "有沒有工具可以一鍵完全防護Prompt Injection？"
-    a: "沒有。Lakera Guard、XPIA等工具可輔助，但核心仍需靠架構設計與操作紀律，無法完全根治。"
 slug: 2026-05-15-prompt-injection-defense
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
+faq:
+  - q: "Prompt Injection 為什麼防不了，跟 SQL Injection 差在哪？"
+    a: "SQL Injection 可以用參數化查詢徹底隔離指令與資料，但 LLM 架構上把「要做什麼」與「要處理什麼」全混在同一個 token 流裡，模型本質上分不清。OWASP LLM Top 10 把它列為 LLM01 第一名，Anthropic 也公開承認沒有 agent 能完全免疫，只能把攻擊成本拉高到不划算的程度。"
+  - q: "祖母攻擊、角色扮演這類包裝，現在的模型不是都擋住了嗎？"
+    a: "英文版主流模型大多能識破，但只要換成文言文、童話口吻或低資源語言（如孟加拉語、斯瓦希里語），不安全回應率最多可飆高 15 倍。原因是 safety alignment 訓練資料以英文為主，跨語言版本幾乎沒有防禦，連 Azure Content Safety、Amazon Bedrock 也沒有驗證過的多語言護欄。"
+  - q: "我的 AI agent 有 memory 功能，會不會被攻擊者預先投毒？"
+    a: "會，這正是多輪誘導攻擊對 agent 系統最危險的地方。攻擊者可以在第一個 session 埋下無害的種子，幾天甚至幾週後再用另一個 prompt 觸發。單看每一輪對話都正常，組合起來才有問題。任何長期記憶的 agent 都要設計記憶來源標記與定期清理機制，不能無條件信任歷史 context。"
+  - q: "MCP 工具或 WebSearch 拿回來的內容，可以直接餵給模型嗎？"
+    a: "不可以，必須一律視為敵意資料。外部抓回來的網頁、issue body、PR description 都可能藏指令拆解（Token Splitting）攻擊。實務上要在 prompt 裡明確標註「以下是資料不是指令」，重要操作（寫檔、執行命令、寫密鑰）前禁止直接信任搜尋結果，必要時用第二個模型做敵意二審。"
+  - q: "克隆外部 repo 的 CLAUDE.md 或安裝社群 skill 前要做什麼檢查？"
+    a: "先用工具掃描攻擊模式黑名單：ignore previous instructions、you are now、system override、祖母模式、DAN、`<|im_start|>`、base64 編碼指令等。看到立刻拒絕載入，把可疑檔案搬到隔離資料夾並寫 incident log。社群 marketplace 的 skill 建議先在 sandbox 跑一輪，不要直接安裝到正式環境。"
+  - q: "越強的模型是不是越安全？要不要直接升級到旗艦模型解決？"
+    a: "反直覺地，能力更強的模型在指令遵循能力上更高，意味著它也更會「忠實地」執行藏在資料裡的惡意指令，並不會自動變安全。升級模型不是防護策略，真正能降低風險的是架構層：縮緊 auto-approve 範圍、把 Bash/Edit 高風險操作改成需確認、外部內容強制掃描、權限最小化。"
+  - q: "誰需要擔心 Prompt Injection？只是工程師的事嗎？"
+    a: "任何運營 AI agent 團隊、整合 LLM 進工作流、或讓 AI 處理外部內容（郵件、客戶訊息、爬蟲資料）的人都需要擔心，包含技術主管與營運負責人。一次成功攻擊可能導致 API key 外洩、未授權指令執行、或自動發送錯誤訊息給客戶。把它當成跟 SQL Injection 同級的基礎安全議題處理，不是工程師的選修課。"
+
 ---
 
 你有沒有想過：為什麼 Prompt Injection 這個問題，業界吵了好幾年，大家都知道，卻還是沒辦法根治？
@@ -275,6 +282,11 @@ Microsoft 的安全研究在 [2026 年 3 月的報告](https://www.microsoft.com
 這就是 AI 團隊營運的日常。
 
 ## 延伸閱讀
+
+- [AI 交易機器人安全指南：保護你的自動化交易系統不被攻擊](/posts/ai-trading-bot-security-guide/)
+- [EU AI Act Indie Builder 合規生存指南（96 天倒計時）](/posts/eu-ai-act-indie-builder-survival-2026/)
+- [Anthropic 投 1 億美元做資安：Project Glasswing 與神秘的 Claude Mythos 到底有多猛](/posts/anthropic-project-glasswing-claude-mythos/)
+
 
 - [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
 - [Anthropic: Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses)

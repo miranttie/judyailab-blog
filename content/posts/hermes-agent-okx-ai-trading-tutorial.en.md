@@ -42,7 +42,7 @@ series:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-13T05:53:42+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -344,6 +344,11 @@ hermes tools
 ---
 
 ## Further Reading
+
+- [OKX Agent Trade Kit One-Click Connect: AI Trading Agent Exchange Integration Is Finally Not a Nightmare](/posts/okx-agent-trade-kit-one-click-connect/)
+- [Tuning Open-Source Hermes to 80% of Claude Sonnet — 5 Methods and One Limitation](/posts/prompt-engineering-cheap-llm-to-sonnet-level/)
+- [Running 4 LLMs Simultaneously: A Real Multi-Agent Team's Selection and Cost Breakdown](/posts/multi-llm-agent-team-cost-reality/)
+
 
 - [Hermes Agent Official Docs](https://hermes-agent.nousresearch.com/docs/) — Complete feature reference
 - [OKX Agent Trade Kit](https://github.com/okx/agent-trade-kit) — OKX's official MCP Server and CLI

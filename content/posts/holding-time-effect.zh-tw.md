@@ -14,7 +14,7 @@ tags:
   - "數據分析"
   - "交易心理"
 ShowWordCount: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "持倉時間越短勝率越高，是巧合還是有統計意義？"
     a: "本文樣本為 30+ 筆實盤交易，0-2 小時勝率 65%、超過 2 小時驟降到 20%，趨勢方向明確但樣本量偏小（2-6 小時僅 5 筆）。建議讀者把它當作「值得追蹤的訊號」而非鐵律，並用自己累積的交易紀錄驗證。"
@@ -103,3 +103,11 @@ faq:
 - [TQ_Future_波動率調整持倉動能期貨策略](https://www.tejwin.com/insight/tq_future_%E6%B3%A2%E5%8B%95%E7%8E%87%E8%AA%BF%E6%95%B4%E6%8C%81%E5%80%89%E5%8B%95%E8%83%BD%E6%9C%9F%E8%B2%A8%E7%AD%96%E7%95%A5/)
 - [你是哪種「 交易風格 」的Trader ? ｜ 曉士投資理財教室](https://hillstrader.com/%E4%BA%A4%E6%98%93%E9%A2%A8%E6%A0%BC/)
 - [期貨入門教學介紹 | 期貨是甚麼意思 | 運作機制 - 華盛証券](https://www.vbkr.com/help/topic2-what-is-futures)
+
+---
+
+## 進一步閱讀
+
+- [資金管理：量化交易中最被低估的一環](/posts/position-sizing-hidden-engine/)
+- [打造一個能自證其說的 AI 交易 Agent：我們的 ERC-8004 黑客松實錄](/posts/hackathon-trading-agent-journey/)
+- [從回測天堂到實盤地獄 — 我們量化系統上線第一個月的 5 個血淚教訓](/posts/backtest-to-live-trading-gap/)

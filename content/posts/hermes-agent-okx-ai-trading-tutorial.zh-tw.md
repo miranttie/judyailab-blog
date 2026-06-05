@@ -37,7 +37,7 @@ series:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-12T13:00:10+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 
@@ -338,6 +338,11 @@ hermes tools
 ---
 
 ## 延伸閱讀
+
+- [OKX Agent Trade Kit 一鍵快連：AI 交易 Agent 接入交易所終於不再是噩夢](/posts/okx-agent-trade-kit-one-click-connect/)
+- [把開源 Hermes 調教到 Claude Sonnet 8 成寫作水準 — 5 個方法與一個限制](/posts/prompt-engineering-cheap-llm-to-sonnet-level/)
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)
+
 
 - [Hermes Agent 官方文件](https://hermes-agent.nousresearch.com/docs/) — 完整功能參考
 - [OKX Agent Trade Kit](https://github.com/okx/agent-trade-kit) — OKX 官方 MCP Server 和 CLI

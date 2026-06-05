@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "Why not use existing backtesting frameworks like Backtrader or Zipline?"
     a: "We needed complete control over signal generation and position calculation logic. Off-the-shelf frameworks abstract away critical details — slippage modeling, partial fills, exact entry timing, and custom risk rules. Writing our own backtester took more time upfront but eliminated black-box behavior. Every result is traceable to specific code we wrote. For production capital deployment, you cannot afford uncertainty about what the framework is doing under the hood. Use Backtrader for quick prototyping; build your own when results will drive real money decisions."
@@ -120,3 +120,11 @@ The point of Paper Trading isn't "verifying the strategy makes money" — it's v
 - [Backtesting Systematic Trading Strategies in Python: Considerations and Open Source Frameworks | QuantStart](https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in-python-considerations-and-open-source-frameworks/)
 - [Online Quantitative Trading Strategies](https://www.stern.nyu.edu/sites/default/files/2025-05/Glucksman_Lahanis.pdf)
 - [A Practical Guide to High-Performance Quant Backtesting with PySwordfish | by DolphinDB | Medium](https://medium.com/@DolphinDB_Inc/a-practical-guide-to-high-performance-quant-backtesting-with-pyswordfish-4d73e30bad1b)
+
+---
+
+## Further Reading
+
+- [Your Strategy Has 87% Win Rate? Z-Score Says: That's an Illusion](/posts/z-score-reality-check/)
+- [100% Win Rate in Backtesting? Don't Celebrate Yet — Our Most Painful Lesson](/posts/oos-validation-lesson/)
+- [From Backtest Paradise to Live Trading Hell — 5 Hard Lessons from Our Quant System's First Month](/posts/backtest-to-live-trading-gap/)

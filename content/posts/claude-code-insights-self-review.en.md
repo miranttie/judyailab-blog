@@ -14,7 +14,7 @@ ShowToc: true
 TocOpen: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is the Claude Code /insights command and what does it do?"
     a: "The /insights command analyzes your Claude Code conversation history over a period of time and produces a self-evaluation report. It identifies where Claude performed well, where it made mistakes, what smart decisions the user made, and what could be improved in the collaboration. It is essentially a retrospective tool that surfaces patterns across many sessions, helping both the AI and the human refine their workflow. Run it after a meaningful chunk of work — a week, a sprint, or a completed project — to get actionable feedback on your AI-human collaboration."
@@ -179,3 +179,11 @@ Run `/insights` periodically and you might discover: **it's not just the AI that
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
+- [Claude Code Skill Finally Testable! Five Major Updates to Official Skill Creator Explained](/posts/skill-creator-update/)
+- [I Built a Micro AI Company on a Single Cloud VPS (Hallucination Prevention, Quality Gates, and Model Tuning)](/posts/building-tiny-ai-company-on-laptop/)

@@ -32,7 +32,7 @@ slug: nvidia-ising-quantum-ai-open-source
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-28T07:17:51+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -111,3 +111,11 @@ When will quantum computing really change the world? There's no definitive answe
 - [NVIDIA Launches Ising, the World’s First Open AI Models to Accelerate the Path to Useful Quantum Computers | NVIDIA News](https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers)
 - [Open AI Models for Quantum Computing | NVIDIA Ising](https://www.nvidia.com/en-us/solutions/quantum-computing/ising/)
 - [Nvidia launches open-source AI models for quantum computing](https://qz.com/nvidia-ising-open-source-ai-models-quantum-computing-041526)
+
+---
+
+## Further Reading
+
+- [Open-Source LLM in Production: Why We Chose MiniMax M2.7 for Our AI Team](/posts/open-source-llm-agent-team-2026/)
+- [Tether Does AI  -  QVAC Fabric Lets You Train LLMs on Your Phone](/posts/tether-qvac-fabric-edge-ai/)
+- [The Complete Guide to Hugging Face: The All-in-One Open Source Platform for AI Developers](/posts/huggingface-platform-guide/)

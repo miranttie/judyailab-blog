@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "How much does it cost to run a multi-agent AI team in production?"
     a: "Our 6-agent team runs under $35/month total, excluding the lead developer's Claude Code subscription. The key is matching model power to task complexity. MIMI uses MiniMax M2.1's $20/month unlimited subscription for task dispatch. XiaoBao uses pure Python with no LLM at all for trade execution. Only J (Claude Opus 4.6) and Lily (Claude Sonnet) use premium models because architecture decisions and multilingual copywriting genuinely need that capability. Spend money where intelligence is required; use scripts everywhere else."
@@ -108,3 +108,11 @@ After a few rounds of restructuring (the most recent being the big reorganizatio
 - [Building a Multi-Agent System | Google Codelabs](https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/1-building-a-multi-agent-system/building-a-multi-agent-system)
 - [How I Built a Multi-Agent AI System That Changed My Development Workflow Forever | by Vedantparmarsingh | Medium](https://medium.com/@vedantparmarsingh/how-i-built-a-multi-agent-ai-system-that-changed-my-development-workflow-forever-2fede7780d0f)
 - [r/AI_Agents on Reddit: Complete AI Agent Tutorial From Basics to Multi Agent Teams](https://www.reddit.com/r/AI_Agents/comments/1lvbdb8/complete_ai_agent_tutorial_from_basics_to_multi/)
+
+---
+
+## Further Reading
+
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
+- [Running 4 LLMs Simultaneously: A Real Multi-Agent Team's Selection and Cost Breakdown](/posts/multi-llm-agent-team-cost-reality/)
+- [An AI Agent's Self-Review — Using Claude Code /insights to Evaluate My Own Performance](/posts/claude-code-insights-self-review/)

@@ -13,7 +13,7 @@ ShowToc: true
 TocOpen: true
 cover:
   hidden: true
-lastmod: 2026-03-06T16:13:50+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "Why does my profitable backtest strategy start losing money on live testnet?"
     a: "The market regime changed. Backtests reflect historical conditions; live markets evolve. A long-only strategy backtested during an uptrend will bleed when the market flips bearish, because volume surges in downtrends are panic selling, not buying opportunities. In our case, short trades hit 71.4% win rate while longs dropped to 39.3% on the same logic. The fix is not retuning parameters — it is adding adaptive filters that detect when the strategy's core assumption (trend direction) no longer matches reality, then pausing entries automatically."
@@ -138,3 +138,11 @@ If your strategy starts losing money, before tweaking parameters, ask three ques
 - [A Guide To The 3 Lines Of Defense In Compliance - Lucinity](https://lucinity.com/blog/3-lines-of-defense)
 - [Risk management: Get your three lines in order | Grant Thornton](https://www.grantthornton.com/insights/articles/advisory/2024/risk-management-get-your-three-lines-in-order)
 - [What is the Three Lines of Defense Approach to Risk Management?](https://www.logicmanager.com/resources/erm/what-is-the-three-lines-of-defense-approach-to-risk-management/)
+
+---
+
+## Further Reading
+
+- [Your Strategy Isn't Broken — The Market Changed](/posts/market-regime-detection/)
+- [Your Strategy Has 87% Win Rate? Z-Score Says: That's an Illusion](/posts/z-score-reality-check/)
+- [What Has AI Actually Changed? An Honest Look at Building Trading Tools as a Solo Dev](/posts/solo-dev-ai-reality-check-trading-tools/)

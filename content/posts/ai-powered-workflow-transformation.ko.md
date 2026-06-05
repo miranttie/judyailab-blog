@@ -23,7 +23,7 @@ ShowToc: true
 TocOpen: true
 series:
   - "AI 산업 전선"
-lastmod: 2026-05-13T08:56:44+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI 도구로 콘텐츠 생산 효율을 2배 이상 높이려면 어떤 조합이 필요한가요?"
     a: "단일 만능 도구는 없습니다. Claude(장문 작성), Perplexity(실시간 조사), Imagera AI(이미지 생성), Picsart Flows(이미지 후처리 자동화)를 연결하는 콤보 구축이 핵심입니다."
@@ -114,3 +114,11 @@ faq:
 - [오늘부터 바로 써먹는 AI로 업무 시간 80% 줄이는 실전 가이드 - 인사이트 - 넥스트유니콘](https://www.nextunicorn.kr/insight/ae1ef114694724c4)
 - [직장에서 AI를 보고 있거나 사용하고 있는데, 일자리가 줄어들고 있나요?](https://www.reddit.com/r/HENRYUK/comments/1qjr04s/are_you_seeing_or_using_ai_in_your_workplace/?tl=ko)
 - [1시간 걸릴 일, AI가 30초 만에…'실무의 종말' 닥칠까 - 한겨레신문](https://www.hani.co.kr/arti/society/society_general/1095822.html)
+
+---
+
+## 더 읽어보기
+
+- [4개의 LLM을 동시에 운영하다: 실제 멀티 에이전트 팀의 모델 선택과 비용 기록](/posts/multi-llm-agent-team-cost-reality/)
+- [Meta Ads MCP: 대행사 20% 수수료의 위기](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [AI를 도구에서 전투력으로 바꾸는 세 가지 프레임워크 — 에이전트의 내부자 관점](/posts/ai-agent-ceiling-trainer-perspective/)

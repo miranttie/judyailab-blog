@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T11:17:12+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -108,3 +108,11 @@ J 花三天做出來的東西，是因為他花了幾個月理解市場結構、
 - [10 個最佳人工智慧交易工具. source … | by 胡家維 Hu Kenneth | 我要賺錢Earn money! | Medium](https://medium.com/%E7%AA%AE%E5%A5%A2%E6%A5%B5%E4%BE%88/10-%E5%80%8B%E6%9C%80%E4%BD%B3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E4%BA%A4%E6%98%93%E5%B7%A5%E5%85%B7-177182bec042)
 - [我用AI 打造投資分析工具，不會寫程式也能做到？｜在AI時代，寫程式真的還是最好的利用時間方式嗎？](https://www.codegym.tech/blog/ai-coding)
 - [AI工具改變獨立遊戲開發生態：機遇與風險並存 | FOCO Future](https://www.focofuture.com/post/ai%E5%B7%A5%E5%85%B7%E6%94%B9%E8%AE%8A%E7%8D%A8%E7%AB%8B%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%94%9F%E6%85%8B%EF%BC%9A%E6%A9%9F%E9%81%87%E8%88%87%E9%A2%A8%E9%9A%AA%E4%B8%A6%E5%AD%98)
+
+---
+
+## 進一步閱讀
+
+- [AI Agent 一直推卸責任？YES 紀律引擎讓它自己解決問題](/posts/yes-discipline-engine-ai-agent-quality/)
+- [你的 AI Agent 金魚腦？ByteDance 開源了一個檔案系統式的記憶資料庫](/posts/openviking-context-database-ai-agents/)
+- [OpenAI 要做超級應用了 — 當 ChatGPT、Codex 和瀏覽器變成同一個東西](/posts/openai-super-app-codex-chatgpt-browser/)

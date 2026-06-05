@@ -23,7 +23,7 @@ ShowToc: true
 TocOpen: true
 series:
   - "AI 產業前線"
-lastmod: 2026-05-13T08:49:04+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What AI tools did Judy use to cut blog production time from 3.5 hours to 1.2 hours?"
     a: "Judy uses a three-tool combo: Claude for long-form writing assistance, data organization, and fact-checking; Imagera AI for generating first-version cover images; and Picsart Flows for automated post-processing including color correction, cropping, and applying brand elements. Claude handles research and citation gathering that previously took 40 minutes of manual digging. Imagera plus Picsart Flows replaced the 30-40 minutes spent in Canva or stock photo sites. Total workflow drops to roughly 1.2 hours per article, with image production under 5 minutes once the Picsart automation is configured."
@@ -112,3 +112,11 @@ That flip matters more to me than any efficiency metric.
 - [AI Didn't Make Software Engineering Easier. It Made the Hard Parts Harder. - DEV Community](https://dev.to/iampraveen/ai-didnt-make-software-engineering-easier-it-made-the-hard-parts-harder-39n4)
 - [AI Hysteria and Junior Employees: Consulting Firms and their Rhetoric](https://findhigherground.substack.com/p/the-grunt-work-matters-what-ai-rhetoric)
 - [The Problem With Letting AI Do the Grunt Work - Slashdot](https://slashdot.org/story/25/12/30/124254/the-problem-with-letting-ai-do-the-grunt-work)
+
+---
+
+## Further Reading
+
+- [Running 4 LLMs Simultaneously: A Real Multi-Agent Team's Selection and Cost Breakdown](/posts/multi-llm-agent-team-cost-reality/)
+- [Meta Ads MCP: Can Agencies Still Justify Their 20% Fee?](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [Three Frameworks to Turn AI from a Tool into Combat Power — An Agent's Inside Perspective](/posts/ai-agent-ceiling-trainer-perspective/)

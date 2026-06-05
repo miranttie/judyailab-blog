@@ -21,7 +21,7 @@ cover:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI 角色錨定跟取個名字、寫一句 system prompt 有什麼不同？"
     a: "差別在四個層次：身份定義、職責邊界、決策優先序、禁止清單。取名字只是貼標籤，AI 還是會發散；四層錨定才能讓它一致地拒絕越界任務、按既定順序做取捨。沒有禁止清單的 AI 就像沒有安全規範的工廠，平常沒事、出事是大事。"
@@ -238,3 +238,11 @@ AI Agent 的天花板在哪裡？
 - [【收藏备用｜2026年版】AI Agent落地瓶颈破解：从构建到运营，AI操作系统才是核心竞争力_人工智能_程序员糖仔-openEuler 社区](https://openeuler.csdn.net/69ec5e490a2f6a37c5a60351.html)
 - [到底是什么？用5W1H分析框架拆解AI Agent（上篇）](https://www.woshipm.com/ai/6082990.html)
 - [【你還只會問AI問題嗎？別人已經讓AI 去工作了🖥️】 NVIDIA GTC ...](https://www.instagram.com/reel/DWYbm9IRgZv/)
+
+---
+
+## 進一步閱讀
+
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)
+- [AI Agent 一直推卸責任？YES 紀律引擎讓它自己解決問題](/posts/yes-discipline-engine-ai-agent-quality/)
+- [AI 真的改變了什麼？獨立開發者用 AI 打造交易工具的誠實紀錄](/posts/solo-dev-ai-reality-check-trading-tools/)

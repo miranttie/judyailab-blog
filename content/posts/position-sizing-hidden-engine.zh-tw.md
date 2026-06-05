@@ -31,7 +31,7 @@ faq:
     a: "建議連續虧損 3-4 次後將風險降至 1%，超過 5 次則暫停開倉，避免決策品質下降導致更大損失。"
 ShowBreadCrumbs: true
 hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -176,3 +176,9 @@ Full Kelly 建議每筆下 35% 資金。但 Full Kelly 的波動太大（P95 回
 - [金融洞见：量化投资中被低估的“定价因子” - 知乎专栏](https://zhuanlan.zhihu.com/p/1973128764193019650)
 - [幫大家整理了三個重點~~~ 1.現代量化交易不是在找「最強一招」，而 ...](https://www.instagram.com/p/DTcyAlNEV6l/)
 - [量化交易完整指南：策略、實施與風險管理 - FinLab](https://www.finlab.tw/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%EF%BC%9A%E7%AD%96%E7%95%A5%E3%80%81%E5%AF%A6%E6%96%BD%E8%88%87%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86/)
+
+---
+
+## 進一步閱讀
+
+- [持倉時間效應：為什麼你的交易越快結束越好？](/posts/holding-time-effect/)

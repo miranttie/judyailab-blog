@@ -44,7 +44,7 @@ keywords:
   - "AI agent 電商"
 series:
   - "AI 工具深度評測"
-lastmod: 2026-05-14T02:37:06+00:00
+lastmod: 2026-05-25T11:29:30+00:00
 
 ---
 
@@ -232,3 +232,11 @@ Google 的路徑從視覺出發。Google Shopping 的虛擬試穿功能讓你可
 - [Qwen AI 打通淘寶 全球最大 AI 購物生態圈正式啟動](https://unwire.pro/2026/05/12/qwen-commerce/ecommerce/)
 - [阿里據報整合千問AI與淘寶 推智能對話購物服務](https://finance.now.com/news/post.php?id=970281)
 - [阿里巴巴旗下 Qwen App 與淘寶合併，推出全球首個完整 AI 購物體驗 - BigGo 新聞](https://biggo.com.tw/news/202605111228_Alibaba_Qwen_Taobao_AI_Shopping_Launch)
+
+---
+
+## 進一步閱讀
+
+- [AI Agent 終於能幫你買東西了：ChatGPT × Stripe Instant Checkout 與 ACP 協議完整解析](/posts/chatgpt-stripe-instant-checkout-agentic-commerce/)
+- [Meta 開放 Ads MCP：當 AI 能直接管廣告，代理商的 20% 服務費還撐得住嗎？](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [AI Agent 也需要身分證 — 當你的 AI 助手開始用你的信用卡買東西](/posts/ai-agent-digital-identity-world-agentkit/)

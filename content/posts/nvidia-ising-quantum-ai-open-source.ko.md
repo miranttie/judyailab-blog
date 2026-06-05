@@ -32,7 +32,7 @@ slug: nvidia-ising-quantum-ai-open-source
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-13T05:55:38+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -117,3 +117,11 @@ NVIDIA의 전략은 그만큼 날카롭습니다 — 그들은 themselves 큐빗
 - 2.5x 오류 수정 속도 향상
 - 3x 더 정확한 디코딩
 - 15x 작은 모델 크기
+
+---
+
+## 더 읽어보기
+
+- [오픈소스 LLM 실전 배포기: AI 팀에 MiniMax M2.7을 선택한 이유](/posts/open-source-llm-agent-team-2026/)
+- [Tether QVAC Fabric: 폰에서 LLM 학습하기](/posts/tether-qvac-fabric-edge-ai/)
+- [Hugging Face 완전 가이드: 단순한 모델 저장소를 넘어선 AI 개발자를 위한 원스톱 오픈소스 플랫폼](/posts/huggingface-platform-guide/)

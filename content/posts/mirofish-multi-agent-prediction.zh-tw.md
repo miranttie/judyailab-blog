@@ -32,7 +32,7 @@ faq:
 hidden: true
 a: 投資人可透過它理解群體行為預測的概念，但實際操作需要技術團隊協助部署與運行。
 ShowBreadCrumbs: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -176,3 +176,9 @@ MiroFish 代表了一個有趣的方向：**用群體模擬做預測，而不是
 - 前端 Vue.js 佔 41% 程式碼
 - 後端 Python 佔 58% 程式碼
 - $3000 萬投資（陳天橋）
+
+---
+
+## 進一步閱讀
+
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)

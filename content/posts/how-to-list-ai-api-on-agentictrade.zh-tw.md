@@ -101,13 +101,13 @@ curl -X POST https://agentictrade.io/api/v1/services \
   -d '{
     "name": "Crypto Sentiment API",
     "description": "Real-time social sentiment scores for 500+ crypto assets, powered by NLP analysis of Twitter, Reddit, and Telegram.",
-    "base_url": "https://api.yourservice.com/v1",
+    "base_url": "https://api.example.com/v1",
     "price_per_call": 0.01,
     "currency": "USD",
     "payment_rail": "x402",
     "category": "data",
     "tags": ["crypto", "sentiment", "nlp", "trading"],
-    "documentation_url": "https://docs.yourservice.com"
+    "documentation_url": "https://docs.example.com"
   }'
 ```
 
@@ -345,4 +345,3 @@ curl https://agentictrade.io/api/v1/settlements \
 
 - [AgenticTrade vs RapidAPI：為什麼 10% 佣金對開發者更划算](/posts/agentictrade-vs-rapidapi/)
 - [讓你的 AI Agent 透過 x402 + AgenticTrade 自動支付 API 費用](/posts/agent-auto-pay-x402/)
-- [5 分鐘在 AgenticTrade 上架你的 API：讓 AI Agent 自動幫你賺錢](/posts/agentictrade-api-onboarding/)

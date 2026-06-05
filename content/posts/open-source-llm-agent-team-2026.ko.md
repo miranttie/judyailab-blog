@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T10:56:54+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -97,3 +97,11 @@ M2.7의 전통 한자(번체) 중국어 출력은 전반적으로 좋지만, 간
 - 5000 users (Threads + 뉴스레터 구독자)
 - $0 광고 비용 (100% 오가닉)
 - 95% 콘텐츠는 J + 멀티 에이전트 팀 작성
+
+---
+
+## 더 읽어보기
+
+- [4개의 LLM을 동시에 운영하다: 실제 멀티 에이전트 팀의 모델 선택과 비용 기록](/posts/multi-llm-agent-team-cost-reality/)
+- [오픈소스 Hermes를 Claude Sonnet 80% 수준으로 — 5가지 방법과 한 가지 한계](/posts/prompt-engineering-cheap-llm-to-sonnet-level/)
+- [7개 AI 모델을 24시간 자동화하는 법 — Multi-Agent 아키텍처 실전](/posts/2026-05-20-multi-model-ai-team-24h-autopilot/)

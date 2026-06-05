@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T10:57:09+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -111,3 +111,11 @@ That's about it.
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
+- [Is Your AI Agent Goldfish-Brained? ByteDance Open-Sourced a Filesystem-Style Memory Database](/posts/openviking-context-database-ai-agents/)
+- [OpenAI Is Building a Super App  -  When ChatGPT, Codex, and the Browser Become One](/posts/openai-super-app-codex-chatgpt-browser/)

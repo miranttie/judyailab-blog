@@ -36,7 +36,7 @@ showToc: true
 TocOpen: false
 series:
   - "AI 工具深度評測"
-lastmod: 2026-05-13T04:29:42+00:00
+lastmod: 2026-05-25T11:29:30+00:00
 
 ---
 
@@ -127,6 +127,11 @@ Connector 是預建整合，不需要自己串 API。啟用後即用，第三方
 在自己的產品裡實作 MCP 介面，讓 Claude 或其他 LLM 直接操作你的工具——這是 2026 年 AI 工具整合的主流方向。
 
 ## 延伸閱讀
+
+- [Anthropic 推出 Managed Agents：你的 AI Agent 不用自己養伺服器了](/posts/claude-managed-agents/)
+- [Claude Code Hooks 完全指南 — 讓 AI 自動化你的開發流程](/posts/claude-code-hooks-guide/)
+- [Anthropic 推出 Claude Design：當 AI 讓不會設計的人也能做出原型](/posts/claude-design-anthropic-2026/)
+
 
 - [Anthropic 官方公告 — Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
 - [Claude MCP Connector 官方說明](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)

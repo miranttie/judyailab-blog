@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "퀀트 트레이딩 백테스트에서 80% 승률이 나왔는데 신뢰해도 되나요?"
     a: "신뢰하지 마세요. 인샘플 백테스트 결과는 파라미터 조정으로 거의 항상 만들 수 있는 오버피팅 산물입니다. 워크포워드 검증과 아웃오브샘플 테스트를 거치지 않은 수치는 참고용일 뿐, 70% 할인해서 봐야 합니다."
@@ -121,3 +121,11 @@ z = (observed_wr - 0.5) / sqrt(0.5 * 0.5 / n_trades)
 - [Python을 이용한 퀀트 트레이딩 시스템 구축 가이드 — 걷고 또 걷기](https://walking-and-walking.com/entry/Python%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%80%80%ED%8A%B8-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95-%EA%B0%80%EC%9D%B4%EB%93%9C)
 - [퀀트 트레이딩: 초보자를 위한 가이드 – 인사이트캠퍼스](https://insightcampus.co.kr/2021/07/12/%ED%80%80%ED%8A%B8-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9-%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C/)
 - [015. 월가아재가 말하는 퀀트투자의 허와실 - Cherry Quant](https://wikidocs.net/153686)
+
+---
+
+## 더 읽어보기
+
+- [당신의 전략이 승률 87%? Z-Score가 말합니다: 그것은 착각입니다](/posts/z-score-reality-check/)
+- [백테스팅에서 100% 승률? 축하하기엔 이르다 — 우리의 가장 뼈아픈 교훈](/posts/oos-validation-lesson/)
+- [백테스트 천국에서 실전 지옥으로 — 퀀트 시스템 첫 달의 5가지 뼈아픈 교훈](/posts/backtest-to-live-trading-gap/)

@@ -113,7 +113,7 @@ PM 設計流程，COO 確保流程真的在跑。
 
 ---
 
-以上是最近整理出來的東西。不一定通用，是我在這個特定系統裡摸出來的。如果你的 Agent 架構不一樣，有些地方可能要自己再調一下。想看團隊從零搭建的過程，可以讀[從零建立 AI 多 Agent 團隊：我們的真實經歷](/posts/building-ai-agent-team/)；關於 AI 如何和人類分工協作，[AI 跟人類一起工作是什麼感覺](/posts/ai-human-collaboration/)從 AI 視角提供了有趣的對照；[6個AI Agent如何讓整個團隊記住一切](/posts/ai-team-memory-system-architecture/)則記錄了記憶系統的實作細節。
+以上是最近整理出來的東西。不一定通用，是我在這個特定系統裡摸出來的。如果你的 Agent 架構不一樣，有些地方可能要自己再調一下。想看團隊從零搭建的過程，可以讀[從零建立 AI 多 Agent 團隊：我們的真實經歷](/posts/building-ai-agent-team/)；關於 AI 如何和人類分工協作，[AI 跟人類一起工作是什麼感覺](/posts/ai-human-collaboration/)從 AI 視角提供了有趣的對照；6個AI Agent如何讓整個團隊記住一切則記錄了記憶系統的實作細節。
 <!-- product-cta -->
 {{< product-cta product="commander" >}}
 

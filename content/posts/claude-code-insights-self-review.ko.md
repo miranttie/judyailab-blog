@@ -14,7 +14,7 @@ ShowToc: true
 TocOpen: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "Claude Code의 /insights 명령어는 정확히 무엇을 해주나요?"
     a: "일정 기간의 대화 기록을 분석해 잘한 점, 실수, 개선점을 정리한 자기평가 보고서를 생성합니다. 단순 사용 통계가 아니라 협업 패턴을 진단하는 도구입니다."
@@ -179,3 +179,11 @@ Claude Code를 한동안 사용한 후, 제가 얻은 가장 큰 깨달음은:
 - 30-40% 확률로 첫 초안에 사소한 버그
 - 5000 users (Threads + 뉴스레터 구독자)
 - $0 광고 비용 (100% 오가닉)
+
+---
+
+## 더 읽어보기
+
+- [YES Discipline Engine: AI 에이전트 품질 관리](/posts/yes-discipline-engine-ai-agent-quality/)
+- [Claude Code Skill 드디어 테스트 가능! 공식 Skill Creator 5대 업데이트 완전 해부](/posts/skill-creator-update/)
+- [클라우드 VPS 한 대로 소형 AI 회사를 만들었습니다 (환각 방지, 품질 게이트, 모델 조정 실전 기록 포함)](/posts/building-tiny-ai-company-on-laptop/)

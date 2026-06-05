@@ -32,7 +32,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-13T05:41:36+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -90,3 +90,10 @@ AI 프로젝트 관리 도구의 가장 큰 가치는 관리를 피하는 것이
 - [마케팅팀의 프로젝트 관리 툴 Asana 한 달 사용기](https://tech.onepredict.ai/8b36d07a-2294-4a10-8f3b-66969d8034dd)
 - [팀의 워크플로를 개선하는 프로젝트 관리 5단계 (2026) • Asana](https://asana.com/ko/resources/project-management-phases)
 - [Asana, 업무 효율성 높이는 AI 팀메이트 공개 : 클리앙](https://www.clien.net/service/board/news/18741158)
+
+---
+
+## 더 읽어보기
+
+- [Meta Ads MCP: 대행사 20% 수수료의 위기](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [AI 팀에게 야간 근무 자유시간을 줘봤더니](/posts/ai-night-shift-free-time/)

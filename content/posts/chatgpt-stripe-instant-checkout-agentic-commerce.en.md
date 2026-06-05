@@ -33,7 +33,7 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 slug: chatgpt-stripe-instant-checkout-agentic-commerce
-lastmod: 2026-05-13T05:52:42+00:00
+lastmod: 2026-05-25T11:30:28+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -222,6 +222,11 @@ Currently officially announced as available to U.S. users first. Launch timeline
 ---
 
 ## Further Reading
+
+- [AI Is Rewriting Shopping  -  From Alibaba Qwen + Taobao Integration](/posts/ai-revolutionizing-ecommerce-alibaba-qwen-taobao/)
+- [Let Your AI Agent Pay for APIs Automatically with x402 + AgenticTrade](/posts/agent-auto-pay-x402/)
+- [AI Agents Also Need ID  -  When Your AI Assistant Starts Using Your Credit Card](/posts/ai-agent-digital-identity-world-agentkit/)
+
 
 If you're interested in Agentic Commerce and AI Agent payments, here are some directions worth diving into:
 

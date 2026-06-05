@@ -31,7 +31,7 @@ faq:
     a: "Yes, all tools are live at agents.circle.com—developers can start integrating right away."
 series:
   - "Complete Guide to AI Agents"
-lastmod: 2026-05-13T07:05:52+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -228,3 +228,11 @@ For independent developers, this means you can turn any API into an automatic pa
 ---
 
 *Want more AI Agent development实战 tips? Subscribe to the [JudyAI Lab Newsletter](https://judyailab.com) for the latest articles.*
+
+---
+
+## Further Reading
+
+- [AI Agents Also Need ID  -  When Your AI Assistant Starts Using Your Credit Card](/posts/ai-agent-digital-identity-world-agentkit/)
+- [Let Your AI Agent Pay for APIs Automatically with x402 + AgenticTrade](/posts/agent-auto-pay-x402/)
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)

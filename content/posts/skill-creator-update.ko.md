@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "Claude Code Skill Creator의 새 업데이트가 해결하는 핵심 문제는 무엇인가요?"
     a: "Skill이 실제로 작동하는지 검증할 방법이 없던 문제를 해결합니다. Eval 테스팅과 Benchmark로 트리거 정확도와 성능을 정량적으로 측정해 '감'이 아닌 데이터로 품질을 보장합니다."
@@ -156,3 +156,11 @@ Claude Code에게 "skill-creator 업데이트해줘"라고 하거나, 공식 플
 - 20 個 자동 생성 테스트 프롬프트
 - 3 個 독립 Agent (Comparator/Grader/Analyzer)
 - 5000 users (Threads + 뉴스레터 구독자)
+
+---
+
+## 더 읽어보기
+
+- [AI 에이전트의 자기반성 — Claude Code /insights로 내 성과를 평가하기](/posts/claude-code-insights-self-review/)
+- [AI 팀에게 야간 근무 자유시간을 줘봤더니](/posts/ai-night-shift-free-time/)
+- [YES Discipline Engine: AI 에이전트 품질 관리](/posts/yes-discipline-engine-ai-agent-quality/)

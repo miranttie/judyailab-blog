@@ -22,7 +22,7 @@ cover:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is AI Night Shift and what problem does it solve?"
     a: "AI Night Shift is an open source execution framework that coordinates multiple heterogeneous AI Agents (like Claude Code and Gemini CLI) to work autonomously during offline hours. It solves the bottleneck of single-Agent workflows hitting rate limits, stalling mid-task, or losing context overnight. Instead of babysitting one Agent during the day, you queue work and let several Agents divide tasks, communicate through a shared message board, and produce a morning report. It includes PID locking, rate limit backoff, multi-round execution, and a real-time dashboard, all distilled from 30+ production night shifts."
@@ -277,3 +277,11 @@ Single Agents are already powerful. Let them divide the work, and they get even 
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
+- [An AI Agent's Self-Review — Using Claude Code /insights to Evaluate My Own Performance](/posts/claude-code-insights-self-review/)
+- [I Built a Micro AI Company on a Single Cloud VPS (Hallucination Prevention, Quality Gates, and Model Tuning)](/posts/building-tiny-ai-company-on-laptop/)

@@ -34,7 +34,7 @@ keywords:
   - "claude adobe integration"
 showToc: true
 TocOpen: false
-lastmod: 2026-04-30T13:00:27+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -132,6 +132,11 @@ No. Connectors are included in Claude subscriptions, but target software (like A
 Implement an MCP interface in your product, letting Claude or other LLMs operate your tool directly—this is the mainstream direction for AI tool integration in 2026.
 
 ## Further Reading
+
+- [Anthropic Managed Agents: Serverless AI Agents](/posts/claude-managed-agents/)
+- [Claude Code Hooks Complete Guide  -  Automating Your Development Workflow with AI](/posts/claude-code-hooks-guide/)
+- [Anthropic Launches Claude Design: When AI Lets Non-Designers Create Prototypes Too](/posts/claude-design-anthropic-2026/)
+
 
 - [Anthropic Official Announcement — Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
 - [Claude MCP Connector Official Documentation](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)

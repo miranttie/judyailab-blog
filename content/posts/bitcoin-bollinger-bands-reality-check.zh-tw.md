@@ -22,7 +22,7 @@ hidden: true
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "比特幣布林通道策略在牛市真的會虧錢嗎？"
     a: "會。實測 2023 年底到 2024 年 3 月的牛市段，原始 BB 策略勝率僅 33%，最大回撤 -28%，比隨機猜還差。原因是 BB 假設均值回歸，但牛市趨勢中 BTC 可沿上軌連走兩三個月不回頭，每次觸軌做空都會被砍。"
@@ -122,3 +122,11 @@ faq:
 - [布林通道怎麼看？布林通道10型態基本教學及短綫獲利操作演示【布林通道獲利秘訣】](https://www.mitrade.com/zh/insights/others/technical-analysis/bollinger-bands-investment)
 - [布林通道（Bollinger Bands）教學與交易策略 - OANDA Lab](https://www.oanda.com/bvi-ft/lab-education/technical_analysis/bollinger_bands/)
 - [布林通道教學｜布林帶寬與 %B 指標技術分析完整攻略 - 雷司紀 Raysky](https://www.rayskyinvest.com/22607/binance-bollinger-bands)
+
+---
+
+## 進一步閱讀
+
+- [單策略的陷阱：為什麼你需要多策略交易系統](/posts/multi-strategy-trading/)
+- [一個策略不夠用 — 我們怎麼讓 AI 自動切換交易策略](/posts/multi-strategy-router/)
+- [你的策略沒問題，是市場變了 — Market Regime 偵測實戰](/posts/market-regime-detection/)

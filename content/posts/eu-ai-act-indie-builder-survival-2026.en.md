@@ -34,7 +34,7 @@ keywords:
   - "agent audit log"
 showToc: true
 TocOpen: false
-lastmod: 2026-05-05T04:56:53+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -145,7 +145,7 @@ If you need query interfaces and auto-reports, use FastAPI + SQLite for a lightw
 
 ```bash
 # Log one agent action
-curl -X POST https://your-server.com/api/v1/log \
+curl -X POST https://example.com/api/v1/log \
   -H "Content-Type: application/json" \
   -d '{
     "agent_id": "content-agent-001",
@@ -156,7 +156,7 @@ curl -X POST https://your-server.com/api/v1/log \
   }'
 
 # Generate Article 12 compliance report
-curl https://your-server.com/api/v1/report
+curl https://example.com/api/v1/report
 ```
 
 Core design: POST one record, GET `/report` exports JSON with risk distribution and Article 12 checklist status. Dockerize it and deploy to a VPS—the whole service is under 200 lines of Python.
@@ -223,6 +223,11 @@ August 2, 2026 is the key deadline for high-risk AI systems (Annex III) complian
 No, as long as you store hashes not raw data. EU AI Act and GDPR align on "data minimization." SHA-256 hashes can't be reversed-engineered, compliant with both frameworks.
 
 ## Further Reading
+
+- [AI Trading Bot Security Guide: Protecting Your Automated Trading System from Attacks](/posts/ai-trading-bot-security-guide/)
+- [Practical Guide to Preventing Prompt Injection  -  From an AI Team's Operations Perspective](/posts/2026-05-15-prompt-injection-defense/)
+- [Anthropic's $100M Security Push: Glasswing & Mythos](/posts/anthropic-project-glasswing-claude-mythos/)
+
 
 - [EU AI Act Official Text (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)
 - [EU AI Office — High-Risk AI Systems](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)

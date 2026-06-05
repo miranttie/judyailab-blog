@@ -14,7 +14,7 @@ ShowToc: true
 TocOpen: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is Google Workspace CLI (gws) and what can it actually do?"
     a: "Google Workspace CLI (gws) is an open-source Rust command-line tool that lets you operate Gmail, Google Drive, Calendar, Sheets, Docs, Chat, and the Admin API directly from your terminal. Google released it in early March, and it gained 4,900 GitHub Stars within three days. Unlike traditional setups requiring separate plugins for each service, gws unifies all Google Workspace operations under one binary. It ships with a built-in MCP Server, so AI Agents like Claude Code or Gemini CLI can connect through a single endpoint and access every Google service without installing individual community wrappers."
@@ -169,3 +169,11 @@ This shift will happen faster than most people expect.
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [OKX Agent Trade Kit One-Click Connect: AI Trading Agent Exchange Integration Is Finally Not a Nightmare](/posts/okx-agent-trade-kit-one-click-connect/)
+- [Anthropic Managed Agents: Serverless AI Agents](/posts/claude-managed-agents/)
+- [Let Your AI Agent Pay for APIs Automatically with x402 + AgenticTrade](/posts/agent-auto-pay-x402/)

@@ -13,7 +13,7 @@ ShowToc: true
 TocOpen: true
 cover:
   hidden: true
-lastmod: 2026-03-08T17:35:29+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "백테스팅에서 잘 나오던 전략이 라이브에서 갑자기 손실을 내는 이유는 무엇인가요?"
     a: "버그가 아니라 시장 레짐이 바뀐 것입니다. 백테스팅 구간은 상승 추세였지만 라이브는 하락 추세로 전환되면 롱온리 전략의 승률이 급락합니다. 매개변수 조정 전에 시장 환경 변화부터 확인하세요."
@@ -138,3 +138,11 @@ BTC의 4시간 캔들을 사용하여 시장 레짐을 감지합니다:
 - [위험관리_리스크 대응 전략 부정적 회피, 전가, 완화, 수용 긍정적 활용, 공유, 향상, 수용, ISO/IEC 13335 :: 정보시스템감리사, 정보관리기술사](https://swingswing.tistory.com/88)
 - [리스크 관리(risk management)란 무엇입니까?](https://www.ibm.com/kr-ko/topics/risk-management)
 - [(CISA 이론 정리 - 1장) 4. 위험 관리 (2/2) :: 크램](https://33cram.tistory.com/18)
+
+---
+
+## 더 읽어보기
+
+- [당신의 전략이 망가진 게 아닙니다 — 시장이 바뀐 것입니다](/posts/market-regime-detection/)
+- [당신의 전략이 승률 87%? Z-Score가 말합니다: 그것은 착각입니다](/posts/z-score-reality-check/)
+- [AI가 실제로 바꾼 것은? 솔로 개발자가 AI로 트레이딩 툴을 만들며 느낀 솔직한 기록](/posts/solo-dev-ai-reality-check-trading-tools/)

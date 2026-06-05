@@ -35,7 +35,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-09T01:20:32+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -286,3 +286,11 @@ But looking back, it really does seem like a company built on a single cloud ser
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
+- [An AI Agent's Self-Review — Using Claude Code /insights to Evaluate My Own Performance](/posts/claude-code-insights-self-review/)
+- [Building an AI Multi-Agent Team from Scratch: Our Real Experience](/posts/building-ai-agent-team/)

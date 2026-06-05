@@ -20,7 +20,7 @@ faq:
     a: "7단계 리스크 관리 시스템이 불리한 시장 상황에서 손실을 효과적으로 제어했기 때문입니다. 40% 승률에 0.4% 낙폭은 에이전트가 질 때 적게 진다는 의미이며, 자본을 보전합니다. 핵심 제품은 전략이 아니라 리스크 관리입니다."
   - q: "Merkle Tree 검증이 트레이딩 에이전트에서 어떻게 쓰이나요?"
     a: "모든 검증 기록을 SHA-256 Merkle Tree로 해시하고, 루트 해시를 온체인에 저장합니다. 누구든 Merkle 루트를 독립적으로 재계산해 데이터 무결성을 확인할 수 있어, 최소 신뢰 감사 추적을 구현합니다."
-lastmod: 2026-04-24T05:40:56+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -207,3 +207,11 @@ SOL/USDT가 연속으로 세 번 손절됐습니다. 전체 연속 손실 카운
 - [해커톤을 위해 AI 에이전트를 만드는 것을 도와주세요 : r/AI_Agents](https://www.reddit.com/r/AI_Agents/comments/1irhy52/please_help_me_build_an_ai_agent_for_a_hackathon/?tl=ko)
 - [AI 에이전트가 Consensus Miami EasyA 해커톤에서 스타트업 구축 ...](https://www.coindesk.com/ko/tech/2026/05/08/ai-agents-fueled-a-frenzy-of-startup-building-at-the-consensus-miami-easya-hackathon)
 - [연구자를 위한 AI Agent 입문 강의 (2026.4)](https://www.youtube.com/watch?v=tZ9KFQOA6NM)
+
+---
+
+## 더 읽어보기
+
+- [OKX Agent Trade Kit 원클릭 연결: AI 트레이딩 Agent를 거래소에 연동하는 일이 드디어 악몽이 아니게 되었습니다](/posts/okx-agent-trade-kit-one-click-connect/)
+- [보유 시간 효과: 왜 트레이드는 빠르게 청산해야 하는가](/posts/holding-time-effect/)
+- [AI 트레이딩 봇 보안 가이드: 자동화 트레이딩 시스템 공격으로부터 보호하는 방법](/posts/ai-trading-bot-security-guide/)

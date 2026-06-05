@@ -29,7 +29,7 @@ faq:
     a: "Yes. CoinSifter supports scanning 4H, 1H, 15m, and 1D timeframes simultaneously, with results displayed in tabs on the Web UI."
 a: Yes. CoinSifter supports scanning 4H, 1H, 15m, and 1D timeframes simultaneously, with results displayed in tabs on the Web UI.
 ShowToc: true
-lastmod: 2026-03-08T20:09:55+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -214,3 +214,10 @@ If you find this tool useful, feel free to drop a Star on GitHub.
 - 2x recent average volume breakout threshold
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
+
+---
+
+## Further Reading
+
+- [AI Quantitative Trading for Beginners: Building Your First Smart Trading System from Scratch](/posts/ai-quant-trading-beginners-guide/)
+- [From Trading Idea to Live Execution: What AI-Assisted Strategy Development Actually Looks Like](/posts/trading-concept-to-production-code-with-ai/)

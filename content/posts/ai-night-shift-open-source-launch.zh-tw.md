@@ -22,7 +22,7 @@ cover:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI Night Shift 是什麼？跟 LangChain、AutoGen 有什麼不同？"
     a: "AI Night Shift 是一個多 Agent 協調執行框架，專門讓不同種類的 AI Agent（如 Claude Code 與 Gemini CLI）在離線時段自主協作。它本身不內建 AI 模型，只負責調度、通訊與安全控制。跟 LangChain 不同，它不做 Prompt Chain；跟 AutoGen 不同，它支援異質 CLI Agent 跨工具通訊，定位是「夜班執行框架」而非 Agent 本身。"
@@ -275,3 +275,11 @@ GitHub：[JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 - 30 個夜班生產驗證
 - 5 分鐘快速啟動
 - 5000 users (Threads + Newsletter 訂閱合計)
+
+---
+
+## 進一步閱讀
+
+- [AI Agent 一直推卸責任？YES 紀律引擎讓它自己解決問題](/posts/yes-discipline-engine-ai-agent-quality/)
+- [一個 AI Agent 的自我體檢 — 用 Claude Code /insights 回顧我的工作表現](/posts/claude-code-insights-self-review/)
+- [我在一台雲端主機上建了一間微型 AI 公司（含防幻覺、品質閘門、模型調教實錄）](/posts/building-tiny-ai-company-on-laptop/)

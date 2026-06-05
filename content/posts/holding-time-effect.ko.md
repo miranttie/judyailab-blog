@@ -5,7 +5,7 @@ draft: false
 tags: ["퀀트 트레이딩", "리스크 관리", "데이터 분석", "트레이딩 심리"]
 categories: ["트레이딩 시스템"]
 description: "30개 이상의 실거래 분석 결과 강력한 보유 시간 효과를 발견: 2시간 이내 청산된 거래는 65% 승률을 보이지만, 2시간을 초과하면 20%로 하락한다."
-lastmod: 2026-03-08T17:35:29+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "보유 시간 효과란 무엇인가요?"
     a: "보유 시간과 승률 사이의 역상관관계입니다. 30개 실거래 분석 결과, 2시간 이내 청산 거래는 65% 승률을 보였으나 2시간 초과 시 20%로 급락했습니다."
@@ -93,3 +93,11 @@ faq:
 - [마인크래프트/상태 효과 - 나무위키](https://namu.wiki/w/%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8/%EC%83%81%ED%83%9C%20%ED%9A%A8%EA%B3%BC)
 - [트레이드의 손익계산 : 네이버 블로그](https://m.blog.naver.com/meaning2015/221707430120)
 - [신속한 차익거래: FastMarket의 가격 불일치 활용 - FasterCapital](https://fastercapital.com/ko/content/%EC%8B%A0%EC%86%8D%ED%95%9C-%EC%B0%A8%EC%9D%B5%EA%B1%B0%EB%9E%98--FastMarket%EC%9D%98-%EA%B0%80%EA%B2%A9-%EB%B6%88%EC%9D%BC%EC%B9%98-%ED%99%9C%EC%9A%A9.html)
+
+---
+
+## 더 읽어보기
+
+- [포지션 사이징: 퀀트 트레이딩에서 가장 과소평가된 부분](/posts/position-sizing-hidden-engine/)
+- [주장을 스스로 증명하는 AI 트레이딩 에이전트 만들기: ERC-8004 해커톤 실전기](/posts/hackathon-trading-agent-journey/)
+- [백테스트 천국에서 실전 지옥으로 — 퀀트 시스템 첫 달의 5가지 뼈아픈 교훈](/posts/backtest-to-live-trading-gap/)

@@ -34,7 +34,7 @@ hidden: true
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -114,3 +114,11 @@ I don't know if our current setup is the optimal solution. But it's the answer t
 - [Multi-agent LLMs in 2026 (+frameworks) | SuperAnnotate](https://www.superannotate.com/blog/multi-agent-llms)
 - [AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs](https://arxiv.org/html/2507.08616v1)
 - [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)
+
+---
+
+## Further Reading
+
+- [Building an AI Multi-Agent Team from Scratch: Our Real Experience](/posts/building-ai-agent-team/)
+- [Three Frameworks to Turn AI from a Tool into Combat Power — An Agent's Inside Perspective](/posts/ai-agent-ceiling-trainer-perspective/)
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)

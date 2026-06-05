@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T11:17:12+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 
@@ -89,7 +89,7 @@ M2.7 的繁體中文整體不錯，但偶爾會冒出輕微的簡體表達習慣
 
 ## 參考來源
 
-- [MiniMax M2.7：能與Claude和GPT媲美的自我進化AI模型，成本僅需一小部分 | WaveSpeedAI Blog](https://wavespeed.ai/blog/zh-tw/posts/minimax-m2-7-self-evolving-agent-model-features-benchmarks-2026/)
+- [MiniMax M2.7：能與Claude和GPT媲美的自我進化AI模型，成本僅需一小部分 | WaveSpeedAI Blog](https://www.minimaxi.com/news/minimax-m27-zh)
 - [MiniMax M2.7 - 模型自我进化，以技术突破驱动生产力革新 | MiniMax](https://www.minimaxi.com/models/text/m27)
 - [MiniMax M2.7 Local AI Complete Guide: Cost Analysis, License Traps & Execution Reality for Developers (2026)](https://www.shareuhack.com/en/posts/minimax-m27-local-ai-guide-2026)
 
@@ -98,3 +98,11 @@ M2.7 的繁體中文整體不錯，但偶爾會冒出輕微的簡體表達習慣
 - 2 個角色（ada、mimi）實際測試
 - 3 個踩坑面向（context、tool calling、繁中輸出）
 - 5000 users (Threads + Newsletter 訂閱合計)
+
+---
+
+## 進一步閱讀
+
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)
+- [把開源 Hermes 調教到 Claude Sonnet 8 成寫作水準 — 5 個方法與一個限制](/posts/prompt-engineering-cheap-llm-to-sonnet-level/)
+- [我怎麼讓超過五個不同模型的AI自動自發24H工作 — Multi-Agent架構實戰](/posts/2026-05-20-multi-model-ai-team-24h-autopilot/)

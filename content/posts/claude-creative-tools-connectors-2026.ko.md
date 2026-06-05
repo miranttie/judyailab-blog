@@ -34,7 +34,7 @@ keywords:
   - "claude adobe integration"
 showToc: true
 TocOpen: false
-lastmod: 2026-04-30T07:09:02+00:00
+lastmod: 2026-05-25T11:29:31+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -142,3 +142,11 @@ MCP 커넥터 본질적으로: 도구에 MCP 인터페이스를 노출하여 클
 - 9 個 MCP 커넥터 출시
 - 15% 색 톤 조정 예시
 - 5000 users (Threads + 뉴스레터 구독자)
+
+---
+
+## 더 읽어보기
+
+- [Anthropic의 Managed Agents 출시: AI Agent를 위한 서버, 이제 직접 운영할 필요 없습니다](/posts/claude-managed-agents/)
+- [Claude Code Hooks 완전 가이드 — AI로 개발 워크플로우를 자동화하는 방법](/posts/claude-code-hooks-guide/)
+- [Claude Design: 비디자이너도 프로토타입 제작 가능](/posts/claude-design-anthropic-2026/)

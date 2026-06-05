@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "포지션 사이징이 왜 신호 찾기보다 중요한가요?"
     a: "같은 전략, 같은 100번 거래라도 사이징 방법에 따라 최종 잔고가 $1,050에서 $14,332까지 14배 차이가 납니다. 신호의 질보다 자금 배분 규칙이 장기 수익을 결정합니다."
@@ -171,3 +171,9 @@ f* = 0.72 - 0.28/0.75 = 0.72 - 0.37 = 0.35
 - [퀀트 트레이딩 원칙 - quantfoundrylab](https://quantfoundrylab.com/ko/quant_trading_start/)
 - [(슈퍼 트레이더) 포지션사이징 모델](https://better-today.tistory.com/441?category=869994)
 - [포지션 사이징: 트레이더의 생존과 번영을 위한 열쇠](https://coinmarketman.com/ko/blog/position-sizing-traders-key-to-surviving-and-thriving/)
+
+---
+
+## 더 읽어보기
+
+- [보유 시간 효과: 왜 트레이드는 빠르게 청산해야 하는가](/posts/holding-time-effect/)

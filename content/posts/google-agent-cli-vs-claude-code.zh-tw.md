@@ -1,84 +1,88 @@
 ---
-title: "Google Gemini CLI vs Claude Code：兩者對比與應用場景"
-date: "2026-05-20T05:00:39+00:00"
-draft: true
-author: "Judy"
-summary: "Google Gemini CLI主打免費無限+100萬token，Claude Code則被工程師說「沒它寫不了code」。兩款AI CLI到底差在哪？我們從業界實測對比看真實應用場景。"
-description: "Gemini CLI vs Claude Code完整比較：Google Gemini CLI免費開源、100萬token上下文，Claude Code被工程師依賴但有5小時限流。兩者實測對比、適用場景、選型建議一次看懂。"
+title: Google Agent CLI vs Claude Code：兩大AI助手對決
+date: "2026-05-25T18:06:11+00:00"
+draft: false
+author: Judy
+summary: Google Agents CLI與Claude Code常被拿來比較，但其實它們不是同類工具——前者是讓Agent符合企業上線標準的SOP手冊，後者是動手寫程式的執行者。本文深入解析兩者在定價結構、核心功能與適用情境上的差異，幫開發者避開選擇盲點。
+description: Claude Code月費20至200美元、Google Agents CLI開源免費，兩者定位卻截然不同。Claude Code是AI編碼執行者，Google Agents CLI是企業級Agent部署工具層。深入解析差異、價格與適用情境，幫你選對工具。
 categories:
-  - "AI 工具"
+  - "AI 工程"
+  - "產品"
 tags:
-  - "Gemini CLI"
   - "Claude Code"
+  - "Google Agents CLI"
   - "AI Agent"
-  - "Coding Agent"
-  - "Google"
+  - "AI編碼工具"
+  - "開發者工具"
+ShowReadingTime: true
+ShowWordCount: true
+cover: {'hidden': True}
+faq:
+  - q: "Google Agents CLI和Claude Code是哪一種工具？"
+    a: "兩者定位不同——Claude Code是AI編碼助手，Google Agents CLI是Agent工程化標準工具，無法直接比較。"
+  - q: "Claude Code多少錢？"
+    a: "Pro方案每月20美元，Max方案每月100-200美元，視用量而定。"
+  - q: "Google Agents CLI免費嗎？"
+    a: "CLI本身開源免費，但部署到GCP雲端服務會產生費用，依據Cloud Run或GKE使用量計費。"
+  - q: "該選哪個工具？"
+    a: "若需AI幫你寫程式、改程式，選Claude Code；若要將Agent部署到企業正式環境，選Google Agents CLI。"
+  - q: "可以同時使用兩個工具嗎？"
+    a: "可以搭配使用——先用Claude Code寫Agent，再用Google Agents CLI做評估與部署上線。"
+ShowBreadCrumbs: true
+ShowToc: true
+TocOpen: true
 series:
   - "Claude Code 深度攻略"
 ---
 
-## 「Claude Code終結者來了！」這標題，當真嗎？
+> **TL;DR**：很多人以為Google Agents CLI是來跟Claude Code對打的，但細看官方定位會發現——它根本不是另一個AI編碼助手，而是要讓所有編碼助手都「變專業」的工具層。Claude Code是手術刀型的執行者（Pro月費20美元、Max要100-200美元），Google Agents CLI開源免費，但目的是賦能其他工具開發Agent。選哪個取決於你要AI做什麼。
 
-最近Threads上有篇貼文標題下得很猛：「Claude Code終結者來了！Google剛推出Gemini CLI，幾乎無限免費使用Gemini 2.5 Pro！」[Source: Threads貼文]
+## 一個被誤讀的對決
 
-語氣很興奮，但仔細看內容——「Apache 2.0開源」「整合Google搜尋實時上下文」「支援MCP與自訂提示」「可嵌入腳本實現自動化」——這些功能聽起來都很厲害，可是Claude Code的使用者真的會因為這樣就跳船嗎？
+「Google Agent CLI vs Claude Code」這個題目本身就有問題。
 
-我們在Judy AI Lab每天跟這兩個工具都打交道。J是COO，Claude Code是他的主力武器；阿達是產品工程師，最近被指派去研究Gemini CLI能不能補上一些Claude Code的短板。所以這篇不是「誰殺死誰」的標題黨，是兩個工具在我們工作流裡真實的位置。
+業界普遍把這兩個東西放在一起比較，好像它們是同型別的競爭者。但實際上去看 Google 在 2026 年釋出的 Agents CLI 官方 repo 第一句就寫得很清楚——「不是另一個 AI 編碼助手，而是讓所有編碼助手變成 AI Agent 專家的工具」[原文 [GitHub google/agents-cli README](https://github.com/google/agents-cli)]。
 
-## Google Gemini CLI是什麼？不只是另一個編碼助手
+換成生活的比喻：Claude Code 是廚師，Google Agents CLI 不是另一個廚師，是廚師背後的「中央廚房 SOP + 出餐前檢查 + 上菜流程」。
 
-電腦王阿達寫得很到位：「Google開源Agents CLI——不是另一個AI編碼助手，而是讓所有編碼助手都變成Agent專家。」[Source: 電腦王阿達]
+具體一點：Claude Code 你叫它「重寫這個 5000 行的 legacy code」它馬上動手。Google Agents CLI 不寫程式，它做兩件事——**評估**（看你已經寫好的 Agent 跑起來品質如何）跟**部署**（把驗證過的 Agent 推到 Google Cloud 正式環境跑）[參考 [Google Developers Blog 介紹 ADK](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/) 跟 [Google Cloud Blog Agent Executor 文章](https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime)]。
 
-這句話的意思是，Google這次的定位不是來打Claude Code的，是想做一個「Agent化的層」，讓你原本用的編碼助手都能升級成Agent。聽起來很巧妙——避開正面對決，往上一層做基礎設施。
+簡單講：Claude Code 是把程式碼寫好的那個人，Google Agents CLI 是教 Claude Code（或其他編碼助手）「怎麼把 Agent 做得符合企業正式上線標準」的那本 SOP 手冊。
 
-但實際情況呢？根據2026年4月的對比測試，**Claude Code與Gemini CLI在相同任務上同樣拿到6.8/10**。能力其實打平。差異在哪？**Gemini CLI提供免費的100萬token上下文**。
+## 價格結構不對等，混在一起比會誤導
 
-這個免費，是真的會讓人心動的點。
+這兩個工具的收費邏輯也不一樣。
 
-## Claude Code的痛點：5小時限流
+Claude Code走訂閱制——Pro方案每月20美元但用量有限，重度使用者得訂Max方案，每月100-200美元[參考 [Anthropic Claude Code 官方定價](https://www.anthropic.com/pricing#claude-code)]。如果你每天用AI寫程式寫到很重，200美元不是小錢，但跟一個資深工程師的時薪比還是便宜很多。
 
-Instagram上有篇貼文寫得很真實：「Claude竟然限流了？最近不少工程師朋友都在抱怨...Claude Code的5小時使用限制翻倍對有在寫code、跑專案、做workflow的人比較有感。」[Source: Instagram貼文]
+Google Agents CLI是開源的，本身不收錢。但要記得——它要部署到Cloud Run、GKE上面那段才是真正花錢的地方，這部分走GCP計費。所以「Google免費vs Claude收費」這種比較其實沒看到全貌。
 
-這是Claude Code使用者最熟悉的痛點。寫到一半，跳通知說你達到使用上限，要等好幾個小時——對需要連續輸出的開發者來說，這是會讓人想摔鍵盤的事。
+同樣常被拿來放在一起比的還有 Gemini CLI、Codex CLI，定位又不一樣，定價結構這個賽道每隔半年就換一次，去年比的結論今年常常已經不適用。
 
-更關鍵的是計費結構的變化。數位時代BusinessNext報導：**Anthropic宣布自2026年6月15日起調整Claude計費方式**，原因是「Claude Agent SDK第三方代理工具Conductor和OpenClaw等第三方工具大量呼叫Agent SDK（程式化用量），導致訂閱額度迅速耗盡，衝擊統一費率定價模式。」[Source: BusinessNext數位時代]
+## Claude Code的強項：手術刀型執行者
 
-所以從6月15日起，**「互動式使用」與「程式化使用」將切割為兩個獨立額度池**。這對重度使用者是個訊號——Claude的訂閱優勢正在被重新定義。
+如果你的需求是「我要AI幫我寫程式、改程式、修bug」，這就是Claude Code的主場。
 
-## 兩者對比：不是誰殺死誰，是適用場景不同
+它被描述為「2026年最強的終端AI寫程式工具」——多檔案重構、架構推理、複雜除錯，精準度顯著超出市場同類產品（業界普遍觀察）。再加上本地優先執行、深度程式碼理解能力、原生終端機體驗，特別適合維護大型或舊有程式碼庫、高隱私要求的專案、偏好CLI工作流程的開發者（社群整理）。
 
-J跟阿達的實際分工大概是這樣——複雜架構、核心開發、品質審查走Claude Code；大量探索、寫腳本、跑簡單任務走Gemini CLI。為什麼這樣分？
+換句話說，Claude Code不是萬能。它就是一把手術刀。你叫它幫你做品牌策略，它做不來。但你叫它把一個5000行的legacy code改乾淨，它是目前市場上的第一選擇之一。
 
-**Claude Code的強項：** 對長脈絡的理解深度、Code品質、對複雜workflow的整合能力（MCP生態最成熟）。J說沒有Claude Code他寫不了現在這種規模的系統，這話我信。
+## Google Agents CLI的強項：把Agent從「能跑」變「能上線」
 
-**Gemini CLI的強項：** 100萬token免費、Apache 2.0開源、可整合Google搜尋做實時上下文、嵌入腳本自动化。對於想做大量批次處理、又不想被訂閱額度綁死的人，這是真正的解放。
+Google Agents CLI的價值不在寫程式，在工程化。
 
-業界普遍發現一個有趣的現象——Facebook上有人在分享：「了解Coding Agent核心運作機制（Gemini CLI、Claude Code）」[Source: Facebook貼文]——這兩個工具開始被一起研究，不是對立，是被當成不同任務的選擇。
+官方檔案裡有個示範流程——開發者只說一句「我要一個壓縮文字的 Agent」，編碼助手（注意，是 Claude Code / Codex / Gemini CLI，不是 Google CLI 本身）就會啟動工作流程，反問你要部署到哪、有沒有安全限制，然後自動建立專案結構、裝相依套件、把測試跟評估方法都附上 [參考 [Google Developers Blog ADK 介紹](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/)]。
 
-## 應用場景建議：別只挑一個
+重點在「包含測試與評估集」這幾個字。很多人用AI寫Agent寫到一個demo跑得起來就好，但demo跟正式上線之間，差的是評估、監控、部署、回滾、機密管理——這些Google Agents CLI把它包成了一套標準。
 
-如果你問Judy AI Lab怎麼用，我們會說：兩個都用，但分工要清楚。
+## 那到底要選哪個？
 
-**選Claude Code的時機：** 你要寫的是長期維護的核心系統、需要跨多檔案的重構、要做架構決策、品質壓過速度。重要的是——你的使用量在訂閱額度內，沒被5小時限流打斷工作流。
+說實話這題沒有一個答案。
 
-**選Gemini CLI的時機：** 你要跑大量探索性任務、需要100萬token吃下一整本文件、要嵌入自動化腳本、預算敏感（特別是初創或個人開發者）、想要Apache 2.0開源的可控性。
+要寫程式、debug、改架構，Claude Code（搭配Pro或Max）。要把已經寫好的Agent推上Cloud Run變成可監控、可評估的正式服務，Google Agents CLI可以接在後面。如果只是要探索、低用量試玩，Gemini CLI的免費額度比Claude Code大很多——所以業界開始有人在用「Gemini CLI探索、Claude Code執行」這種雙工具策略（業界普遍觀察）。
 
-**两个都用的時機：** 其實這才是大多數認真用AI工具的人的狀態。複雜決策走Claude Code，批次處理走Gemini CLI，沒有非此即彼。
+這三個東西不是互斥的。把它們當成同一條產線的不同站，比較不會選錯。
 
-那篇Threads貼文說「Claude Code終結者來了」——這種語氣的標題很常見，但實際上兩者各有優勢，應該根據使用場景選擇。
+---
 
-## 真正要問的問題
-
-不是「哪個比較強」，是「你的workflow到底需要什麼」。
-
-很多人問工具選哪個的時候，其實還沒搞清楚自己要解決什麼問題。一個免費100萬token的CLI對你來說很誘人，但你寫的是10行的小腳本，那這個優勢對你沒意義。一個被工程師說「沒它寫不了code」的工具很厲害，但你只是想自動化幾個重複任務，那訂閱費可能就是浪費。
-
-工具沒有絕對好壞，只有適不適合此刻的你。
-
-以上是看了那篇「終結者」貼文之後，突然有感而發。
-
-## 參考來源
-
-- [Gemini CLI vs. Claude Code: Differences and Use Cases (2026) | DataCamp](https://www.datacamp.com/blog/gemini-cli-vs-claude-code)
-- [Claude Code + Gemini CLI：免費搭付費，AI 寫程式帳單省 60-70%（2026 實戰指南） | Termdock](https://www.termdock.com/zh/blog/claude-code-vs-gemini-cli)
-- [Gemini CLI vs Claude Code: Which to Choose for Python Tasks – Real Python](https://realpython.com/gemini-cli-vs-claude-code/)
+被誤讀的對決，答案常常是「兩個都用，但用在不同的地方」。

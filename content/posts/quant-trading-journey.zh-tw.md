@@ -21,7 +21,7 @@ cover:
   hidden: true
 ShowBreadCrumbs: true
 hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "為什麼自建回測框架而不用 Backtrader 或 Zipline？"
     a: "因為需要完全掌控信號生成與倉位計算的每個細節，現成框架會把這些邏輯封裝起來，難以客製化風控與多策略協同。自建程式碼雖然初期成本高，但能精準控制滑點模擬、訂單撮合順序，也方便後續加入 Z-score 檢驗與 Walk-Forward 邏輯。"
@@ -129,3 +129,11 @@ Paper Trading 的意義不是「驗證策略能賺錢」，而是驗證整個系
 - [量化交易教學懶人包，自動交易從零開始，軟體平台選擇分享｜量化交易新手入門 - 量化通 QuantPass](https://quantpass.org/quant-list/)
 - [程式交易是什麼？程式交易教學、優缺點及常見策略懶人包 - TEJ台灣經濟新報](https://www.tejwin.com/insight/program-trading/)
 - [量化交易30天 Day29 - 整理量化交易相關學習資源 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10252360)
+
+---
+
+## 進一步閱讀
+
+- [你的策略勝率 87%？Z-score 說：那是幻覺](/posts/z-score-reality-check/)
+- [回測 100% 勝率？先別高興 — 我們學到最痛的一課](/posts/oos-validation-lesson/)
+- [從回測天堂到實盤地獄 — 我們量化系統上線第一個月的 5 個血淚教訓](/posts/backtest-to-live-trading-gap/)

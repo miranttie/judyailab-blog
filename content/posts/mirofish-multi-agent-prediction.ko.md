@@ -32,7 +32,7 @@ faq:
 hidden: true
 a: 투자자는 이를 통해 집단 행동 예측의 개념을 이해할 수 있지만, 실제 운영을 위해서는 기술 팀의 배포 및 실행 지원이 필요합니다.
 ShowBreadCrumbs: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -171,3 +171,9 @@ JudyAI Lab에서는 이처럼 사고 프레임을 바꿀 수 있는 오픈소스
 - [MiroFish: 다중 AI 에이전트로 미래를 시뮬레이션하는 예측 엔진](https://javaexpert.tistory.com/1626)
 - [미래 예측 AI? MiroFish로 모든 걸 미리 본다! - YouTube](https://www.youtube.com/shorts/nrrcovKOvjE)
 - [MiroFish 뜯어보기(1) - 이론편 : 문서 하나로 수천 명의 가상 인간을 시뮬레이션하는 집단 지능 엔진 :: 갓대희의 작은공간](https://goddaehee.tistory.com/552)
+
+---
+
+## 더 읽어보기
+
+- [4개의 LLM을 동시에 운영하다: 실제 멀티 에이전트 팀의 모델 선택과 비용 기록](/posts/multi-llm-agent-team-cost-reality/)

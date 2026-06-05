@@ -30,7 +30,7 @@ faq:
 a: 建議至少每季度回顧一次。2 個月內更新的頁面比 2 年以上的頁面多出約 28% 的 AI 引用次數，AI 偏好新鮮的資訊。
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:30:28+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -141,6 +141,11 @@ Initial results typically appear in 4-8 weeks, significant effects take 3-6 mont
 ---
 
 ## Further Reading
+
+- [OpenAI Is Building a Super App  -  When ChatGPT, Codex, and the Browser Become One](/posts/openai-super-app-codex-chatgpt-browser/)
+- [Meta Ads MCP: Can Agencies Still Justify Their 20% Fee?](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [Claude Code Skill Finally Testable! Five Major Updates to Official Skill Creator Explained](/posts/skill-creator-update/)
+
 
 - [SE Ranking: How to Optimize for AI Mode](https://seranking.com/blog/how-to-optimize-for-ai-mode/) — The 2.3 million page study cited in this article
 - [Search Engine Journal: Top Factors Influencing ChatGPT Citations](https://www.searchenginejournal.com/new-data-top-factors-influencing-chatgpt-citations/561954/)

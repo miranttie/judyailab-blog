@@ -7,7 +7,7 @@ categories: ["퀀트 트레이딩"]
 tags: ["멀티전략", "전략 라우팅", "WFO", "백테스팅", "자동화 트레이딩"]
 description: "단일 전략은 트렌드 시장과 횡보 시장에서 극명하게 다른 성과를 보입니다. 마켓 레짐에 따라 자동으로 최적의 전략을 선택하는 전략 라우터를 구축했으며, WFO 검증을 품질 관리 게이트로 사용합니다."
 summary: "단일 전략 시스템이 실패할 수밖에 없는 이유, 마켓 레짐에 따라 자동으로 전환하는 4전략 시스템, 그리고 절대 건너뛸 수 없는 품질 관리 게이트인 WFO 검증의 중요성."
-lastmod: 2026-03-08T17:35:29+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "전략 라우터란 무엇이며 단일 전략과 어떻게 다른가요?"
     a: "전략 라우터는 ADX·BB·ATR·EMA로 마켓 레짐을 탐지해 추세·횡보·고변동성·돌파 상황별로 최적 전략을 자동 선택하는 시스템입니다. 단일 전략의 시장 적응 한계를 해결합니다."
@@ -176,3 +176,11 @@ def get_confidence_level(symbol, direction):
 - [네트워킹에 적용된 AI](https://www.f5.com/ko_kr/company/blog/ai-in-networking)
 - [How to Build a Successful AI Business Strategy | IBM](https://www.ibm.com/think/insights/artificial-intelligence-strategy)
 - [2025년 AI 검색 최적화 실전 가이드｜쇼핑몰을 위한 SEO + AEO + GEO 전략](https://www.nhn-commerce.com/main/blog/25/%EC%87%BC%ED%95%91%EB%AA%B0-SEO%EB%B6%80%ED%84%B0-AI-%EA%B2%80%EC%83%89-%EC%B5%9C%EC%A0%81%ED%99%94%EA%B9%8C%EC%A7%80-%EB%85%B8%EC%B6%9C-%EC%98%AC%EB%A6%AC%EB%8A%94-%EC%8B%A4%EC%A0%84-%EB%B0%A9%EB%B2%95-4725)
+
+---
+
+## 더 읽어보기
+
+- [당신의 전략이 승률 87%? Z-Score가 말합니다: 그것은 착각입니다](/posts/z-score-reality-check/)
+- [퀀트 트레이딩 시스템 구축기: 첫 백테스팅 코드부터 페이퍼 트레이딩까지](/posts/quant-trading-journey/)
+- [백테스팅에서 100% 승률? 축하하기엔 이르다 — 우리의 가장 뼈아픈 교훈](/posts/oos-validation-lesson/)

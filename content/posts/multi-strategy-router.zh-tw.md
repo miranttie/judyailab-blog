@@ -26,7 +26,7 @@ faq:
     a: "L3為100%倉位（多策略一致），L2為75%倉位（有WFO驗證），L1為50%倉位（無驗證），降低未經驗證策略的損失衝擊。"
   - q: "多策略系統需要哪些風控措施？"
     a: "除了倉位控制，還需限制同向持倉數量（最多3個），搭配2%資金管理和連敗縮倉機制，確保連續虧損仍在可控範圍。"
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -178,3 +178,11 @@ def get_confidence_level(symbol, direction):
 - [我第二次用AI寫量化交易策略 - Instagram](https://www.instagram.com/p/DXF_qDEkuIe/)
 - [从“可跑”到“能赚”：策略执行正成为量化交易的最后一公里战场- 知乎](https://zhuanlan.zhihu.com/p/1925653615764276933)
 - [用AI反向学习策略设计：提升量化交易技能的新思路 - FMZ](https://www.fmz.com/digest-topic/10650)
+
+---
+
+## 進一步閱讀
+
+- [你的策略勝率 87%？Z-score 說：那是幻覺](/posts/z-score-reality-check/)
+- [量化交易系統建置全紀錄：從第一行回測程式碼到 Paper Trading](/posts/quant-trading-journey/)
+- [回測 100% 勝率？先別高興 — 我們學到最痛的一課](/posts/oos-validation-lesson/)

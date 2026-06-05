@@ -1,7 +1,7 @@
 ---
 title: "Practical Guide to Preventing Prompt Injection  -  From an AI Team's Operations Perspective"
 date: "2026-05-15T09:00:00+00:00"
-lastmod: "2026-05-19T03:14:00+00:00"
+lastmod: 2026-05-25T11:26:34+00:00
 draft: false
 author: "Judy"
 summary: "Ranked as OWASP LLM01, Prompt Injection's root cause lies in the architectural flaw where control and data channels cannot be separated  -  not in simple code bugs. From the perspective of actual AI team operations, this article analyzes four common attack techniques and three counter-intuitive facts, providing five actionable defense layers to raise attack costs until attackers give up."
@@ -221,3 +221,10 @@ When agents fetch external data — whether MCP fetch, WebSearch, or reading use
 ### Defense Layer 3: Keep auto-approve scope as small as possible
 
 Like credit cards having low default limits — big purchases need additional verification. The fewer things AI can do automatically, the lower the risk when problems occur.
+
+---
+
+## Further Reading
+
+- [AI Trading Bot Security Guide: Protecting Your Automated Trading System from Attacks](/posts/ai-trading-bot-security-guide/)
+- [MIT Reveals AI Chatbot Delusional Spirals No User Can Escape](/posts/mit-ai-delusional-spiraling-research/)

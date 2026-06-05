@@ -22,7 +22,7 @@ hidden: true
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "Why does my Bollinger Bands strategy backtest at 62% win rate but lose money in live BTC trading?"
     a: "Three reasons. First, backtests assume perfect fills, but live trading suffers slippage of 0.1-0.3% per trade, which compounds across hundreds of trades. Second, Bollinger Bands assume normal price distribution, but BTC has fat tails — extreme moves happen far more often than the model predicts. Third, backtests don't capture regime shifts: a strategy that wins 62% in ranging markets can lose 70% during trends when price hugs the upper band for weeks. The code isn't broken; you're applying mean-reversion logic to a fat-tailed, trend-prone asset."
@@ -121,3 +121,11 @@ The real problem isn't the tool — it's not clarifying the tool's usage conditi
 - [How I Use Bollinger Bands for Accurate Entries & Exits (Live Trading)](https://www.youtube.com/watch?v=EQ5X-2FchlM)
 - [Bitcoin Trading Strategy Backtest Results: Buy & Hold vs Bollinger ...](https://www.linkedin.com/posts/drashtiiirathod_i-built-something-dumb-today-a-bot-that-activity-7453153231591034880-wp8E)
 - [Simple Bollinger Band Breakout Strategy - 7.5 Year Backtest on ...](https://www.reddit.com/r/algotrading/comments/1lka4qh/simple_bollinger_band_breakout_strategy_75_year/)
+
+---
+
+## Further Reading
+
+- [The Single Strategy Trap: Why You Need a Multi-Strategy Trading System](/posts/multi-strategy-trading/)
+- [One Strategy Isn't Enough — How We Built an AI Strategy Router](/posts/multi-strategy-router/)
+- [Your Strategy Isn't Broken — The Market Changed](/posts/market-regime-detection/)

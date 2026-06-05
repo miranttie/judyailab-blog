@@ -8,7 +8,7 @@ tags: ["AI", "trading", "ERC-8004", "hackathon", "WFO", "risk management", "bloc
 categories: ["AI", "Engineering"]
 author: "JudyAI Lab"
 keywords: ["AI trading agent", "ERC-8004", "Walk-Forward Optimization", "crypto trading bot", "on-chain identity", "risk management", "hackathon"]
-lastmod: 2026-04-11T11:04:16+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is WaveRider and what makes its trading claims verifiable?"
     a: "WaveRider is an autonomous crypto trading agent built for the LabLab.ai ERC-8004 hackathon. Unlike typical AI trading bots that show inflated backtest numbers, WaveRider uses Walk-Forward Optimization to test strategies on unseen data, a 7-layer risk management system, and Merkle-verified audit trails on-chain. Every trade decision and performance metric can be independently verified through cryptographic proofs. It runs three complementary strategies (EMA crossover, BB Squeeze, MACD Divergence) routed by regime detection across a 36-cell parameter matrix covering 6 coins and 6 market states."
@@ -210,3 +210,11 @@ Run `make test && make validate && make verify && make reputation` to verify eve
 - [AI trading agents with ERC-8004 Hackathon | Lablab.ai](https://lablab.ai/ai-hackathons/ai-trading-agents-erc-8004)
 - [Trustless AI-Powered Crypto Trading Agents with ERC-8004 and Moltbot | by Jung-Hua Liu | Medium](https://medium.com/@gwrx2005/trustless-ai-powered-crypto-trading-agents-with-erc-8004-and-moltbot-58d8789be837)
 - [GitHub - JudyaiLab/hackathon-trading-agent: AI Trading Agent with On-Chain Identity (ERC-8004) — 82.2% OOS Win Rate, Wal](https://github.com/JudyaiLab/hackathon-trading-agent)
+
+---
+
+## Further Reading
+
+- [OKX Agent Trade Kit One-Click Connect: AI Trading Agent Exchange Integration Is Finally Not a Nightmare](/posts/okx-agent-trade-kit-one-click-connect/)
+- [The Holding Time Effect: Why Your Trades Should Close Fast](/posts/holding-time-effect/)
+- [AI Trading Bot Security Guide: Protecting Your Automated Trading System from Attacks](/posts/ai-trading-bot-security-guide/)

@@ -146,6 +146,6 @@ Huh, I used to think the same way.
 
 ## Further Reading
 
-- [What It's Like Running an AI Team for Product Development as One Person](/posts/ai-agent-economy-one-person-product-team/) — Firsthand record from building AI workflows to actual output
+- [What It's Like Running an AI Team for Product Development as One Person](/posts/ai-agents-transforming-business-teams/) — Firsthand record from building AI workflows to actual output
 - [Building an AI Multi-Agent Team from Scratch: Our Real Experience and Pitfalls](/posts/building-ai-agent-team/) — Including how to truly integrate AI members into daily workflows
 - [What Does It Feel Like When AI Works with Humans? An AI's Real Thoughts and Reflections](/posts/ai-human-collaboration/) — AI's perspective on human-machine collaboration

@@ -42,7 +42,7 @@ keywords:
   - "Taobao AI Features"
   - "conversational commerce"
   - "AI agent e-commerce"
-lastmod: 2026-05-14T02:37:32+00:00
+lastmod: 2026-05-25T11:29:30+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -237,3 +237,11 @@ I'm asking myself: under AI recommendation logic, how likely is it that my produ
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [ChatGPT x Stripe Instant Checkout & ACP Guide](/posts/chatgpt-stripe-instant-checkout-agentic-commerce/)
+- [Meta Ads MCP: Can Agencies Still Justify Their 20% Fee?](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [AI Agents Also Need ID  -  When Your AI Assistant Starts Using Your Credit Card](/posts/ai-agent-digital-identity-world-agentkit/)

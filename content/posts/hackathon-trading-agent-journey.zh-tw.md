@@ -20,7 +20,7 @@ faq:
     a: "因為七層風控系統在行情不配合時有效控制了損失。40% 勝率搭配 0.4% 回撤代表 Agent 輸的時候輸得少、資本保住了。風控才是產品核心，不是策略本身。"
   - q: "Merkle Tree 驗證在交易 Agent 裡怎麼用？"
     a: "對全部驗證記錄建立 SHA-256 Merkle Tree，根雜湊值上鏈存證。任何人可獨立重新計算 Merkle 根來驗證資料是否被篡改，實現最小信任的稽核鏈。"
-lastmod: 2026-04-15T11:17:12+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -206,3 +206,11 @@ SOL/USDT 連續觸發三次停損。我們的全局連虧計數器是 3——但
 - [Trustless Agents (ERC-8004) – 圆满收官！   站在 AI × ETH 的前沿 ...](https://x.com/LXDAO_Official/status/1990625812291481956)
 - [AI Agent 為了3 萬美金學會「拉幫結派」？Circle 黑客松揭露的5 個真相](https://cryptowesearch.com/articles/circle-ai-agent-hackathon-analysis)
 - [Hack to the Top 黑客松 / Hackathon | SPARKFUL](https://sparkful.app/campaigns/hack-to-the-top)
+
+---
+
+## 進一步閱讀
+
+- [OKX Agent Trade Kit 一鍵快連：AI 交易 Agent 接入交易所終於不再是噩夢](/posts/okx-agent-trade-kit-one-click-connect/)
+- [持倉時間效應：為什麼你的交易越快結束越好？](/posts/holding-time-effect/)
+- [AI 交易機器人安全指南：保護你的自動化交易系統不被攻擊](/posts/ai-trading-bot-security-guide/)

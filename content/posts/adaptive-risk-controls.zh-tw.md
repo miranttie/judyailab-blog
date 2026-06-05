@@ -34,7 +34,7 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -145,3 +145,11 @@ lastmod: 2026-03-13T07:29:33+00:00
 - [讀書心得— 非對稱風險(一). 風險共擔](https://medium.com/vincent-chen/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97-%E9%9D%9E%E5%B0%8D%E7%A8%B1%E9%A2%A8%E9%9A%AA-%E4%B8%80-049c84c21aac)
 - [策略三個層次：架構、進出場點、濾網 - Mr.Market市場先生](https://rich01.com/blog-post_40/)
 - [組織設計專家帶你把構想變現實！從策略到執行的 3 大步驟 | 哈佛商業評論・與世界一流管理接軌](https://www.hbrtaiwan.com/article/21533/how-to-move-from-strategy-to-execution)
+
+---
+
+## 進一步閱讀
+
+- [你的策略沒問題，是市場變了 — Market Regime 偵測實戰](/posts/market-regime-detection/)
+- [你的策略勝率 87%？Z-score 說：那是幻覺](/posts/z-score-reality-check/)
+- [AI 真的改變了什麼？獨立開發者用 AI 打造交易工具的誠實紀錄](/posts/solo-dev-ai-reality-check-trading-tools/)

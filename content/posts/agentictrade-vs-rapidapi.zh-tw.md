@@ -201,7 +201,7 @@ curl -X POST https://agentictrade.io/api/v1/services \
   -d '{
     "name": "Your API Name",
     "description": "...",
-    "base_url": "https://api.yourservice.com/v1",
+    "base_url": "https://api.example.com/v1",
     "price_per_call": 0.005,
     "currency": "USD",
     "payment_rail": "x402",
@@ -260,6 +260,6 @@ Agent 經濟正在快速成長。當 10% 的選擇已經存在，別讓 25% 的�
 
 - [如何在 AgenticTrade 上架你的 AI API — 5 分鐘快速指南](/posts/how-to-list-ai-api-on-agentictrade/)
 - [讓你的 AI Agent 透過 x402 + AgenticTrade 自動支付 API 費用](/posts/agent-auto-pay-x402/)
-- [5 分鐘在 AgenticTrade 上架你的 API：讓 AI Agent 自動幫你賺錢](/posts/agentictrade-api-onboarding/)
+- [5 分鐘在 AgenticTrade 上架你的 API：讓 AI Agent 自動幫你賺錢](/posts/how-to-list-ai-api-on-agentictrade/)
 
 在 Judy AI Lab，我們長期關注 Agent 經濟的計費模式演進，這也是我們持續推薦開發者把 10% 佣金的 AgenticTrade 納入變現組合的原因。

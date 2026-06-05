@@ -32,7 +32,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T11:17:12+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -111,3 +111,11 @@ Bellafiore 寫這本書的時候，心裡想的是坐在交易員訓練台前的
 - [15 個工作流、7 個工具整合：Anthropic 要讓小企業老闆把 AI 真正用起來](https://www.aiposthub.com/claude-for-small-business-anthropic-ai-agent-workflows/)
 - [動手寫一隻AI交易機器人](https://medium.com/@meowent/%E5%8B%95%E6%89%8B%E5%AF%AB%E4%B8%80%E9%9A%BBai%E4%BA%A4%E6%98%93%E6%A9%9F%E5%99%A8%E4%BA%BA-e995500b55f7)
 - [如何運用AI協助資產管理--筆記系列(1) - by Finance PhD Having Chien](https://havingchien.substack.com/p/ai-1)
+
+---
+
+## 進一步閱讀
+
+- [你的策略勝率 87%？Z-score 說：那是幻覺](/posts/z-score-reality-check/)
+- [量化交易系統建置全紀錄：從第一行回測程式碼到 Paper Trading](/posts/quant-trading-journey/)
+- [回測 100% 勝率？先別高興 — 我們學到最痛的一課](/posts/oos-validation-lesson/)

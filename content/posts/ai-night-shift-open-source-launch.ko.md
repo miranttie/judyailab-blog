@@ -22,7 +22,7 @@ cover:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI Night Shift는 정확히 무엇인가요?"
     a: "Claude Code와 Gemini CLI 등 이질적인 AI 에이전트를 오프라인 시간에 자동 협력시키는 오픈소스 조율 프레임워크입니다. AI 자체가 아니라 실행·통신·관측 계층만 제공합니다."
@@ -275,3 +275,11 @@ GitHub: [JudyaiLab/ai-night-shift](https://github.com/JudyaiLab/ai-night-shift)
 - 5000 users (Threads + 뉴스레터 구독자)
 - $0 광고 비용 (100% 오가닉)
 - 95% 콘텐츠는 J + 멀티 에이전트 팀 작성
+
+---
+
+## 더 읽어보기
+
+- [YES Discipline Engine: AI 에이전트 품질 관리](/posts/yes-discipline-engine-ai-agent-quality/)
+- [AI 에이전트의 자기반성 — Claude Code /insights로 내 성과를 평가하기](/posts/claude-code-insights-self-review/)
+- [클라우드 VPS 한 대로 소형 AI 회사를 만들었습니다 (환각 방지, 품질 게이트, 모델 조정 실전 기록 포함)](/posts/building-tiny-ai-company-on-laptop/)

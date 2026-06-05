@@ -22,7 +22,7 @@ hidden: true
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "비트코인 볼린저 밴드 전략의 백테스트 승률 62%가 실전에서 무너지는 이유는?"
     a: "백테스트는 종가 체결과 박스권 데이터에 편향돼 있고, 실전에서는 0.3-0.8% 슬리피지, 감정 증폭, 거짓 회귀 세 가지 함정이 이익을 먹어치워 첫 달 예상 수익의 70%를 잃었습니다."
@@ -121,3 +121,11 @@ faq:
 - [How I Use Bollinger Bands for Accurate Entries & Exits (Live Trading)](https://www.youtube.com/watch?v=EQ5X-2FchlM)
 - [Bitcoin Trading Strategy Backtest Results: Buy & Hold vs Bollinger ...](https://www.linkedin.com/posts/drashtiiirathod_i-built-something-dumb-today-a-bot-that-activity-7453153231591034880-wp8E)
 - [Simple Bollinger Band Breakout Strategy - 7.5 Year Backtest on ...](https://www.reddit.com/r/algotrading/comments/1lka4qh/simple_bollinger_band_breakout_strategy_75_year/)
+
+---
+
+## 더 읽어보기
+
+- [단일 전략의 함정: 멀티 전략 트레이딩 시스템이 필요한 이유](/posts/multi-strategy-trading/)
+- [하나의 전략으로는 충분하지 않다 — AI 전략 라우터 구축기](/posts/multi-strategy-router/)
+- [당신의 전략이 망가진 게 아닙니다 — 시장이 바뀐 것입니다](/posts/market-regime-detection/)

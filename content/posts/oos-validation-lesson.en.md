@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "Why does a 100% win rate in backtesting often fail in live trading?"
     a: "A 100% backtest win rate usually signals overfitting or insufficient sample size, not strategy strength. In our case, SOL LONG and XRP LONG each had only 3 trades — flipping heads three times in a row happens 12.5% of the time by pure chance. When we ran Out-of-Sample validation, XRP LONG dropped from 100% to 0%, and ETH SHORT crashed from 100% to 25%. Always check trade count, run OOS validation, and require at least 30 trades before trusting any win rate metric."
@@ -186,3 +186,11 @@ Small-sample backtest results are the most dangerous trap in trading system deve
 - [100% Win Rate Backtesting Session (IFVG's)](https://www.youtube.com/watch?v=9Wh1io7mhmY)
 - [80% win ratio in backtesting. But losing money in live ...](https://www.instagram.com/reel/DWmM4HMjWNX/?hl=en)
 - [70% win rate in backtest but bad in live trading](https://www.reddit.com/r/Trading/comments/1gsigse/70_win_rate_in_backtest_but_bad_in_live_trading/)
+
+---
+
+## Further Reading
+
+- [Your Strategy Has 87% Win Rate? Z-Score Says: That's an Illusion](/posts/z-score-reality-check/)
+- [Quantitative Trading System Build: From First Backtest Code to Paper Trading](/posts/quant-trading-journey/)
+- [The Single Strategy Trap: Why You Need a Multi-Strategy Trading System](/posts/multi-strategy-trading/)

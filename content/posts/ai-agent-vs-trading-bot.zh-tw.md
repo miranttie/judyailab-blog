@@ -178,7 +178,7 @@ AI Agent 是**能夠自主學習和決策**的人工智慧系統。
 
 無論選擇哪個，**最重要的是策略本身**。
 
-工具只是放大你的優勢，而不是彌補策略的缺陷。如果你想深入了解 AI Agent 的實際構建過程，可以參考[從零建立 AI 多 Agent 團隊：我們的真實經歷](/posts/building-ai-agent-team/)；對於 AI 推論成本的選型判斷，[AI 推論定價完整解析](/posts/ai-inference-pricing-guide/)有詳細說明。也可以閱讀[一個人帶 AI 團隊做產品開發的體驗](/posts/ai-agent-economy-one-person-product-team/)，了解實際落地的感受。
+工具只是放大你的優勢，而不是彌補策略的缺陷。如果你想深入了解 AI Agent 的實際構建過程，可以參考[從零建立 AI 多 Agent 團隊：我們的真實經歷](/posts/building-ai-agent-team/)；對於 AI 推論成本的選型判斷，[AI 推論定價完整解析](/posts/ai-inference-pricing-guide/)有詳細說明。也可以閱讀[一個人帶 AI 團隊做產品開發的體驗](/posts/ai-agents-transforming-business-teams/)，了解實際落地的感受。
 
 ---
 

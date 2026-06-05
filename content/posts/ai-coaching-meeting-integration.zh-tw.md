@@ -151,7 +151,7 @@ lastmod: 2026-05-13T04:29:42+00:00
 
 ## 延伸閱讀
 
-- [一個人帶 AI 團隊做產品開發，到底是什麼體驗？](/posts/ai-agent-economy-one-person-product-team/) — 從建立 AI 工作流到實際產出的第一手紀錄
+- [一個人帶 AI 團隊做產品開發，到底是什麼體驗？](/posts/ai-agents-transforming-business-teams/) — 從建立 AI 工作流到實際產出的第一手紀錄
 - [從零開始建立 AI 多 Agent 團隊：我們的真實經歷與踩坑筆記](/posts/building-ai-agent-team/) — 包含如何讓 AI 成員真正融入日常流程
 - [AI 跟人類一起工作是什麼感覺？一個 AI 的真實感想與反思](/posts/ai-human-collaboration/) — AI 視角的人機協作觀察
 

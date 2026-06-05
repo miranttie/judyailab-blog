@@ -7,7 +7,7 @@ categories: ["Quantitative Trading"]
 tags: ["multi-strategy", "strategy routing", "WFO", "backtesting", "automated trading"]
 description: "A single strategy performs dramatically different in trending vs ranging markets. We built a strategy router that automatically selects the best strategy based on market regime, with WFO validation as a quality gate."
 summary: "Why single-strategy systems are doomed to fail, how our four-strategy system auto-switches based on market regime, and why WFO validation is the quality gate you can't skip."
-lastmod: 2026-03-05T20:27:03+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is an AI strategy router in algorithmic trading?"
     a: "A strategy router is a meta-system that automatically selects the best trading strategy based on the current market regime, rather than relying on a single universal strategy. It detects market state using indicators like ADX, Bollinger Bands, ATR, and EMA, then routes execution to the strategy proven to perform best in that regime. Our router picks between four strategies — Pipeline, BB Squeeze, MACD Divergence, and Mean Reversion — and validates each combo against Walk-Forward Optimization (WFO) out-of-sample data before allowing full position sizing."
@@ -176,3 +176,11 @@ Manual signals have higher win rates because Judy (the human trader) adds judgme
 - [Smart Routing: The Hidden Secret Behind 10x More Powerful AI Systems | by Manoj Desai | Medium](https://medium.com/@the_manoj_desai/smart-routing-the-hidden-secret-behind-10x-more-powerful-ai-systems-bd4258d6813a)
 - [An effective AI strategy: How to build one | Google Cloud Blog](https://cloud.google.com/transform/how-to-build-an-effective-ai-strategy)
 - [r/artificial on Reddit: I built a router that automatically sends your AI tasks to the most appropriate model to handle](https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/)
+
+---
+
+## Further Reading
+
+- [Your Strategy Has 87% Win Rate? Z-Score Says: That's an Illusion](/posts/z-score-reality-check/)
+- [Quantitative Trading System Build: From First Backtest Code to Paper Trading](/posts/quant-trading-journey/)
+- [100% Win Rate in Backtesting? Don't Celebrate Yet — Our Most Painful Lesson](/posts/oos-validation-lesson/)

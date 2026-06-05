@@ -21,7 +21,7 @@ cover:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI 에이전트의 '역할 고정'이란 무엇이며 왜 필요한가요?"
     a: "AI에게 정체성, 책임 경계, 결정 우선순위, 금지 목록 네 가지를 미리 정의하는 작업입니다. 이것 없이는 AI가 매 대화마다 백지상태로 시작해 일관성이 없어집니다."
@@ -238,3 +238,11 @@ AI 에이전트의 한계는 어디에 있을까요?
 - [AI 에이전트의 유형: 정의, 역할, 예시](https://www.databricks.com/blog/types-ai-agents-definitions-roles-and-examples)
 - [AI 에이전트 프레임워크: 실무 가이드(2025) | Salesforce KR](https://www.salesforce.com/kr/agentforce/ai-agents/ai-agent-frameworks/)
 - [Microsoft 에이전트 프레임워크 소개 | Microsoft Learn](https://learn.microsoft.com/ko-kr/agent-framework/overview/agent-framework-overview)
+
+---
+
+## 더 읽어보기
+
+- [4개의 LLM을 동시에 운영하다: 실제 멀티 에이전트 팀의 모델 선택과 비용 기록](/posts/multi-llm-agent-team-cost-reality/)
+- [YES Discipline Engine: AI 에이전트 품질 관리](/posts/yes-discipline-engine-ai-agent-quality/)
+- [AI가 실제로 바꾼 것은? 솔로 개발자가 AI로 트레이딩 툴을 만들며 느낀 솔직한 기록](/posts/solo-dev-ai-reality-check-trading-tools/)

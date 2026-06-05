@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is position sizing in quantitative trading and why does it matter more than the strategy itself?"
     a: "Position sizing determines how much capital you allocate to each trade. The article's experiment shows the same 72% win rate strategy produces final balances from $1,050 to $14,332 across 100 trades depending solely on sizing method — a 14x difference. Signal quality sets your edge, but position sizing determines whether that edge compounds into wealth or gets wiped out by drawdowns. Most retail traders obsess over entry signals while ignoring sizing, which is why two traders running identical strategies can have wildly divergent outcomes."
@@ -171,3 +171,9 @@ If you can only improve one part of your trading system, don't tweak indicator p
 - [The Risk Framework | Part 2: Position Sizing Is the Most Underrated Risk Management Tool You Have](https://thesisrationale.substack.com/p/the-risk-framework-part-2-position)
 - [Position Sizing Techniques for Quantitative Traders – Blog](https://bluechipalgos.com/blog/position-sizing-techniques-for-quantitative-traders/)
 - [The Trader: Position Sizing – Part I - ShareScope Articles](https://knowledge.sharescope.co.uk/2025/09/05/the-trader-position-sizing-part-i/)
+
+---
+
+## Further Reading
+
+- [The Holding Time Effect: Why Your Trades Should Close Fast](/posts/holding-time-effect/)

@@ -33,7 +33,7 @@ ShowToc: true
 TocOpen: true
 series:
   - "AI 產業前線"
-lastmod: 2026-05-13T04:29:42+00:00
+lastmod: 2026-05-25T11:30:28+00:00
 
 ---
 
@@ -176,6 +176,11 @@ Business 方案每人每月額外 $30 Credits、Enterprise 每人每月額外 $7
 ---
 
 ## 延伸閱讀
+
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)
+- [把開源 Hermes 調教到 Claude Sonnet 8 成寫作水準 — 5 個方法與一個限制](/posts/prompt-engineering-cheap-llm-to-sonnet-level/)
+- [AI 推論定價完全解析 — 從免費到每百萬 Token 21 美元](/posts/ai-inference-pricing-guide/)
+
 
 - [GitHub 官方公告：Copilot is moving to usage-based billing](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) — 完整的計費變更說明
 - [GitHub Docs：Usage-based billing for individuals](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals) — 個人方案計費細節與 Credits 計算方式

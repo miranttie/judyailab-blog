@@ -100,13 +100,13 @@ curl -X POST https://agentictrade.io/api/v1/services \
   -d '{
     "name": "Crypto Sentiment API",
     "description": "Real-time social sentiment scores for 500+ crypto assets, powered by NLP analysis of Twitter, Reddit, and Telegram.",
-    "base_url": "https://api.yourservice.com/v1",
+    "base_url": "https://api.example.com/v1",
     "price_per_call": 0.01,
     "currency": "USD",
     "payment_rail": "x402",
     "category": "data",
     "tags": ["crypto", "sentiment", "nlp", "trading"],
-    "documentation_url": "https://docs.yourservice.com"
+    "documentation_url": "https://docs.example.com"
   }'
 ```
 

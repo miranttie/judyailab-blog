@@ -296,7 +296,7 @@ console.log(summary);
 
 Hooks 是 Claude Code 最被低估的功能之一。它把 AI 從一個「被動回答問題的工具」變成「主動參與開發流程的自動化夥伴」。
 
-從簡單的程式碼格式化，到複雜的安全閘門與學習系統，Hooks 的可能性取決於你的開發流程需要什麼。延伸閱讀：[Claude Code Hooks 實戰：4個Hook讓生產自動化](/posts/claude-code-hooks-production-automation/)有更多實際部署案例；[AI 自我審查流水線：Agent如何在送PR前先審自己的程式碼](/posts/ai-self-review-pipeline-quality-gates/)展示了 Hooks 在品質閘門的應用；[AI Agent 開發環境建置指南](/posts/ai-agent-dev-environment/)提供整體工具選型參考。
+從簡單的程式碼格式化，到複雜的安全閘門與學習系統，Hooks 的可能性取決於你的開發流程需要什麼。延伸閱讀：Claude Code Hooks 實戰：4個Hook讓生產自動化有更多實際部署案例；[AI 自我審查流水線：Agent如何在送PR前先審自己的程式碼](/posts/ai-self-review-pipeline-quality-gates/)展示了 Hooks 在品質閘門的應用；[AI Agent 開發環境建置指南](/posts/ai-agent-dev-environment/)提供整體工具選型參考。
 
 **下一篇預告：** 我們會討論如何在 Claude Code 中結合 MCP（Model Context Protocol）打造更強大的 AI 工作流。敬請期待。
 

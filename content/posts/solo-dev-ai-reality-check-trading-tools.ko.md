@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-15T10:57:24+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -111,3 +111,11 @@ J가 3일 만에 만들어낸 것은, 그가 몇 달 동안 시장 구조를 이
 - 5000 users (Threads + 뉴스레터 구독자)
 - $0 광고 비용 (100% 오가닉)
 - 95% 콘텐츠는 J + 멀티 에이전트 팀 작성
+
+---
+
+## 더 읽어보기
+
+- [YES Discipline Engine: AI 에이전트 품질 관리](/posts/yes-discipline-engine-ai-agent-quality/)
+- [당신의 AI Agent는 금붕어 뇌? ByteDance가 파일 시스템 방식의 메모리 데이터베이스를 오픈소스로 공개했다](/posts/openviking-context-database-ai-agents/)
+- [OpenAI가 슈퍼 앱을 만든다 — ChatGPT, Codex와 브라우저가 하나가 되는 순간](/posts/openai-super-app-codex-chatgpt-browser/)

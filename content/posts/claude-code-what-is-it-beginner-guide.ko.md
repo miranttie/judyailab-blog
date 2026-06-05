@@ -33,7 +33,7 @@ keywords:
   - "ai coding assistant"
 showToc: true
 TocOpen: false
-lastmod: 2026-04-30T07:02:19+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *이 글은 JudyAI Lab의 AI 엔지니어링 시리즈 중 하나입니다 — 100편 이상 발행된 가이드, 60개국 5,000명 이상의 주간 독자가 읽는 콘텐츠로, AI 에이전트·트레이딩 시스템·콘텐츠 파이프라인의 실전 운영에 초점을 둡니다.*
@@ -203,3 +203,11 @@ claude doctor
 - [Claude Code 사용법 완벽 가이드 — 2026년 AI 코딩 혁명의 시작 — BLOGTECH](https://blogtechnicus.com/claude-code-%EC%82%AC%EC%9A%A9%EB%B2%95/)
 - [Claude Code란? — Anthropic의 AI 코딩 에이전트 | PEC Camp](https://productengineer.info/camp/ko/ai-app-factory/glossary/claude-code)
 - [Claude Code 완벽 가이드: Anthropic의 AI 코딩 에이전트로 개발 생산성을 혁신하는 방법 | Chaos and Order](https://www.youngju.dev/blog/llm/claude_code_complete_guide)
+
+---
+
+## 더 읽어보기
+
+- [Claude Code Skill 드디어 테스트 가능! 공식 Skill Creator 5대 업데이트 완전 해부](/posts/skill-creator-update/)
+- [Anthropic의 Managed Agents 출시: AI Agent를 위한 서버, 이제 직접 운영할 필요 없습니다](/posts/claude-managed-agents/)
+- [Claude Design: 비디자이너도 프로토타입 제작 가능](/posts/claude-design-anthropic-2026/)

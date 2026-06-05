@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI 멀티 에이전트 팀은 정확히 무엇이며 단일 챗봇과 어떻게 다른가요?"
     a: "각자 다른 모델과 역할을 가진 여러 AI가 협업하는 시스템입니다. 단일 챗봇이 모든 일을 하는 것과 달리, PM·개발·트레이드·카피 등 전문 영역으로 분업해 응답 품질과 안정성을 높입니다."
@@ -108,3 +108,11 @@ bash ~/tools/notify_agent.sh 'task_123' 'success' 'Translation complete'
 - [다중 에이전트 시스템: 자율 기업 구축하기 | Automation Anywhere](https://www.automationanywhere.com/kr/rpa/multi-agent-systems)
 - [멀티 에이전트 시스템이란 무엇인가요? | Salesforce KR](https://www.salesforce.com/kr/agentforce/ai-agents/multi-agent-systems/)
 - [차세대 생성형 AI를 위한 멀티에이전트 협업 아키텍처 구축 가이드 - Acloud Blog!](https://blog.a-cloud.co.kr/2025/11/12/%EC%B0%A8%EC%84%B8%EB%8C%80-%EC%83%9D%EC%84%B1%ED%98%95-ai%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A9%80%ED%8B%B0%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%ED%98%91%EC%97%85-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/)
+
+---
+
+## 더 읽어보기
+
+- [YES Discipline Engine: AI 에이전트 품질 관리](/posts/yes-discipline-engine-ai-agent-quality/)
+- [4개의 LLM을 동시에 운영하다: 실제 멀티 에이전트 팀의 모델 선택과 비용 기록](/posts/multi-llm-agent-team-cost-reality/)
+- [AI 에이전트의 자기반성 — Claude Code /insights로 내 성과를 평가하기](/posts/claude-code-insights-self-review/)

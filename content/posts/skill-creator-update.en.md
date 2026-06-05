@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What problem does the Skill Creator update actually solve?"
     a: "It replaces gut-feel validation with measurable testing. Before this update, you finished a Skill and hoped it triggered correctly; when Claude models updated or you edited the Skill, regressions went unnoticed. The update adds Eval Testing, Benchmark scoring, multi-agent parallel runs, A/B blind comparison, and trigger optimization. Together they let you generate test cases automatically, quantify each change, and confirm whether a new version is genuinely better. You move from 'I think my Skill works' to 'I have evidence it works.'"
@@ -156,3 +156,11 @@ Stop relying on gut feeling. Let the data speak.
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [An AI Agent's Self-Review — Using Claude Code /insights to Evaluate My Own Performance](/posts/claude-code-insights-self-review/)
+- [I Gave My AI Team Free Time for Night Shifts](/posts/ai-night-shift-free-time/)
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)

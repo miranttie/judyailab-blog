@@ -33,7 +33,7 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 slug: krea-ai-realtime-creative-studio
-lastmod: 2026-05-13T05:52:42+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -172,3 +172,10 @@ The competition in AI creative tools has shifted from "whose model is strongest"
 - [Krea AI Review 2026: We Tested The 64-Model Beast | ThePlanetTools.ai](https://theplanettools.ai/tools/krea-ai)
 - [Krea AI Documentation - User Guide, Tutorials & Quickstart](https://docs.krea.ai/user-guide)
 - [Krea: AI Creative Suite for Images, Video & 3D](https://www.krea.ai/)
+
+---
+
+## Further Reading
+
+- [AI Video Generator Showdown: Which One Should You Choose?](/posts/ai-video-generators-comparison/)
+- [Google Vids Upgrade: Free Veo 3.1 + Lyria 3 AI](/posts/google-vids-veo-lyria-ai-video-revolution/)

@@ -33,7 +33,7 @@ slug: google-chrome-ai-skills-prompt-reuse
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-04-28T07:07:32+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -129,3 +129,10 @@ Google, with the world's largest browser, is telling the entire industry: AI too
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [Chrome AI Skills — From "Use Once and Discard" to "Reuse Anytime"](/posts/chrome-ai-skills-prompt-reuse/)
+- [AI Productivity Tools for Solopreneurs: What the Research Says and Why 90% of Companies Can't Use It](/posts/ai-productivity-tools-for-solopreneurs/)

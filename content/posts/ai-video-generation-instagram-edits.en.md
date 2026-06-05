@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-13T05:53:42+00:00
+lastmod: 2026-05-25T11:29:30+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -111,3 +111,11 @@ The gap between those two things might be bigger than a lot of people think.
 - 40% engagement rate increase from AI automation
 - 5 videos per week vs 2 previously (150% volume increase)
 - 5000 users (Threads + Newsletter subscribers)
+
+---
+
+## Further Reading
+
+- [Krea AI Guide: 64+ Models, 50ms Real-Time Studio](/posts/krea-ai-realtime-creative-studio/)
+- [AI Video Generator Showdown: Which One Should You Choose?](/posts/ai-video-generators-comparison/)
+- [Google Vids Upgrade: Free Veo 3.1 + Lyria 3 AI](/posts/google-vids-veo-lyria-ai-video-revolution/)

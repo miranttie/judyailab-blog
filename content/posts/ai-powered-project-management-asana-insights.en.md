@@ -32,7 +32,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-03T07:00:21+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -90,3 +90,10 @@ And the time you save? You'll probably just spend it opening more task cards (lo
 - [Asana AI Teammates: Turns out, your team can do it all.](https://asana.com/product/ai/ai-teammates)
 - [Asana AI Teammates: Why Collaborative AI Is the Key to Scaling Productivity Across Entire Organisations - UC Today](https://www.uctoday.com/project-management/asana-ai-teammates-why-collaborative-ai-is-the-key-to-scaling-productivity-across-entire-organisations/)
 - [AI Teammates: Getting Started & Real-Life Examples (VIDEO) - Asana AI - Asana Forum](https://forum.asana.com/t/ai-teammates-getting-started-real-life-examples-video/1136350)
+
+---
+
+## Further Reading
+
+- [Meta Ads MCP: Can Agencies Still Justify Their 20% Fee?](/posts/meta-ads-mcp-ai-disrupting-ad-agencies/)
+- [I Gave My AI Team Free Time for Night Shifts](/posts/ai-night-shift-free-time/)

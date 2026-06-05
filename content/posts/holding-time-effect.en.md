@@ -5,7 +5,7 @@ draft: false
 tags: ["quantitative trading", "risk management", "data analysis", "trading psychology"]
 categories: ["Trading Systems"]
 description: "Analysis of 30+ live trades reveals a strong holding time effect: trades closed within 2 hours have 65% win rate, while those exceeding 2 hours drop to 20%."
-lastmod: 2026-03-08T17:35:29+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "What is the holding time effect in crypto trading?"
     a: "The holding time effect describes the inverse relationship between how long you hold a trade and your win rate. In our analysis of 30+ live trades, positions closed within 2 hours achieved a 65% win rate with +$1.56 average PnL, while trades held 2-6 hours dropped to just 20% win rate and -$3.68 average PnL. Good entries resolve quickly because price moves in the expected direction fast. Stalling trades signal a broken thesis. Time itself becomes risk exposure—every additional hour invites news shocks, liquidations, and liquidity shifts that can invalidate your setup."
@@ -93,3 +93,11 @@ But the directional trend is clear: **fast-in, fast-out trades significantly out
 - [Can you use time as your stop-loss factor?](https://optimusfutures.com/blog/can-you-use-time-as-your-stop-loss-factor/)
 - [Why Closing or Adjusting Trades Early Matters](https://tradegenie.com/why-closing-or-adjusting-trades-early-matters/)
 - [Trading Timeframes Explained: How Long Should You Hold Your Stocks? | by Gonzalo Rescia | Medium](https://medium.com/@gonzalorescia_71374/trading-timeframes-explained-how-long-should-you-hold-your-stocks-242b5108ccfb)
+
+---
+
+## Further Reading
+
+- [Position Sizing: The Most Underrated Part of Quantitative Trading](/posts/position-sizing-hidden-engine/)
+- [Building an AI Trading Agent That Proves Its Claims: Our ERC-8004 Hackathon Story](/posts/hackathon-trading-agent-journey/)
+- [From Backtest Paradise to Live Trading Hell — 5 Hard Lessons from Our Quant System's First Month](/posts/backtest-to-live-trading-gap/)

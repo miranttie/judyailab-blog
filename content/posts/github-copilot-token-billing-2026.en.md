@@ -31,7 +31,7 @@ faq:
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
-lastmod: 2026-05-03T07:02:22+00:00
+lastmod: 2026-05-25T11:30:28+00:00
 
 ---
 *This article is a deep-dive from JudyAI Lab — an AI engineering playbook series with 100+ published guides, 5,000+ weekly readers across 60+ countries, focused on the practical side of running AI agents, trading systems, and content pipelines in production.*
@@ -175,6 +175,11 @@ No. Starting June 1, PRUs are completely replaced by AI Credits. PRUs will no lo
 ---
 
 ## Further Reading
+
+- [Running 4 LLMs Simultaneously: A Real Multi-Agent Team's Selection and Cost Breakdown](/posts/multi-llm-agent-team-cost-reality/)
+- [Tuning Open-Source Hermes to 80% of Claude Sonnet — 5 Methods and One Limitation](/posts/prompt-engineering-cheap-llm-to-sonnet-level/)
+- [AI Inference Pricing Deep Dive  -  From Free to $21 per Million Tokens](/posts/ai-inference-pricing-guide/)
+
 
 - [GitHub Official Announcement: Copilot is moving to usage-based billing](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) — complete billing change explanation
 - [GitHub Docs: Usage-based billing for individuals](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals) — individual plan billing details and Credits calculation

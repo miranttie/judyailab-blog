@@ -200,7 +200,7 @@ curl -X POST https://agentictrade.io/api/v1/services \
   -d '{
     "name": "Your API Name",
     "description": "...",
-    "base_url": "https://api.yourservice.com/v1",
+    "base_url": "https://api.example.com/v1",
     "price_per_call": 0.005,
     "currency": "USD",
     "payment_rail": "x402",

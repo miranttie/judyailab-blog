@@ -31,7 +31,7 @@ faq:
     a: "目前支援Claude（透過MCP協議）和ChatGPT，未來規劃加入更多AI平台。"
 series:
   - "AI 產業前線"
-lastmod: 2026-05-13T07:00:12+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 
 ---
 
@@ -188,3 +188,11 @@ Google Ads 出現時，傳統媒體買手被淘汰了一批。Facebook Ads Manag
 - [Meta 廣告優化師要失業了？MCP 協定讓 AI 直接接管後台的神操作！ - YOLO LAB｜解構科技邊際與媒體娛樂的數據實驗室](https://yololab.net/archives/meta-ads-mcp-ai-automation-guide)
 - [ChatGPT 廣告自助上架、CPC 競價來了：電商多一條新流量渠道](https://growthhackers.tw/blog/chatgpt-ads-manager-cpc/)
 - [Meta開放MCP-可以讓AI直接操作你的廣告投放](https://www.ig-hero.com/meta-mcp-claude-manage-ads/)
+
+---
+
+## 進一步閱讀
+
+- [OpenAI 要做超級應用了 — 當 ChatGPT、Codex 和瀏覽器變成同一個東西](/posts/openai-super-app-codex-chatgpt-browser/)
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)
+- [AI Agent 終於能幫你買東西了：ChatGPT × Stripe Instant Checkout 與 ACP 協議完整解析](/posts/chatgpt-stripe-instant-checkout-agentic-commerce/)

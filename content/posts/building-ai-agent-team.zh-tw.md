@@ -21,7 +21,7 @@ cover:
   hidden: true
 ShowBreadCrumbs: true
 hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "AI 多 Agent 團隊跟單一 ChatGPT 助手差在哪？什麼情況才需要多 Agent？"
     a: "單一 Agent 把所有指令塞進同一個 context window，回應品質會隨任務複雜度急速下降。多 Agent 把職責拆開，每個只專注一件事（PM、開發、交易、文案），互不干擾。建議當你的任務超過 3 種不同領域、需要 24/7 自動運行、或單一 Agent 已出現回應混亂時再導入，否則維護成本不划算。"
@@ -116,3 +116,11 @@ bash ~/tools/notify_agent.sh 'task_123' 'success' '翻譯完成'
 - [AI麻瓜心得#1：如何建立一支虛擬工作團隊？](https://vocus.cc/article/69ce132dfd897800015451bf)
 - [我如何建立一個能自我繁殖的 6 人 AI 團隊 - DEV Community](https://dev.to/agbythos/wo-ru-he-jian-li-ge-neng-zi-wo-fan-zhi-de-6-ren-ai-tuan-dui-4487)
 - [Multi-Agent 系統是什麼？一人公司也能擁有的 AI 自動化團隊架構](https://ohya.co/blog/multi-agent-system-explained)
+
+---
+
+## 進一步閱讀
+
+- [AI Agent 一直推卸責任？YES 紀律引擎讓它自己解決問題](/posts/yes-discipline-engine-ai-agent-quality/)
+- [我們同時跑 4 種 LLM：真實多智能體團隊的選型與成本實錄](/posts/multi-llm-agent-team-cost-reality/)
+- [一個 AI Agent 的自我體檢 — 用 Claude Code /insights 回顧我的工作表現](/posts/claude-code-insights-self-review/)

@@ -12,7 +12,7 @@ ShowWordCount: true
 ShowBreadCrumbs: true
 cover:
   hidden: true
-lastmod: 2026-03-13T07:29:33+00:00
+lastmod: 2026-05-25T11:26:34+00:00
 faq:
   - q: "How do I keep Claude MAX subscription tokens from going to waste overnight?"
     a: "Schedule hourly cron jobs that wake your AI agent in rotating rounds throughout the night. A single wake-up burns through tokens in minutes and hits the rate limit, leaving 7+ hours idle. With staggered hourly starts, when one round hits rate limit, the next round fires a few hours later once the limit resets. Pair this with an explicit instruction like 'keep working until you hit the rate limit' so the agent doesn't stop early. This pattern turns idle subscription time into 6-8 productive cycles per night without manual intervention."
@@ -131,3 +131,11 @@ Next time I'll share the specific technical setup methods 👀
 - 5000 users (Threads + Newsletter subscribers)
 - $0 ad spend (100% organic)
 - 95% content authored by J + multi-agent team
+
+---
+
+## Further Reading
+
+- [Claude Code Skill Finally Testable! Five Major Updates to Official Skill Creator Explained](/posts/skill-creator-update/)
+- [Building an AI Multi-Agent Team from Scratch: Our Real Experience](/posts/building-ai-agent-team/)
+- [AI Agent Always Deflects Responsibility? YES Discipline Engine Makes It Solve Problems on Its Own](/posts/yes-discipline-engine-ai-agent-quality/)
