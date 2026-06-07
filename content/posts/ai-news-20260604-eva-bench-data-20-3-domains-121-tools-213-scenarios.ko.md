@@ -1,7 +1,7 @@
 ---
 title: "EVA-Bench Data 2.0 평가 기준 출시: 3대 영역·121개 도구·213개 테스트 시나리오"
 date: "2026-06-04T18:06:20+00:00"
-draft: false
+draft: true
 author: Judy
 summary: "AI 뉴스 속보: 원문 요약 내용이 비어 있어 요약할 수 있는 텍스트가 없습니다. 원문 요약을 붙여넣으시면 바로 처리하겠습니다."
 description: "JudyAI Lab AI 뉴스 속보 — 출처: Hugging Face Blog"

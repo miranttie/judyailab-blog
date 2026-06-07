@@ -1,7 +1,7 @@
 ---
 title: "EVA-Bench Data 2.0 Benchmark Released: Covering 3 Domains, 121 Tools, and 213 Test Scenarios"
 date: "2026-06-04T18:06:20+00:00"
-draft: false
+draft: true
 author: Judy
 summary: ""
 description: "JudyAI Lab AI News — Source: HuggingFace Blog"

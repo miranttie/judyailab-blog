@@ -1,7 +1,7 @@
 ---
 title: "How to Fine-Tune Nemotron 3.5 Speech Recognition Model for Specific Languages, Domains, or Accents"
 date: "2026-06-04T18:05:52+00:00"
-draft: false
+draft: true
 author: Judy
 summary: "AI News Flash: The 【English Original】 field is empty — no English content was received for summarization.
 

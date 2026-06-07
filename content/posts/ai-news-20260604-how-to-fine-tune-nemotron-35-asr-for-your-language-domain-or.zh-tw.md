@@ -1,7 +1,7 @@
 ---
 title: "如何針對特定語言、領域或口音微調 Nemotron 3.5 語音辨識模型"
 date: "2026-06-04T18:05:52+00:00"
-draft: false
+draft: true
 author: Judy
 summary: "AI 新聞快訊：【英文原文】欄位是空的，沒有收到可供摘要的英文內容。
 

@@ -1,7 +1,7 @@
 ---
 title: "EVA-Bench Data 2.0 評測基準發布：涵蓋3大領域、121項工具與213個測試場景"
 date: "2026-06-04T18:06:20+00:00"
-draft: false
+draft: true
 author: Judy
 summary: "AI 新聞快訊：【英文原文】欄位為空白，沒有任何文字可供摘要。
 

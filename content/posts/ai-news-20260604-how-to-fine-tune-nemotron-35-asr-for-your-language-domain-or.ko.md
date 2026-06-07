@@ -1,7 +1,7 @@
 ---
 title: "Nemotron 3.5 음성 인식 모델 파인튜닝 가이드"
 date: "2026-06-04T18:05:52+00:00"
-draft: false
+draft: true
 author: Judy
 summary: "AI 뉴스 속보: 【영문 원문】란이 비어 있어 요약할 영문 콘텐츠를 받지 못했습니다.\n\n원문 붙여넣기를 잊으신 건가요? 아니면 해당 HuggingFace 블로그 URL 페이지 내용을 직접 가져와서 요약해 드릴까요?..."
 description: "JudyAI Lab AI 뉴스 속보 — 출처: Hugging Face Blog"
