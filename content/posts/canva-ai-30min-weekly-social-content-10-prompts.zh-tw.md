@@ -1,7 +1,7 @@
 ---
 title: "沒有設計背景也沒有預算？用 Canva AI 30 分鐘做一整週社群素材（附 10 個可複製 Prompt）"
 date: "2026-06-07T05:01:04+00:00"
-draft: false
+draft: true
 author: "Judy"
 summary: "Canva Magic Studio 2026 把五個品牌感知 AI 工具打包成單一工作流。整理多家評測 + 官方規格，給 solopreneur 一套 30 分鐘 SOP，附 10 個可複製 Prompt，從主視覺、文案到 Reels 一次出。"
 description: "沒有設計背景的 solopreneur 如何用 Canva AI 30 分鐘做完一週社群素材？Magic Design、Magic Switch、Magic Write、Magic Animate 實戰流程 + 10 個 Prompt 模板 + Canva Pro 真實成本（$15/月）+ 與 Midjourney、Adobe Firefly 的混搭策略。"

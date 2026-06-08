@@ -1,7 +1,7 @@
 ---
 title: "NotebookLM 接 Claude：3 步把研究筆記變成可執行 prompt 庫"
 date: "2026-06-06T05:00:59+00:00"
-draft: false
+draft: true
 author: "Judy"
 summary: "NotebookLM 摘要做得漂亮，讀完還是動不了？整理 Atlas Workspace、Medium、Geeky Gadgets 三家評測，把 NotebookLM 當研究前處理器、再餵給 Claude Project 做執行的 3 步工作流寫清楚——補上「讀資料」到「做出東西」中間那一公里斷層。"
 description: "為什麼 NotebookLM 單獨用會卡住？這篇拆解一套讓非技術 solopreneur 也能跑的工作流：NotebookLM 結構化前處理 → Claude Project 收尾。含 NotebookLM 2026 容量規格、MCP 整合方式、三個常見踩雷。"

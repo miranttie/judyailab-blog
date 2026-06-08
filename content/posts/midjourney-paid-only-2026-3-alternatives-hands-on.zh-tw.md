@@ -1,7 +1,7 @@
 ---
 title: "Midjourney 取消免費試用後：3 款替代方案做 solopreneur 行銷素材對照（含 decision matrix）"
 date: "2026-06-05T05:01:08+00:00"
-draft: false
+draft: true
 author: "Judy"
 summary: "Midjourney 2026 全面付費化，月費從 $10 起跳。把 Flux、Ideogram、SeaArt 三款替代工具放在 IG 貼文、Blog 封面、Logo、產品 mockup、銷售頁 hero 五種素材場景下，依公開評測與官方資訊整理 solopreneur 該選哪款的 decision matrix。"
 description: "Midjourney 取消免費試用後，solopreneur 不想多綁訂閱怎麼辦？整理 Flux、Ideogram、SeaArt 三款 Midjourney 替代方案，比對五種行銷素材場景的品質、成本與中文 prompt 適配度，給出 Free、$10、$30 三種預算組合建議。"

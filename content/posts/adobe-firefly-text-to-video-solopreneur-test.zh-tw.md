@@ -1,7 +1,7 @@
 ---
 title: "Adobe Firefly 免費文字轉影片：一人公司能不能省下剪輯外包？"
 date: "2026-06-04T05:01:03+00:00"
-draft: false
+draft: true
 author: "Judy"
 summary: "Adobe Firefly 免費版到底能不能幫一人公司省下外包剪輯？整理三家外包行情、Firefly Pro 配額換算，加上業界對 Veo、Krea 的實測對比，給 solopreneur 一張可落地的決策表。"
 description: "外包剪輯一支 60 秒 Reels 行情多少？Firefly Pro 7,000 點數能跑幾支？整理 Worksharex、Synthesia、vidwave 等多家評測，把 Firefly、Veo、Krea 的真實定位與成本拆給一人公司看。"
