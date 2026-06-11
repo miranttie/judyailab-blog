@@ -1,23 +1,34 @@
 ---
-title: "Midjourney 取消免費試用後：3 款替代方案做 solopreneur 行銷素材對照（含 decision matrix）"
+title: Midjourney 取消免費試用後：3 款替代方案做 solopreneur 行銷素材對照（含 decision matrix）
 date: "2026-06-05T05:01:08+00:00"
-draft: true
-author: "Judy"
-summary: "Midjourney 2026 全面付費化，月費從 $10 起跳。把 Flux、Ideogram、SeaArt 三款替代工具放在 IG 貼文、Blog 封面、Logo、產品 mockup、銷售頁 hero 五種素材場景下，依公開評測與官方資訊整理 solopreneur 該選哪款的 decision matrix。"
-description: "Midjourney 取消免費試用後，solopreneur 不想多綁訂閱怎麼辦？整理 Flux、Ideogram、SeaArt 三款 Midjourney 替代方案，比對五種行銷素材場景的品質、成本與中文 prompt 適配度，給出 Free、$10、$30 三種預算組合建議。"
+draft: false
+author: Judy
+summary: Midjourney 2026 年全面改為付費訂閱制，最低月費 $10 起跳，對獨立創作者而言是額外負擔。本文整理 Flux、Ideogram、SeaArt 三款替代工具，在五種行銷素材場景下的實際應用差異，並提供預算取向的決策矩陣，幫助 solopreneur 選擇最適合自己的 AI 影象生成方案。
+description: Midjourney 全面付費化，月費從 $10 起跳，solopreneur 行銷素材不想多綁訂閱？本篇實測比較 Flux、Ideogram、SeaArt 三款免費或低價替代工具，針對 IG 貼文、Blog 封面、Logo、產品 Mockup、銷售頁 Hero 五種場景，依品質、成本與中文 prompt 適配度給出評估，並提供 Free、$10、$30 三種預算的決策矩陣。
 categories:
-  - "AI 工具"
+  - "AI 工程"
+  - "產品"
 tags:
   - "Midjourney 替代"
-  - "AI 圖像生成"
+  - "AI 影象生成"
   - "Flux"
   - "Ideogram"
   - "SeaArt"
   - "solopreneur 工具"
 ShowReadingTime: true
 ShowWordCount: true
-cover:
-  hidden: true
+cover: {'hidden': True}
+faq:
+  - q: "Midjourney 收費後有免費替代方案嗎？"
+    a: "有，Flux 可在 Replicate 等平臺免費跑，Ideogram 每日免費 25 張，SeaArt 每日提供免費 credit，三款都可免費或低價使用。"
+  - q: "Flux、Ideogram、SeaArt 哪個適合做 Logo？"
+    a: "Ideogram 在文字渲染上最穩，適合 Logo、海報等需精準文字的場景；Flux 適合寫實風格；SeaArt 適合動漫風格。"
+  - q: "solopreneur 行銷素材該選哪款 AI 影象工具？"
+    a: "建議根據預算與場景選擇：免費首選 SeaArt 或 Flux，低預算($10)選 Ideogram，高品質需求選 Flux 2 Pro。"
+  - q: "Ideogram 文字渲染真的比較強嗎？"
+    a: "是的，公開評測普遍指出 Ideogram 在文字渲染上明顯領先其他工具，是少數能穩定產出可讀設計感文字的 AI 影象生成器。"
+  - q: "如何選擇 AI 影象生成工具？"
+    a: "建議用決策矩陣評估三個維度：輸出品質是否符合用途、價格是否在預算內、對中文 prompt 的理解程度。"
 ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
@@ -33,19 +44,19 @@ Midjourney 已經全面收費。所有方案都是訂閱制，月繳或年繳，
 
 但對 solopreneur 不一樣。訂閱清單上可能已經有 Notion、Buttondown、ChatGPT、Canva、網域、Hosting⋯⋯再多一個月費都會痛。問題不是「Midjourney 值不值得」，而是「為了一週生個三張圖，要不要再簽一張卡」。
 
-業界 2026 年的對比評測也支持這個方向。AI Magicx 的 Midjourney vs Flux vs Ideogram v3 直接對比指出，Ideogram 在文字渲染上「明顯領先」，Flux 2 Pro 在「皮膚紋理、自然光線、DSLR 級別照片」上是最強的 [Source: https://www.aimagicx.com/blog/midjourney-vs-flux-vs-ideogram-image-comparison-2026]。CompareGen.AI 同樣指出，2026 年 solopreneur 與 marketer 的最佳做法不是單一工具，而是「一個高品質生成器 + 一個設計收尾工具 + 一個利基專門工具」的小型 stack [Source: https://www.comparegen.ai/blog/midjourney-vs-ideogram-vs-flux-2026]。
+業界 2026 年的對比評測也支援這個方向。AI Magicx 的 Midjourney vs Flux vs Ideogram v3 直接對比指出，Ideogram 在文字渲染上「明顯領先」，Flux 2 Pro 在「皮膚紋理、自然光線、DSLR 級別照片」上是最強的 [Source: https://www.aimagicx.com/blog/midjourney-vs-flux-vs-ideogram-image-comparison-2026]。CompareGen.AI 同樣指出，2026 年 solopreneur 與 marketer 的最佳做法不是單一工具，而是「一個高品質生成器 + 一個設計收尾工具 + 一個利基專門工具」的小型 stack [Source: https://www.comparegen.ai/blog/midjourney-vs-ideogram-vs-flux-2026]。
 
 從近期 Reddit r/midjourney、Indie Hackers 與多家 AI 工具評測媒體的討論可以看到，很多獨立創作者卡在同一個點——不是不想付，是不想為了行銷素材這種零散需求多綁一條訂閱。
 
 ## 為什麼挑 Flux、Ideogram、SeaArt——其他刷掉的原因
 
-市面上 Midjourney 替代工具很多，從 DALL-E 3、Adobe Firefly 到一些國內 AI 繪圖平台都有人推。先說刷掉的邏輯：
+市面上 Midjourney 替代工具很多，從 DALL-E 3、Adobe Firefly 到一些國內 AI 繪圖平臺都有人推。先說刷掉的邏輯：
 
 DALL-E 3 綁在 ChatGPT Plus 裡面，等於還是要付月費，跟 Midjourney 沒解決同一個痛點 [Source: https://openai.com/index/dall-e-3/]。Adobe Firefly 對非設計背景的人來說介面厚重，學習成本不划算 [Source: https://www.adobe.com/products/firefly.html]。國內幾款主打「中文 prompt 友善」的工具，產出的圖普遍被反映有罐頭味，做行銷素材容易被看出來路。
 
 留下這三款的原因：
 
-**Flux**——由 Black Forest Labs 推出的開源圖像生成模型，可以在多個平台（Replicate、Together AI、fal.ai 等）免費跑或低成本跑，社群普遍把它視為目前最接近 Midjourney v6 質感的開源選項 [Source: https://blackforestlabs.ai/announcing-black-forest-labs/]。
+**Flux**——由 Black Forest Labs 推出的開源影象生成模型，可以在多個平臺（Replicate、Together AI、fal.ai 等）免費跑或低成本跑，社群普遍把它視為目前最接近 Midjourney v6 質感的開源選項 [Source: https://blackforestlabs.ai/announcing-black-forest-labs/]。
 
 **Ideogram**——文字渲染是它的招牌。Logo、海報、銷售頁 hero 這種需要把英文字穩穩放進畫面的場景，公開評測中常被列為第一名。免費版每日約 25 張，Cracked.ai 的 2026 年實測指出它「在文字渲染上專門設計來解決辨識度問題，一致地產出可讀、設計感的文字」 [Source: https://www.cracked.ai/tool-review/ai-image/ideogram-review]。官方方案頁參考 [Source: https://about.ideogram.ai/2.0]。
 
@@ -61,9 +72,9 @@ DALL-E 3 綁在 ChatGPT Plus 裡面，等於還是要付月費，跟 Midjourney 
 
 **Blog 封面**講究氛圍感、配色協調，Flux 在這塊明顯領先。同一個「孤獨開發者深夜工作」的場景，Flux 出來的光影層次和情緒厚度，是另外兩款比較難做到的。
 
-**Logo 草稿和銷售頁 hero**——只要畫面裡需要放英文字，就是 Ideogram 的主場。Flux 也會生英文，但時不時拼錯字母。Ideogram 的文字穩定度在 2024 至 2026 的多家評測中被認為是 AI 圖像工具裡最高的 [Source: https://about.ideogram.ai/2.0]。
+**Logo 草稿和銷售頁 hero**——只要畫面裡需要放英文字，就是 Ideogram 的主場。Flux 也會生英文，但時不時拼錯字母。Ideogram 的文字穩定度在 2024 至 2026 的多家評測中被認為是 AI 影象工具裡最高的 [Source: https://about.ideogram.ai/2.0]。
 
-**產品 mockup** 三款都還可以，但都比不上專門做 mockup 的工具（例如 Placeit、Smartmockups）。如果行銷素材常常需要把產品放進真實場景，與其用通用 AI 圖像工具硬擠，不如另外配一個專門的 mockup 工具。
+**產品 mockup** 三款都還可以，但都比不上專門做 mockup 的工具（例如 Placeit、Smartmockups）。如果行銷素材常常需要把產品放進真實場景，與其用通用 AI 影象工具硬擠，不如另外配一個專門的 mockup 工具。
 
 **中文 prompt 適配度**上，SeaArt 在華語社群中評價最穩；Flux 對純中文 prompt 的理解力較弱，通常需要把關鍵字翻成英文；Ideogram 介於兩者之間。
 
@@ -72,7 +83,7 @@ DALL-E 3 綁在 ChatGPT Plus 裡面，等於還是要付月費，跟 Midjourney 
 把上面整理收斂成一張對照表：
 
 - **需求是「每天大量 IG 貼文，風格一致就好」** → SeaArt，免費額度夠用
-- **需求是「Blog 封面要有氛圍、有質感」** → Flux，找一個給免費 credit 的平台跑
+- **需求是「Blog 封面要有氛圍、有質感」** → Flux，找一個給免費 credit 的平臺跑
 - **需求是「Logo、海報、銷售頁 hero，畫面要有英文字」** → Ideogram，文字渲染目前最強
 - **需求是「中文 prompt 為主，不想學英文 prompt」** → SeaArt
 - **需求是「產品 mockup」** → 三款都不是首選，建議另配 Placeit 或 Smartmockups 之類工具
@@ -81,11 +92,11 @@ DALL-E 3 綁在 ChatGPT Plus 裡面，等於還是要付月費，跟 Midjourney 
 
 對 solopreneur 來說，這才是核心問題——一年下來省多少。
 
-**純 Free 組合**：SeaArt（日常 IG 貼文）+ Ideogram 免費版（每日少量文字海報）+ Flux 透過 Replicate、fal.ai 或 Together AI 的 free credit（偶爾做 Blog 封面）。年成本 $0。缺點是要在三個平台之間切換，工作流會碎一點。
+**純 Free 組合**：SeaArt（日常 IG 貼文）+ Ideogram 免費版（每日少量文字海報）+ Flux 透過 Replicate、fal.ai 或 Together AI 的 free credit（偶爾做 Blog 封面）。年成本 $0。缺點是要在三個平臺之間切換，工作流會碎一點。
 
 **$10 內組合**：選一款付費（通常會選 Ideogram Basic，文字渲染這個剛需值得單獨付），其他用免費。年成本約 $100。對比 Midjourney Basic Plan 一年約 $96 [Source: https://docs.midjourney.com/hc/en-us/articles/30246098951821-Comparing-Midjourney-Plans]，差不多，但保留了多工具切換的彈性。
 
-**$30 內組合**：Ideogram + 一個 Flux 平台付費方案。年成本約 $300–360。這個價位其實已經逼近 Midjourney Standard Plan，要不要這樣配，取決於對「不想被綁單一工具」這件事的價值評估。
+**$30 內組合**：Ideogram + 一個 Flux 平臺付費方案。年成本約 $300–360。這個價位其實已經逼近 Midjourney Standard Plan，要不要這樣配，取決於對「不想被綁單一工具」這件事的價值評估。
 
 ## 上手 30 分鐘的最短路徑
 
@@ -99,8 +110,8 @@ DALL-E 3 綁在 ChatGPT Plus 裡面，等於還是要付月費，跟 Midjourney 
 
 ## 收束
 
-Midjourney 收費這件事，對 solopreneur 其實是一個重新審視自己工具堆疊的機會。不是每個人都需要最強的圖像生成工具，多數時候需要的是「夠用、能切換、不被綁定」。
+Midjourney 收費這件事，對 solopreneur 其實是一個重新審視自己工具堆疊的機會。不是每個人都需要最強的影象生成工具，多數時候需要的是「夠用、能切換、不被繫結」。
 
 該付的工具就付，不該付的就停在 free tier——這個原則比「找最便宜」更實用。
 
-各平台的免費 credit 額度會隨政策變動，註冊前建議再確認一次當下的方案內容。
+各平臺的免費 credit 額度會隨政策變動，註冊前建議再確認一次當下的方案內容。

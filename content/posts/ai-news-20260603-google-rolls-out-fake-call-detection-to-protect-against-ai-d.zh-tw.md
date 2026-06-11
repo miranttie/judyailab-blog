@@ -47,3 +47,8 @@ commentary_engine: "hermes-v1"
 - [個性化AI模型的崛起：如何為您的企業量身定制智能](https://judyailab.com/zh-tw/posts/rise-of-customized-ai-models/)
 - [從交易想法到上線跑單：AI 輔助策略開發的真實流程](https://judyailab.com/zh-tw/posts/trading-concept-to-production-code-with-ai/)
 
+## 參考來源
+
+- [Android推AI假電話檢測防冒充詐騙！Pixel手機搶先可用，還有Google相簿虛擬試穿多項更新登場 | T客邦](https://www.techbang.com/posts/129958-google-android-scam-call-detection-ai-deepfake)
+- [Google 這次真的出手了！Android 用戶快看 🚨 谷歌週二（6/2）宣布推出超強的「虛假來電偵測功能」，專門用來對付現在最猖獗的 AI 仿聲深偽（Deepfake）詐騙。 現在詐騙集團超賊，陌生號碼不接，他們就偽造顯示成「媽媽」或](https://www.threads.com/@newsforchinese/post/DZNrhlpjvVt/video-google-%E9%80%99%E6%AC%A1%E7%9C%9F%E7%9A%84%E5%87%BA%E6%89%8B%E4%BA%86android-%E7%94%A8%E6%88%B6%E5%BF%AB%E7%9C%8B-%E8%B0%B7%E6%AD%8C%E9%80%B1%E4%BA%8C62%E5%AE%A3%E5%B8%83%E6%8E%A8%E5%87%BA%E8%B6%85%E5%BC%B7%E7%9A%84%E8%99%9B%E5%81%87%E4%BE%86%E9%9B%BB%E5%81%B5%E6%B8%AC%E5%8A%9F%E8%83%BD%E5%B0%88%E9%96%80%E7%94%A8%E4%BE%86%E5%B0%8D%E4%BB%98%E7%8F%BE%E5%9C%A8%E6%9C%80%E7%8C%96%E7%8D%97%E7%9A%84-ai-%E4%BB%BF%E8%81%B2%E6%B7%B1%E5%81%BDdeepfake%E8%A9%90%E9%A8%99%E7%8F%BE%E5%9C%A8)
+- [谷歌宣布 Android 行业首创虚假来电检测功能，防范 AI 克隆语音冒充熟人诈骗_网络游戏新闻_17173.com中国游戏门户站](https://news.17173.com/content/06032026/040139813.shtml)
